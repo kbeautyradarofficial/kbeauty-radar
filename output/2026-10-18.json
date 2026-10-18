@@ -1,7 +1,14 @@
 {
  "date": "2026-10-18",
- "mode": "dry-run",
+ "mode": "draft",
  "items": [
+  {
+   "title": "Why India is falling for C-dramas",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOM29sMjZjN1h6SnlXZVlnaWo5QnphUUdCZE9DSnhadE1sUnNmNnRQUTNOZmhzUFdoUHczaE9pRGwzdmpRd3VVeGVDNmRMNnc3eGl6akVzZ3cwSnRIYmRwRjNZdWFZN214Wm5rYjJFbmxkdWlZdmhLNTNxVUJOMXExck9kQ3hBcDBuMkhZMHFlZFRwQVk5cnBoVUwwUnRMWHg2dnB4VmJfWFlfQWg4SU5hcWE1N3o1OHdjYjdiSFJPX29XMHI4NjE0MU9vLXJBTXh2OC1zZkZXRHptWUlkbC1EMDdDbmZEbVpHWUZLTE1R0gH0AUFVX3lxTFB4SlJWdG1yUGowNjBXTmdqam92dWtKR0JaWTZVWlJQbnFDM2o0d1k3aUFXLWZBMUJheWRwRDZWOFk0ZVBVekh1NFJEX3hRZmVTMmJtcmtLMm00MkZzUF9pX2FGZDh4WHo1Qi1PZzFzUkJ2aGtMUWlQUTMzVUJEazdpM0tZR2lYN3plb1VKVVp0UVdhSi1tc3hXQ2Jsb0NZY0xJQzI4UmhwZHJZd0xTRnpxOFVUMndCR0h4ejRlbHg4SVQ4UjB4N1d1NFB6NUxfZU1qa1phTUhwUXFoX01FZnZFT0lTeHMyVGhDZlNFNWZmdHZDS1Y?oc=5",
+   "source": "The Hindu",
+   "lang": "en",
+   "published": 1792288042
+  },
   {
    "title": "[10월 3주 화장품 주가] ‘검은 목요일’로 주가 출렁... 수출 증가로 4분기 실적 개선 기대감↑",
    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zQjVxTTRDbEJnYXZjeVBYT19qM2lub2tsRURHeVBTMWJtZmVCRi12bDVpX1BLcUJHQlR6aDBXaXpscEtyalVhWjFYRXJ1bEVUVGdWT3NvR2dHZncyY1Jsd0dWbw?oc=5",
@@ -25,7 +32,7 @@
   },
   {
    "title": "대미 무역흑자 1000억달러 눈앞…트럼프 관세 청구서 부담 커지나",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Ra1hOb2JyWmlUaHBaWWtSdFhPLVVfVVl5Y3p6QXVnaVVxdkNubUNfenJ3TEh0Xy1mWUJOaERoTFpEcDkxTmdQbUNKeFBicWE2ejYzWFdaZnViZ9IBWEFVX3lxTFBMT0ZmcjdxS3ZlWG43cV9rbUpvSXM5YUJocnFjb0FaVFBIdlJKRGtJOVhoZFNiT2RZMUJvTTFkVzVRSlVUUUNYbnFJWlltUkJ4TkgtZWY1ZGs?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBMT0ZmcjdxS3ZlWG43cV9rbUpvSXM5YUJocnFjb0FaVFBIdlJKRGtJOVhoZFNiT2RZMUJvTTFkVzVRSlVUUUNYbnFJWlltUkJ4TkgtZWY1ZGvSAVhBVV95cUxQTE9GZnI3cUt2ZVhuN3Ffa21Kb0lzOWFCaHJxY29BWlRQSHZSSkRrSTlYaGRTYk9kWTFCb00xZFc1UUpVVFFDWG5xSVpZbVJCeE5ILWVmNWRr?oc=5",
    "source": "아주경제",
    "lang": "ko",
    "published": 1792284372
@@ -192,6 +199,13 @@
    "published": 1792254853
   },
   {
+   "title": "경량 다운 열풍에…여성복, 디자인·색감 차별화",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1jTmRyYXFrRVJzUkMxQUhXS3hqWjVQWVI5SlNkeUJkWjZtbnNYQ1NWbGxFai02MjJXZE84RFNqZjdaaUh5RkIwVGgwSlhKM3IyaUw3NGl0VDBRSWtQYXgtNnpRcWlla3lFYjlqTjRZNEF0Q2c?oc=5",
+   "source": "어패럴뉴스",
+   "lang": "ko",
+   "published": 1792253434
+  },
+  {
    "title": "New bridge linking China and North Korea will open more than a decade late",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU29DZjBxb0diMnhLdzFYcEhxMFloa0VTZU14b3lhV1hZc1NoQWg4em1aTk0tTVU2QWtlVGRfdkZCVUJWN2VXR2U5cmlRek1hcGpRS0taa3BEUDBwT1pqQ2RZME5hYTV4aUV1eXNkQU84OVh4MVJSbE9sbHpJdDVlNTJhU0dUTHlGMEVyRXhGcDc3VXp4RDVTd3RxUGFjd9IBowFBVV95cUxPcHUxVElURDR2NnVrQmI1Z3dyc0poMVFxX0hYNXBXQzlWaDIxeElVLWZCd1JDZ0h5R2dYdUIwRUhiZGtxLXFVc3B1Z1hZNG9sR003aVZHTVJfTVZFSWlJYnpNWUhRSlNrUDBNREtwbmcxaTdKbWtybE13dEVQU0Y4bmVWVERXZEVhMWxPdWk3SjVWQXdUaTFfVDJjWW80UzdEV0ZZ?oc=5",
    "source": "ABC News - Breaking News, Latest News and Videos",
@@ -267,41 +281,170 @@
    "source": "The Hindu",
    "lang": "en",
    "published": 1792240886
-  },
-  {
-   "title": "Woman's $2k Furniture Reselling Scam Unravels Because She Forgot to Remove Her Name",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT0pUU1lrZmozaXFDTnJjalNGZ29vUFRGMzVCVzR3SUhxYWZ2ODhMWGZmUm81NEU4ZGhYSEpXX3lFVThqcUtVTWxRSzJMdjY2a0hyYjBDVWVPT29OQkJvQzBTU2ZYdloxcE9aQTFRN0tjaGtQTEJSZUF0SUdKMFFpQ1lvVl9EUVhkeXRCem1BQTZvZw?oc=5",
-   "source": "Yahoo",
-   "lang": "en",
-   "published": 1792240201
-  },
-  {
-   "title": "세계 뷰티 본산 파리도 K뷰티에 ‘흠뻑’",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzY3ZZem1lVmxZWDd3WFpzMG1nOTBfcmNlbmlZRVFlSWsycHhXSmd1SXhTdkp0cW1ES0lqV2dQbWlFZ2tDTjY2RmIydXI2RHBKVVRLQjZhYTJQTWRhdWNWZmQ2NDRGVHJtaWpZ?oc=5",
-   "source": "주간신문씨엠엔",
-   "lang": "ko",
-   "published": 1792239295
   }
  ],
  "content": {
-  "title_ko": "K-뷰티 레이더 | 대미 수출 14% 증가, 관세 변수와 中 색조의 추격",
-  "excerpt_ko": "미국향 K-뷰티 수출이 14% 늘고 무역수지 흑자가 17.0% 확대됐습니다. 한편 대미 흑자 1000억달러 접근에 따른 관세 부담, '가성비'를 벗은 중국 색조의 추격, 아마존 성과와 수출 상담 현장 소식을 정리했습니다.",
-  "body_ko_html": "<h2>1. 미국향 K-뷰티 수출 14% 증가, 무역수지 17.0% 확대</h2><p><strong>무슨 일:</strong> 뷰티경제의 K-뷰티 3강 시장 분석에 따르면 미국 수출은 14% 늘었고, 화장품 무역수지는 17.0% 커졌습니다. (<a href='https://news.google.com/rss/articles/CBMiakFVX3lxTE9qSFVMeWlmbVZIZlNBd29Qbm9fbmh3V1VQTVhsSnpzZnFVOW5tbHRRV1RUTzZCTzEtUzJEa2tqVEM3Q3gyRnRTUVd6OHF2NERuRzdYdXJCeF9jYjNaTWgzd0RyUEluRFNKckE?oc=5'>뷰티경제</a>) 코스인코리아는 이달 셋째 주 주가 급락에도 수출 증가로 4분기 실적 개선 기대가 커지고 있다고 전했습니다. (<a href='https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zQjVxTTRDbEJnYXZjeVBYT19qM2lub2tsRURHeVBTMWJtZmVCRi12bDVpX1BLcUJHQlR6aDBXaXpscEtyalVhWjFYRXJ1bEVUVGdWT3NvR2dHZncyY1Jsd0dWbw?oc=5'>코스인코리아닷컴</a>)</p><p><strong>왜 중요한가:</strong> 미국이 핵심 성장 시장이라는 점이 수치로 다시 확인됐습니다.</p><p><strong>실행 포인트:</strong> 4분기 연말 시즌 미국 채널 재고·광고 예산을 조기에 확정하세요.</p><h2>2. 대미 무역흑자 1000억달러 근접…관세 부담 우려</h2><p><strong>무슨 일:</strong> 한국의 대미 무역흑자가 1000억달러에 다가서면서 트럼프 행정부의 관세 압박이 커질 수 있다는 분석이 나왔습니다. (<a href='https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Ra1hOb2JyWmlUaHBaWWtSdFhPLVVfVVl5Y3p6QXVnaVVxdkNubUNfenJ3TEh0Xy1mWUJOaERoTFpEcDkxTmdQbUNKeFBicWE2ejYzWFdaZnViZ9IBWEFVX3lxTFBMT0ZmcjdxS3ZlWG43cV9rbUpvSXM5YUJocnFjb0FaVFBIdlJKRGtJOVhoZFNiT2RZMUJvTTFkVzVRSlVUUUNYbnFJWlltUkJ4TkgtZWY1ZGs?oc=5'>아주경제</a>)</p><p><strong>왜 중요한가:</strong> 화장품 대미 흑자 확대 자체가 통상 리스크의 일부가 될 수 있습니다.</p><p><strong>실행 포인트:</strong> 관세율 변동 시나리오별 아마존·리테일 판매가와 마진을 미리 시뮬레이션하세요.</p><h2>3. '가성비' 벗은 중국 화장품, K-뷰티 색조 공략</h2><p><strong>무슨 일:</strong> 중국 화장품이 저가 이미지에서 벗어나 K-뷰티의 색조 영역부터 파고들고 있다는 보도입니다. (<a href='https://news.google.com/rss/articles/CBMicEFVX3lxTE9YYjhiRlBqTVR3dHJHWEI5UTZ0QWdZZTc0TE15a2pJdzFNZ1hzNUpaZGl0QTZJaEdsX01UZTU5NnFiOXVjUE9scFBDMURvQUpkdmIzM3hGY01xYjBMLVpHWVc4UGs5YUZsV2FvdHkyRGo?oc=5'>연합인포맥스</a>)</p><p><strong>왜 중요한가:</strong> 동남아·글로벌 플랫폼에서 K-색조의 가격·트렌드 우위가 좁혀질 수 있습니다.</p><p><strong>실행 포인트:</strong> 색조 브랜드는 쉐이드 정확도·피부톤 매칭 등 기능 차별점을 전면에 내세우세요. 에스쁘아가 피부톤 맞춤 베이스 솔루션을 해외 매체에 소개한 것도 같은 맥락입니다. (<a href='https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ydWhZd3B6SjZiSUtFeVhiTWRmYktCX0txZV92YzVxZGdWZjh4UHJIa1VDU2tQTFdwQlRMR0IzZlo4UmM3RmFXdXpLSUItb1d0R2RqRWdSYw?oc=5'>Kagit</a>)</p><h2>4. 센텔리안24, 美 아마존서 최대 성과</h2><p><strong>무슨 일:</strong> 동국제약 계열 브랜드로 알려진 센텔리안24가 미국 아마존에서 역대 최대 성과를 냈고, AGE20'S는 서울에서 대규모 옥외광고를 펼쳤습니다. (<a href='https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JTGpJTXZUSk1xUkhvTllselRvSWliOFZlY25vNGlkTHZvVHo1bHpUM1l6YmdFRjNRVUN4ZnptR2tLSnBubWRETGl0VXdXNVVraVRza3VaTXdOM1dwUG1QVDJDNXp0dw?oc=5'>싱글리스트</a>) 뉴스핌은 제약사·의료기기 업체까지 가세한 '피부과학' 더마 경쟁을 짚었습니다. (<a href='https://news.google.com/rss/articles/CBMiXEFVX3lxTE4yLVRMT09oQUM2Y0lWNkprSGNUZEpSMjk0RnJ5a0xvM3pzeUp0bzhwRGtwbE1vajYtaXJGRWo5U3ZEWjgwMTZrdUNYd25yVmJFYXB4UDFQQ3kzR1Nw?oc=5'>뉴스핌</a>)</p><p><strong>왜 중요한가:</strong> 아마존에서 더마·성분 스토리가 매출로 이어지는 흐름이 이어지고 있습니다.</p><p><strong>실행 포인트:</strong> 상세페이지에 임상·성분 근거를 정리하고, 경쟁 더마 SKU와의 차별점을 명확히 하세요.</p><h2>5. 뷰티엑스포, 사흘간 수출 상담 1200회</h2><p><strong>무슨 일:</strong> 국내외 화장품 기업이 모인 뷰티엑스포에서 사흘 동안 1200회의 수출 상담이 진행됐습니다. (<a href='https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CaGhKaTJaOU1md3l4Nkk2OThIa0t6bVE5dnRGMU9Qa2thaUtZeHVtLVFJdDJsVXhVN1FZVmRGTThveG51VjRjVTBvdnduM0pxV0YyYWNR?oc=5'>중앙일보</a>)</p><p><strong>왜 중요한가:</strong> 중소 브랜드에게 해외 바이어와의 오프라인 접점은 여전히 유효한 채널입니다.</p><p><strong>실행 포인트:</strong> 박람회 상담 후 2주 내 샘플·견적·인증 서류를 묶은 후속 패키지를 발송하세요.</p><h2>출처</h2><ul><li><a href='https://news.google.com/rss/articles/CBMiakFVX3lxTE9qSFVMeWlmbVZIZlNBd29Qbm9fbmh3V1VQTVhsSnpzZnFVOW5tbHRRV1RUTzZCTzEtUzJEa2tqVEM3Q3gyRnRTUVd6OHF2NERuRzdYdXJCeF9jYjNaTWgzd0RyUEluRFNKckE?oc=5'>뷰티경제 - K-뷰티 수출 3강 시장 분석①</a></li><li><a href='https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zQjVxTTRDbEJnYXZjeVBYT19qM2lub2tsRURHeVBTMWJtZmVCRi12bDVpX1BLcUJHQlR6aDBXaXpscEtyalVhWjFYRXJ1bEVUVGdWT3NvR2dHZncyY1Jsd0dWbw?oc=5'>코스인코리아닷컴 - 10월 3주 화장품 주가</a></li><li><a href='https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Ra1hOb2JyWmlUaHBaWWtSdFhPLVVfVVl5Y3p6QXVnaVVxdkNubUNfenJ3TEh0Xy1mWUJOaERoTFpEcDkxTmdQbUNKeFBicWE2ejYzWFdaZnViZ9IBWEFVX3lxTFBMT0ZmcjdxS3ZlWG43cV9rbUpvSXM5YUJocnFjb0FaVFBIdlJKRGtJOVhoZFNiT2RZMUJvTTFkVzVRSlVUUUNYbnFJWlltUkJ4TkgtZWY1ZGs?oc=5'>아주경제 - 대미 무역흑자 1000억달러 눈앞</a></li><li><a href='https://news.google.com/rss/articles/CBMicEFVX3lxTE9YYjhiRlBqTVR3dHJHWEI5UTZ0QWdZZTc0TE15a2pJdzFNZ1hzNUpaZGl0QTZJaEdsX01UZTU5NnFiOXVjUE9scFBDMURvQUpkdmIzM3hGY01xYjBMLVpHWVc4UGs5YUZsV2FvdHkyRGo?oc=5'>연합인포맥스 - 가성비 벗은 中 화장품</a></li><li><a href='https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ydWhZd3B6SjZiSUtFeVhiTWRmYktCX0txZV92YzVxZGdWZjh4UHJIa1VDU2tQTFdwQlRMR0IzZlo4UmM3RmFXdXpLSUItb1d0R2RqRWdSYw?oc=5'>Kagit - Espoir 베이스 메이크업</a></li><li><a href='https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JTGpJTXZUSk1xUkhvTllselRvSWliOFZlY25vNGlkTHZvVHo1bHpUM1l6YmdFRjNRVUN4ZnptR2tLSnBubWRETGl0VXdXNVVraVRza3VaTXdOM1dwUG1QVDJDNXp0dw?oc=5'>싱글리스트 - 센텔리안24 美 아마존 최대 성과</a></li><li><a href='https://news.google.com/rss/articles/CBMiXEFVX3lxTE4yLVRMT09oQUM2Y0lWNkprSGNUZEpSMjk0RnJ5a0xvM3pzeUp0bzhwRGtwbE1vajYtaXJGRWo5U3ZEWjgwMTZrdUNYd25yVmJFYXB4UDFQQ3kzR1Nw?oc=5'>뉴스핌 - K뷰티 호황⑥ 더마 경쟁</a></li><li><a href='https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CaGhKaTJaOU1md3l4Nkk2OThIa0t6bVE5dnRGMU9Qa2thaUtZeHVtLVFJdDJsVXhVN1FZVmRGTThveG51VjRjVTBvdnduM0pxV0YyYWNR?oc=5'>중앙일보 - 뷰티엑스포 수출 상담 1200회</a></li></ul><p>이 브리프는 AI의 도움을 받아 작성되었습니다.</p>",
-  "threads_ko": "미국향 K-뷰티 수출 +14%, 그런데 관세 청구서도 다가온다 👀\n\n• 대미 화장품 수출 14%↑, 무역수지 17.0% 확대\n• 대미 무역흑자 1000억달러 근접 → 관세 압박 우려\n• '가성비' 벗은 中 화장품, K-색조부터 추격\n\n4분기 미국 채널 마진 시뮬레이션, 지금 해두세요.\n\n#K뷰티 #화장품수출 #아마존",
-  "title_en": "K-Beauty Radar | US Shipments Up 14% as Tariff Risk and Chinese Color Cosmetics Loom",
-  "excerpt_en": "Korean cosmetics exports to the US grew 14% with the beauty trade surplus widening 17.0%. Buyers should weigh rising tariff pressure, a more premium Chinese makeup push, Amazon momentum in derma brands and fresh supplier pipelines from Beauty Expo.",
-  "body_en_html": "<h2>1. Korean beauty exports to the US up 14%</h2><p><strong>What happened:</strong> A market analysis by Beauty Economy reports K-beauty exports to the US rose 14%, while Korea's cosmetics trade surplus expanded 17.0%. (<a href='https://news.google.com/rss/articles/CBMiakFVX3lxTE9qSFVMeWlmbVZIZlNBd29Qbm9fbmh3V1VQTVhsSnpzZnFVOW5tbHRRV1RUTzZCTzEtUzJEa2tqVEM3Q3gyRnRTUVd6OHF2NERuRzdYdXJCeF9jYjNaTWgzd0RyUEluRFNKckE?oc=5'>Beauty Economy</a>) Despite a sharp sell-off in Korean beauty stocks this week, export growth is lifting expectations for Q4 results. (<a href='https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zQjVxTTRDbEJnYXZjeVBYT19qM2lub2tsRURHeVBTMWJtZmVCRi12bDVpX1BLcUJHQlR6aDBXaXpscEtyalVhWjFYRXJ1bEVUVGdWT3NvR2dHZncyY1Jsd0dWbw?oc=5'>CosinKorea</a>)</p><p><strong>Why it matters:</strong> US demand for Korean products remains on a growth track heading into holiday season.</p><p><strong>Takeaway:</strong> Lock in Q4 and early-2026 replenishment volumes with Korean suppliers now, before capacity tightens.</p><h2>2. Korea's US trade surplus nears $100B, raising tariff concerns</h2><p><strong>What happened:</strong> Korea's trade surplus with the US is approaching $100 billion, and Korean media flag a growing risk of tariff pressure from the Trump administration. (<a href='https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Ra1hOb2JyWmlUaHBaWWtSdFhPLVVfVVl5Y3p6QXVnaVVxdkNubUNfenJ3TEh0Xy1mWUJOaERoTFpEcDkxTmdQbUNKeFBicWE2ejYzWFdaZnViZ9IBWEFVX3lxTFBMT0ZmcjdxS3ZlWG43cV9rbUpvSXM5YUJocnFjb0FaVFBIdlJKRGtJOVhoZFNiT2RZMUJvTTFkVzVRSlVUUUNYbnFJWlltUkJ4TkgtZWY1ZGs?oc=5'>Aju Business Daily</a>)</p><p><strong>Why it matters:</strong> Landed costs for K-beauty imports could shift quickly if trade terms change.</p><p><strong>Takeaway:</strong> US importers should clarify Incoterms and tariff-sharing clauses in upcoming purchase agreements.</p><h2>3. Chinese brands move upmarket, targeting K-beauty makeup</h2><p><strong>What happened:</strong> Chinese cosmetics brands are shedding their budget positioning and pushing into color cosmetics, a category where K-beauty has been strong. (<a href='https://news.google.com/rss/articles/CBMicEFVX3lxTE9YYjhiRlBqTVR3dHJHWEI5UTZ0QWdZZTc0TE15a2pJdzFNZ1hzNUpaZGl0QTZJaEdsX01UZTU5NnFiOXVjUE9scFBDMURvQUpkdmIzM3hGY01xYjBMLVpHWVc4UGs5YUZsV2FvdHkyRGo?oc=5'>Yonhap Infomax</a>) Korean makeup brand Espoir is meanwhile promoting skin-tone-matched base makeup to international audiences. (<a href='https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ydWhZd3B6SjZiSUtFeVhiTWRmYktCX0txZV92YzVxZGdWZjh4UHJIa1VDU2tQTFdwQlRMR0IzZlo4UmM3RmFXdXpLSUItb1d0R2RqRWdSYw?oc=5'>Kagit</a>)</p><p><strong>Why it matters:</strong> Makeup buyers will face more competitive alternatives, especially on marketplaces like TikTok Shop and Shopee.</p><p><strong>Takeaway:</strong> Benchmark K-makeup assortments against Chinese entrants on shade range and performance, not just price.</p><h2>4. Centellian24 posts record Amazon US result; derma race intensifies</h2><p><strong>What happened:</strong> Korean skincare brand Centellian24 achieved its best-ever performance on Amazon US, while AGE20'S ran a large outdoor campaign in Seoul. (<a href='https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JTGpJTXZUSk1xUkhvTllselRvSWliOFZlY25vNGlkTHZvVHo1bHpUM1l6YmdFRjNRVUN4ZnptR2tLSnBubWRETGl0VXdXNVVraVRza3VaTXdOM1dwUG1QVDJDNXp0dw?oc=5'>Singlelist</a>) Korean pharma and medical-device firms are also joining the dermocosmetics race. (<a href='https://news.google.com/rss/articles/CBMiXEFVX3lxTE4yLVRMT09oQUM2Y0lWNkprSGNUZEpSMjk0RnJ5a0xvM3pzeUp0bzhwRGtwbE1vajYtaXJGRWo5U3ZEWjgwMTZrdUNYd25yVmJFYXB4UDFQQ3kzR1Nw?oc=5'>Newspim</a>)</p><p><strong>Why it matters:</strong> Science-backed Korean derma lines are converting on Amazon, and the supplier pool is widening.</p><p><strong>Takeaway:</strong> When sourcing derma SKUs, request clinical data and ingredient documentation up front to support listings and claims.</p><h2>5. Beauty Expo logs 1,200 export meetings in three days</h2><p><strong>What happened:</strong> A Korean beauty expo bringing together domestic and overseas cosmetics companies recorded 1,200 export consultations over three days. (<a href='https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CaGhKaTJaOU1md3l4Nkk2OThIa0t6bVE5dnRGMU9Qa2thaUtZeHVtLVFJdDJsVXhVN1FZVmRGTThveG51VjRjVTBvdnduM0pxV0YyYWNR?oc=5'>JoongAng Ilbo</a>)</p><p><strong>Why it matters:</strong> Trade shows remain a practical route to discover emerging Korean brands before they hit major marketplaces.</p><p><strong>Takeaway:</strong> Add Korean regional beauty expos to your 2026 sourcing calendar.</p><h2>Sources</h2><ul><li><a href='https://news.google.com/rss/articles/CBMiakFVX3lxTE9qSFVMeWlmbVZIZlNBd29Qbm9fbmh3V1VQTVhsSnpzZnFVOW5tbHRRV1RUTzZCTzEtUzJEa2tqVEM3Q3gyRnRTUVd6OHF2NERuRzdYdXJCeF9jYjNaTWgzd0RyUEluRFNKckE?oc=5'>Beauty Economy - K-beauty top-3 export markets (1)</a></li><li><a href='https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zQjVxTTRDbEJnYXZjeVBYT19qM2lub2tsRURHeVBTMWJtZmVCRi12bDVpX1BLcUJHQlR6aDBXaXpscEtyalVhWjFYRXJ1bEVUVGdWT3NvR2dHZncyY1Jsd0dWbw?oc=5'>CosinKorea - Cosmetics stocks, week 3 of October</a></li><li><a href='https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Ra1hOb2JyWmlUaHBaWWtSdFhPLVVfVVl5Y3p6QXVnaVVxdkNubUNfenJ3TEh0Xy1mWUJOaERoTFpEcDkxTmdQbUNKeFBicWE2ejYzWFdaZnViZ9IBWEFVX3lxTFBMT0ZmcjdxS3ZlWG43cV9rbUpvSXM5YUJocnFjb0FaVFBIdlJKRGtJOVhoZFNiT2RZMUJvTTFkVzVRSlVUUUNYbnFJWlltUkJ4TkgtZWY1ZGs?oc=5'>Aju Business Daily - US trade surplus near $100B</a></li><li><a href='https://news.google.com/rss/articles/CBMicEFVX3lxTE9YYjhiRlBqTVR3dHJHWEI5UTZ0QWdZZTc0TE15a2pJdzFNZ1hzNUpaZGl0QTZJaEdsX01UZTU5NnFiOXVjUE9scFBDMURvQUpkdmIzM3hGY01xYjBMLVpHWVc4UGs5YUZsV2FvdHkyRGo?oc=5'>Yonhap Infomax - Chinese cosmetics target K-beauty makeup</a></li><li><a href='https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ydWhZd3B6SjZiSUtFeVhiTWRmYktCX0txZV92YzVxZGdWZjh4UHJIa1VDU2tQTFdwQlRMR0IzZlo4UmM3RmFXdXpLSUItb1d0R2RqRWdSYw?oc=5'>Kagit - Espoir base makeup solutions</a></li><li><a href='https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JTGpJTXZUSk1xUkhvTllselRvSWliOFZlY25vNGlkTHZvVHo1bHpUM1l6YmdFRjNRVUN4ZnptR2tLSnBubWRETGl0VXdXNVVraVRza3VaTXdOM1dwUG1QVDJDNXp0dw?oc=5'>Singlelist - Centellian24 Amazon record</a></li><li><a href='https://news.google.com/rss/articles/CBMiXEFVX3lxTE4yLVRMT09oQUM2Y0lWNkprSGNUZEpSMjk0RnJ5a0xvM3pzeUp0bzhwRGtwbE1vajYtaXJGRWo5U3ZEWjgwMTZrdUNYd25yVmJFYXB4UDFQQ3kzR1Nw?oc=5'>Newspim - K-beauty boom (6): derma competition</a></li><li><a href='https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CaGhKaTJaOU1md3l4Nkk2OThIa0t6bVE5dnRGMU9Qa2thaUtZeHVtLVFJdDJsVXhVN1FZVmRGTThveG51VjRjVTBvdnduM0pxV0YyYWNR?oc=5'>JoongAng Ilbo - Beauty Expo 1,200 export meetings</a></li></ul><p>This brief was prepared with AI assistance.</p>",
-  "linkedin_en": "K-beauty's US momentum is real, but so is the policy risk.\n\nToday's K-Beauty Radar highlights:\n\n- Korean cosmetics exports to the US grew 14%, and the beauty trade surplus widened 17.0%. Korean analysts expect export strength to support Q4 results despite a volatile week for beauty stocks.\n- Korea's overall trade surplus with the US is nearing $100B, which local media say could invite heavier tariff pressure.\n- Chinese brands are moving beyond value pricing and targeting makeup, a K-beauty stronghold.\n- Centellian24 posted its best-ever Amazon US result as pharma and medical-device players crowd into dermocosmetics.\n- A Korean beauty expo logged 1,200 export meetings in three days.\n\nFor buyers and distributors, the practical moves are clear: secure Q4 replenishment early, revisit tariff-sharing terms in supplier contracts, and benchmark K-makeup against new Chinese entrants on performance rather than price alone.\n\nHow are you adjusting your K-beauty sourcing terms ahead of possible US tariff changes?",
+  "title_ko": "K뷰티 미국 수출 14% 증가, 대미 흑자 1000억달러 근접에 관세 경계령",
+  "excerpt_ko": "미국向 K뷰티 수출이 14% 늘고 무역수지는 17.0% 확대됐습니다. 대미 흑자가 1000억달러에 다가서며 관세 부담 우려도 커졌습니다. 중국 색조의 추격, 센텔리안24의 아마존 성과, 뷰티엑스포 수출 상담 1200회까지 짚었습니다.",
+  "body_ko_html": "<p>오늘의 핵심은 미국입니다. 수출은 늘고 있지만, 무역흑자 규모가 커질수록 통상 압박도 함께 커질 수 있습니다. 해외 진출 브랜드가 지금 점검해야 할 5가지를 정리했습니다.</p><h2>1. 미국 수출 14% 증가, 무역수지 17.0% 확대</h2><p>K뷰티 3대 수출 시장을 분석한 결과, 미국向 화장품 수출이 14% 늘었고 무역수지는 17.0% 확대됐습니다(<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE9qSFVMeWlmbVZIZlNBd29Qbm9fbmh3V1VQTVhsSnpzZnFVOW5tbHRRV1RUTzZCTzEtUzJEa2tqVEM3Q3gyRnRTUVd6OHF2NERuRzdYdXJCeF9jYjNaTWgzd0RyUEluRFNKckE?oc=5\">뷰티경제</a>). 업계에서는 수출 증가를 근거로 4분기 실적 개선 기대도 나오고 있습니다(<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zQjVxTTRDbEJnYXZjeVBYT19qM2lub2tsRURHeVBTMWJtZmVCRi12bDVpX1BLcUJHQlR6aDBXaXpscEtyalVhWjFYRXJ1bEVUVGdWT3NvR2dHZncyY1Jsd0dWbw?oc=5\">코스인코리아닷컴</a>).</p><p><strong>왜 중요한가:</strong> 미국이 K뷰티 성장의 핵심 축이라는 점이 수치로 다시 확인됐습니다.</p><p><strong>실행 포인트:</strong> 연말 성수기 전에 아마존·틱톡샵 등 미국 채널별 재고와 광고 예산 배분을 재점검하세요.</p><h2>2. 대미 무역흑자 1000억달러 눈앞, 관세 부담 우려</h2><p>한국의 대미 무역흑자가 1000억달러에 근접하면서 트럼프 행정부의 관세 압박이 커질 수 있다는 분석이 나왔습니다(<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTFBMT0ZmcjdxS3ZlWG43cV9rbUpvSXM5YUJocnFjb0FaVFBIdlJKRGtJOVhoZFNiT2RZMUJvTTFkVzVRSlVUUUNYbnFJWlltUkJ4TkgtZWY1ZGvSAVhBVV95cUxQTE9GZnI3cUt2ZVhuN3Ffa21Kb0lzOWFCaHJxY29BWlRQSHZSSkRrSTlYaGRTYk9kWTFCb00xZFc1UUpVVFFDWG5xSVpZbVJCeE5ILWVmNWRr?oc=5\">아주경제</a>).</p><p><strong>왜 중요한가:</strong> 미국 매출 비중이 높은 브랜드일수록 가격·마진 구조가 통상 변수에 직접 노출됩니다.</p><p><strong>실행 포인트:</strong> 관세율 시나리오별 미국 판매가와 마진표를 미리 만들어 두고, 유통 파트너와 가격 조정 원칙을 사전 합의하세요.</p><h2>3. '가성비' 벗은 중국 화장품, 색조부터 K뷰티 추격</h2><p>중국 화장품이 저가 이미지에서 벗어나 K뷰티의 색조 영역부터 파고들고 있다는 보도입니다(<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9YYjhiRlBqTVR3dHJHWEI5UTZ0QWdZZTc0TE15a2pJdzFNZ1hzNUpaZGl0QTZJaEdsX01UZTU5NnFiOXVjUE9scFBDMURvQUpkdmIzM3hGY01xYjBMLVpHWVc4UGs5YUZsV2FvdHkyRGo?oc=5\">연합인포맥스</a>).</p><p><strong>왜 중요한가:</strong> 동남아·글로벌 마켓플레이스에서 K색조와 C색조의 정면 경쟁이 예상됩니다.</p><p><strong>실행 포인트:</strong> 색조 라인은 가격 경쟁보다 셰이드 정밀도·성분·제형 차별점을 상세페이지 전면에 배치하세요.</p><h2>4. 센텔리안24, 미국 아마존서 최대 성과</h2><p>센텔리안24가 미국 아마존에서 최대 성과를 거뒀고, AGE20'S는 서울에서 대규모 옥외광고를 진행했습니다(<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JTGpJTXZUSk1xUkhvTllselRvSWliOFZlY25vNGlkTHZvVHo1bHpUM1l6YmdFRjNRVUN4ZnptR2tLSnBubWRETGl0VXdXNVVraVRza3VaTXdOM1dwUG1QVDJDNXp0dw?oc=5\">싱글리스트</a>). 한편 K뷰티가 더마로 진화하며 제약사와 의료기기 기업까지 피부과학 경쟁에 가세하고 있습니다(<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE4yLVRMT09oQUM2Y0lWNkprSGNUZEpSMjk0RnJ5a0xvM3pzeUp0bzhwRGtwbE1vajYtaXJGRWo5U3ZEWjgwMTZrdUNYd25yVmJFYXB4UDFQQ3kzR1Nw?oc=5\">뉴스핌</a>).</p><p><strong>왜 중요한가:</strong> 더마·성분 중심 포지셔닝이 아마존에서 성과로 이어지고 있지만, 경쟁자도 빠르게 늘고 있습니다.</p><p><strong>실행 포인트:</strong> 아마존 리스팅에 핵심 성분과 효능 근거를 명확히 표기해 더마 카테고리 내 차별성을 확보하세요.</p><h2>5. 뷰티엑스포, 사흘간 수출 상담 1200회</h2><p>국내외 화장품 기업이 모인 뷰티엑스포에서 사흘 동안 수출 상담이 1200회 진행됐습니다(<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CaGhKaTJaOU1md3l4Nkk2OThIa0t6bVE5dnRGMU9Qa2thaUtZeHVtLVFJdDJsVXhVN1FZVmRGTThveG51VjRjVTBvdnduM0pxV0YyYWNR?oc=5\">중앙일보</a>).</p><p><strong>왜 중요한가:</strong> 해외 바이어 수요가 여전히 활발하며, 중소 브랜드에게 박람회는 유효한 판로 개척 창구입니다.</p><p><strong>실행 포인트:</strong> 다음 박람회 전 영문 카탈로그, 수출 단가표, MOQ 조건을 미리 준비해 상담을 계약으로 연결하세요.</p><h2>함께 볼 뉴스</h2><ul><li>에이피알, 매출 3조 원을 앞두고 있다는 분석(<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9yOFRmelFEUENXOVRmMUhETDA2YkRjeVRkNlRKaDdndGlrQXNQYjZUaklhcV9WNXhSM05vb2RGYWZPdWR1U3lzc09ZbkZKZUlXU1NGYUNENXdLcWYxTnRocDF6bHppRXktcXVNd1FNNjlfZGJ6N1Y0?oc=5\">이코노미트리뷴</a>)</li></ul><h2>출처</h2><ul><li><a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE9qSFVMeWlmbVZIZlNBd29Qbm9fbmh3V1VQTVhsSnpzZnFVOW5tbHRRV1RUTzZCTzEtUzJEa2tqVEM3Q3gyRnRTUVd6OHF2NERuRzdYdXJCeF9jYjNaTWgzd0RyUEluRFNKckE?oc=5\">뷰티경제 - K-뷰티 수출 3강 시장 분석①</a></li><li><a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zQjVxTTRDbEJnYXZjeVBYT19qM2lub2tsRURHeVBTMWJtZmVCRi12bDVpX1BLcUJHQlR6aDBXaXpscEtyalVhWjFYRXJ1bEVUVGdWT3NvR2dHZncyY1Jsd0dWbw?oc=5\">코스인코리아닷컴 - 10월 3주 화장품 주가</a></li><li><a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTFBMT0ZmcjdxS3ZlWG43cV9rbUpvSXM5YUJocnFjb0FaVFBIdlJKRGtJOVhoZFNiT2RZMUJvTTFkVzVRSlVUUUNYbnFJWlltUkJ4TkgtZWY1ZGvSAVhBVV95cUxQTE9GZnI3cUt2ZVhuN3Ffa21Kb0lzOWFCaHJxY29BWlRQSHZSSkRrSTlYaGRTYk9kWTFCb00xZFc1UUpVVFFDWG5xSVpZbVJCeE5ILWVmNWRr?oc=5\">아주경제 - 대미 무역흑자 1000억달러 눈앞</a></li><li><a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9YYjhiRlBqTVR3dHJHWEI5UTZ0QWdZZTc0TE15a2pJdzFNZ1hzNUpaZGl0QTZJaEdsX01UZTU5NnFiOXVjUE9scFBDMURvQUpkdmIzM3hGY01xYjBMLVpHWVc4UGs5YUZsV2FvdHkyRGo?oc=5\">연합인포맥스 - '가성비' 벗은 中 화장품</a></li><li><a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JTGpJTXZUSk1xUkhvTllselRvSWliOFZlY25vNGlkTHZvVHo1bHpUM1l6YmdFRjNRVUN4ZnptR2tLSnBubWRETGl0VXdXNVVraVRza3VaTXdOM1dwUG1QVDJDNXp0dw?oc=5\">싱글리스트 - 센텔리안24, 美 아마존서 최대 성과</a></li><li><a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE4yLVRMT09oQUM2Y0lWNkprSGNUZEpSMjk0RnJ5a0xvM3pzeUp0bzhwRGtwbE1vajYtaXJGRWo5U3ZEWjgwMTZrdUNYd25yVmJFYXB4UDFQQ3kzR1Nw?oc=5\">뉴스핌 - K뷰티 호황⑥ 더마로 진화</a></li><li><a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CaGhKaTJaOU1md3l4Nkk2OThIa0t6bVE5dnRGMU9Qa2thaUtZeHVtLVFJdDJsVXhVN1FZVmRGTThveG51VjRjVTBvdnduM0pxV0YyYWNR?oc=5\">중앙일보 - 사흘간 수출 상담만 1200회</a></li><li><a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9yOFRmelFEUENXOVRmMUhETDA2YkRjeVRkNlRKaDdndGlrQXNQYjZUaklhcV9WNXhSM05vb2RGYWZPdWR1U3lzc09ZbkZKZUlXU1NGYUNENXdLcWYxTnRocDF6bHppRXktcXVNd1FNNjlfZGJ6N1Y0?oc=5\">이코노미트리뷴 - 3조 매출 앞둔 에이피알</a></li></ul><p>이 브리프는 AI의 도움을 받아 작성되었습니다.</p>",
+  "threads_ko": "미국 수출은 14% 늘었는데, 관세 청구서도 다가온다.\n\n- K뷰티 미국 수출 +14%, 무역수지 17.0% 확대\n- 대미 무역흑자 1000억달러 근접, 관세 압박 우려\n- 中 화장품은 '가성비' 벗고 색조부터 추격\n\n관세 시나리오별 가격표, 지금 만들어 두세요.\n\n#K뷰티 #화장품수출 #아마존",
+  "title_en": "K-Beauty US Exports Up 14% as Korea's US Trade Surplus Nears $100B",
+  "excerpt_en": "Korean cosmetics exports to the US rose 14%, but a near-$100B bilateral surplus raises tariff questions. Plus: Chinese brands moving into color cosmetics, Centellian24's Amazon peak, and 1,200 export meetings at a Korean beauty expo.",
+  "body_en_html": "<p>The US remains K-beauty's growth engine, but scale brings policy exposure. Here is what sourcing teams, distributors and retailers should watch this week.</p><h2>1. K-beauty exports to the US up 14%</h2><p>An analysis of K-beauty's three largest export markets shows shipments to the US grew 14%, with the cosmetics trade balance widening 17.0% (<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE9qSFVMeWlmbVZIZlNBd29Qbm9fbmh3V1VQTVhsSnpzZnFVOW5tbHRRV1RUTzZCTzEtUzJEa2tqVEM3Q3gyRnRTUVd6OHF2NERuRzdYdXJCeF9jYjNaTWgzd0RyUEluRFNKckE?oc=5\">Beauty Economy</a>). Korean industry coverage also links rising exports to expectations of stronger Q4 results (<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zQjVxTTRDbEJnYXZjeVBYT19qM2lub2tsRURHeVBTMWJtZmVCRi12bDVpX1BLcUJHQlR6aDBXaXpscEtyalVhWjFYRXJ1bEVUVGdWT3NvR2dHZncyY1Jsd0dWbw?oc=5\">CosinKorea</a>).</p><p><strong>Why it matters:</strong> Demand from US consumers continues to pull Korean supply, which can tighten allocation on fast-moving SKUs.</p><p><strong>Takeaway:</strong> Lock in holiday and Q1 purchase orders early with Korean suppliers for top-selling lines.</p><h2>2. Korea's US trade surplus approaches $100B</h2><p>Korea's trade surplus with the US is nearing $100 billion, prompting concern that the Trump administration could step up tariff pressure (<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTFBMT0ZmcjdxS3ZlWG43cV9rbUpvSXM5YUJocnFjb0FaVFBIdlJKRGtJOVhoZFNiT2RZMUJvTTFkVzVRSlVUUUNYbnFJWlltUkJ4TkgtZWY1ZGvSAVhBVV95cUxQTE9GZnI3cUt2ZVhuN3Ffa21Kb0lzOWFCaHJxY29BWlRQSHZSSkRrSTlYaGRTYk9kWTFCb00xZFc1UUpVVFFDWG5xSVpZbVJCeE5ILWVmNWRr?oc=5\">Aju Business Daily</a>).</p><p><strong>Why it matters:</strong> Landed costs on Korean beauty imports could shift if trade measures change.</p><p><strong>Takeaway:</strong> Agree on tariff pass-through and price-review clauses with Korean vendors before signing 2027 contracts.</p><h2>3. Chinese cosmetics move upmarket, starting with color</h2><p>Chinese beauty brands are shedding their budget positioning and pushing into K-beauty's territory, beginning with color cosmetics (<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9YYjhiRlBqTVR3dHJHWEI5UTZ0QWdZZTc0TE15a2pJdzFNZ1hzNUpaZGl0QTZJaEdsX01UZTU5NnFiOXVjUE9scFBDMURvQUpkdmIzM3hGY01xYjBMLVpHWVc4UGs5YUZsV2FvdHkyRGo?oc=5\">Yonhap Infomax</a>).</p><p><strong>Why it matters:</strong> Buyers will have more Asian makeup options competing for the same shelf and marketplace slots.</p><p><strong>Takeaway:</strong> Benchmark Korean and Chinese color lines side by side on shade range, formula and margin before resetting assortments.</p><h2>4. Centellian24 posts record on US Amazon</h2><p>Centellian24 achieved its best performance to date on Amazon US, while sister brand news included a large outdoor campaign for AGE20'S in Seoul (<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JTGpJTXZUSk1xUkhvTllselRvSWliOFZlY25vNGlkTHZvVHo1bHpUM1l6YmdFRjNRVUN4ZnptR2tLSnBubWRETGl0VXdXNVVraVRza3VaTXdOM1dwUG1QVDJDNXp0dw?oc=5\">Singlelist</a>). More broadly, K-beauty is evolving toward derma, with pharmaceutical and medical-device companies joining the skin-science race (<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE4yLVRMT09oQUM2Y0lWNkprSGNUZEpSMjk0RnJ5a0xvM3pzeUp0bzhwRGtwbE1vajYtaXJGRWo5U3ZEWjgwMTZrdUNYd25yVmJFYXB4UDFQQ3kzR1Nw?oc=5\">Newspim</a>).</p><p><strong>Why it matters:</strong> Ingredient-led, pharma-backed K-derma brands are proving traction with US online shoppers.</p><p><strong>Takeaway:</strong> Add a dedicated K-derma segment to your sourcing shortlist and request clinical or efficacy documentation from suppliers.</p><h2>5. Beauty expo logs 1,200 export meetings in three days</h2><p>A Korean beauty expo bringing together domestic and international cosmetics companies recorded 1,200 export consultations over three days (<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CaGhKaTJaOU1md3l4Nkk2OThIa0t6bVE5dnRGMU9Qa2thaUtZeHVtLVFJdDJsVXhVN1FZVmRGTThveG51VjRjVTBvdnduM0pxV0YyYWNR?oc=5\">JoongAng Ilbo</a>).</p><p><strong>Why it matters:</strong> Trade shows remain a high-density channel for discovering emerging Korean brands before they scale.</p><p><strong>Takeaway:</strong> Plan a Korea sourcing trip around the next expo cycle with pre-booked supplier meetings.</p><h2>Also noted</h2><ul><li>APR is approaching 3 trillion won in revenue (<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9yOFRmelFEUENXOVRmMUhETDA2YkRjeVRkNlRKaDdndGlrQXNQYjZUaklhcV9WNXhSM05vb2RGYWZPdWR1U3lzc09ZbkZKZUlXU1NGYUNENXdLcWYxTnRocDF6bHppRXktcXVNd1FNNjlfZGJ6N1Y0?oc=5\">Economy Tribune</a>).</li></ul><h2>Sources</h2><ul><li><a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE9qSFVMeWlmbVZIZlNBd29Qbm9fbmh3V1VQTVhsSnpzZnFVOW5tbHRRV1RUTzZCTzEtUzJEa2tqVEM3Q3gyRnRTUVd6OHF2NERuRzdYdXJCeF9jYjNaTWgzd0RyUEluRFNKckE?oc=5\">Beauty Economy (뷰티경제)</a></li><li><a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zQjVxTTRDbEJnYXZjeVBYT19qM2lub2tsRURHeVBTMWJtZmVCRi12bDVpX1BLcUJHQlR6aDBXaXpscEtyalVhWjFYRXJ1bEVUVGdWT3NvR2dHZncyY1Jsd0dWbw?oc=5\">CosinKorea (코스인코리아닷컴)</a></li><li><a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTFBMT0ZmcjdxS3ZlWG43cV9rbUpvSXM5YUJocnFjb0FaVFBIdlJKRGtJOVhoZFNiT2RZMUJvTTFkVzVRSlVUUUNYbnFJWlltUkJ4TkgtZWY1ZGvSAVhBVV95cUxQTE9GZnI3cUt2ZVhuN3Ffa21Kb0lzOWFCaHJxY29BWlRQSHZSSkRrSTlYaGRTYk9kWTFCb00xZFc1UUpVVFFDWG5xSVpZbVJCeE5ILWVmNWRr?oc=5\">Aju Business Daily (아주경제)</a></li><li><a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9YYjhiRlBqTVR3dHJHWEI5UTZ0QWdZZTc0TE15a2pJdzFNZ1hzNUpaZGl0QTZJaEdsX01UZTU5NnFiOXVjUE9scFBDMURvQUpkdmIzM3hGY01xYjBMLVpHWVc4UGs5YUZsV2FvdHkyRGo?oc=5\">Yonhap Infomax (연합인포맥스)</a></li><li><a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JTGpJTXZUSk1xUkhvTllselRvSWliOFZlY25vNGlkTHZvVHo1bHpUM1l6YmdFRjNRVUN4ZnptR2tLSnBubWRETGl0VXdXNVVraVRza3VaTXdOM1dwUG1QVDJDNXp0dw?oc=5\">Singlelist (싱글리스트)</a></li><li><a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE4yLVRMT09oQUM2Y0lWNkprSGNUZEpSMjk0RnJ5a0xvM3pzeUp0bzhwRGtwbE1vajYtaXJGRWo5U3ZEWjgwMTZrdUNYd25yVmJFYXB4UDFQQ3kzR1Nw?oc=5\">Newspim (뉴스핌)</a></li><li><a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CaGhKaTJaOU1md3l4Nkk2OThIa0t6bVE5dnRGMU9Qa2thaUtZeHVtLVFJdDJsVXhVN1FZVmRGTThveG51VjRjVTBvdnduM0pxV0YyYWNR?oc=5\">JoongAng Ilbo (중앙일보)</a></li><li><a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9yOFRmelFEUENXOVRmMUhETDA2YkRjeVRkNlRKaDdndGlrQXNQYjZUaklhcV9WNXhSM05vb2RGYWZPdWR1U3lzc09ZbkZKZUlXU1NGYUNENXdLcWYxTnRocDF6bHppRXktcXVNd1FNNjlfZGJ6N1Y0?oc=5\">Economy Tribune (이코노미트리뷴)</a></li></ul><p>This brief was prepared with AI assistance.</p>",
+  "linkedin_en": "K-beauty's US momentum is real, and so is the policy risk that comes with it.\n\nKorean cosmetics exports to the US rose 14%, with the cosmetics trade balance widening 17.0%, according to Korean trade-press analysis. At the same time, Korea's overall trade surplus with the US is approaching $100 billion, and local media flag the possibility of heavier tariff pressure from Washington.\n\nOther signals worth noting for sourcing teams:\n- Chinese beauty brands are moving beyond budget positioning and targeting color cosmetics, a category where K-beauty has been strong.\n- Centellian24 recorded its best-ever performance on Amazon US, as pharma and medical-device players push K-beauty further into derma.\n- A Korean beauty expo logged 1,200 export consultations in just three days.\n\nFor buyers and retailers, the practical move now is to secure Q4/Q1 allocation on top SKUs and build tariff pass-through terms into 2027 supplier agreements.\n\nHow is your team preparing its K-beauty sourcing plan for possible tariff changes next year?",
   "tags": [
    "K-beauty",
    "US exports",
    "tariffs",
    "Amazon",
    "China cosmetics",
-   "dermocosmetics",
-   "Beauty Expo",
-   "color cosmetics"
-  ]
+   "derma",
+   "trade show",
+   "Centellian24"
+  ],
+  "cards_ko": {
+   "cover": {
+    "badge": "K뷰티 데일리 브리프",
+    "hero_number": "+14%",
+    "hero_label": "K뷰티 미국 수출 증가율",
+    "headline": "미국 수출 14%↑\n관세 청구서는?",
+    "sub": "中 색조 추격·아마존 성과·엑스포 상담 1200회"
+   },
+   "slides": [
+    {
+     "category": "수출 통계",
+     "headline": "미국 수출 14%↑, 흑자 17% 확대",
+     "stat": "+14%",
+     "stat_label": "미국向 화장품 수출 증가",
+     "what": "K뷰티 3강 시장 분석에서 미국 수출이 14% 늘었다.",
+     "why": "무역수지도 17.0% 확대돼 미국이 핵심 성장축임을 확인했다.",
+     "action": "연말 전 미국 채널별 재고와 광고 예산을 재점검하라.",
+     "source": "뷰티경제, 코스인코리아닷컴"
+    },
+    {
+     "category": "통상 리스크",
+     "headline": "대미 흑자 1000억달러 눈앞",
+     "stat": "$100B",
+     "stat_label": "대미 무역흑자 근접치",
+     "what": "한국의 대미 무역흑자가 1000억달러에 근접했다.",
+     "why": "트럼프 행정부의 관세 압박이 커질 수 있다는 관측이다.",
+     "action": "관세율 시나리오별 미국 판매가·마진표를 미리 만들어라.",
+     "source": "아주경제"
+    },
+    {
+     "category": "경쟁 동향",
+     "headline": "中 화장품, 색조부터 K뷰티 추격",
+     "stat": "",
+     "stat_label": "",
+     "what": "중국 화장품이 가성비 이미지를 벗고 색조 시장을 파고든다.",
+     "why": "해외 마켓플레이스에서 K색조와 정면 경쟁이 예상된다.",
+     "action": "가격보다 셰이드·성분·제형 차별점을 상세페이지 전면에 두라.",
+     "source": "연합인포맥스"
+    },
+    {
+     "category": "아마존 · 더마",
+     "headline": "센텔리안24, 美 아마존 최대 성과",
+     "stat": "",
+     "stat_label": "",
+     "what": "센텔리안24가 미국 아마존에서 최대 성과를 기록했다.",
+     "why": "제약사·의료기기까지 더마 경쟁에 가세해 차별화가 관건이다.",
+     "action": "아마존 리스팅에 핵심 성분과 효능 근거를 명확히 표기하라.",
+     "source": "싱글리스트, 뉴스핌"
+    },
+    {
+     "category": "수출 상담",
+     "headline": "뷰티엑스포 사흘간 상담 1200회",
+     "stat": "1,200회",
+     "stat_label": "3일간 수출 상담 건수",
+     "what": "국내외 화장품 기업이 모인 엑스포에서 상담 1200회가 열렸다.",
+     "why": "해외 바이어 수요가 여전히 활발하다는 신호다.",
+     "action": "영문 카탈로그·단가표·MOQ 조건을 박람회 전에 준비하라.",
+     "source": "중앙일보"
+    }
+   ]
+  },
+  "cards_en": {
+   "cover": {
+    "badge": "K-beauty Daily brief",
+    "hero_number": "+14%",
+    "hero_label": "K-beauty exports to US",
+    "headline": "US demand up 14%.\nWill tariffs follow?",
+    "sub": "China color push, Amazon record, 1,200 meetings"
+   },
+   "slides": [
+    {
+     "category": "Export data",
+     "headline": "K-beauty exports to the US rise 14%",
+     "stat": "+14%",
+     "stat_label": "US export growth",
+     "what": "Korean cosmetics shipments to the US grew 14%, with the trade balance widening 17.0%.",
+     "why": "Strong US pull can tighten supply on fast-moving Korean SKUs heading into peak season.",
+     "action": "Lock in holiday and Q1 purchase orders early for your top-selling K-beauty lines.",
+     "source": "Beauty Economy, CosinKorea"
+    },
+    {
+     "category": "Trade risk",
+     "headline": "Korea's US trade surplus nears $100B",
+     "stat": "$100B",
+     "stat_label": "US trade surplus level",
+     "what": "Korea's trade surplus with the US is approaching $100 billion.",
+     "why": "Analysts see risk of stronger tariff pressure, which could shift landed costs.",
+     "action": "Write tariff pass-through and price-review clauses into 2027 supplier contracts.",
+     "source": "Aju Business Daily"
+    },
+    {
+     "category": "Competition",
+     "headline": "Chinese brands go upmarket, starting with color",
+     "stat": "",
+     "stat_label": "",
+     "what": "Chinese cosmetics are dropping budget positioning and targeting K-beauty's color category.",
+     "why": "More Asian makeup options will compete for the same shelf and marketplace slots.",
+     "action": "Benchmark Korean vs Chinese color lines on shades, formula and margin before resets.",
+     "source": "Yonhap Infomax"
+    },
+    {
+     "category": "Amazon / Derma",
+     "headline": "Centellian24 posts record on Amazon US",
+     "stat": "",
+     "stat_label": "",
+     "what": "Centellian24 achieved its best-ever performance on Amazon US.",
+     "why": "Pharma and med-device players are pushing K-beauty deeper into derma science.",
+     "action": "Add a K-derma segment to sourcing and request efficacy documentation from suppliers.",
+     "source": "Singlelist, Newspim"
+    },
+    {
+     "category": "Trade show",
+     "headline": "Beauty expo logs 1,200 export meetings",
+     "stat": "1,200",
+     "stat_label": "Meetings in 3 days",
+     "what": "A Korean beauty expo recorded 1,200 export consultations over three days.",
+     "why": "Trade shows remain a dense channel to find emerging Korean brands before they scale.",
+     "action": "Plan your next Korea sourcing trip around the expo cycle with pre-booked meetings.",
+     "source": "JoongAng Ilbo"
+    }
+   ]
+  }
  },
- "published": {}
+ "published": {
+  "cards_ko": [
+   "docs/cards/2026-10-18/ko-01.jpg",
+   "docs/cards/2026-10-18/ko-02.jpg",
+   "docs/cards/2026-10-18/ko-03.jpg",
+   "docs/cards/2026-10-18/ko-04.jpg",
+   "docs/cards/2026-10-18/ko-05.jpg",
+   "docs/cards/2026-10-18/ko-06.jpg",
+   "docs/cards/2026-10-18/ko-07.jpg"
+  ],
+  "cards_en": [
+   "docs/cards/2026-10-18/en-01.jpg",
+   "docs/cards/2026-10-18/en-02.jpg",
+   "docs/cards/2026-10-18/en-03.jpg",
+   "docs/cards/2026-10-18/en-04.jpg",
+   "docs/cards/2026-10-18/en-05.jpg",
+   "docs/cards/2026-10-18/en-06.jpg",
+   "docs/cards/2026-10-18/en-07.jpg"
+  ],
+  "site_ko": "https://kbeautyradarofficial.github.io/kbeauty-radar/ko/2026/10/18/brief/",
+  "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/10/18/brief/"
+ }
 }
