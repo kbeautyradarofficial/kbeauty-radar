@@ -85,7 +85,7 @@ def main(limit: int | None) -> None:
         try:
             # 조사(검색 6회 상한) → 작성(도구 없음) → 검수(도구 없음)
             facts = research(f"{series} report on '{topic}' as of {date.today():%Y-%m}: latest numbers with "
-                             "reference periods, key moves, and what practitioners should do.", arts, notes, uses=6)
+                             "reference periods, key moves, and what practitioners should do.", arts, notes, uses=8)
             content = write(system, f"Write the {series} report on {topic} from the fact sheet.", facts, notes)
             content = review(content, facts, notes)
         except Exception as e:
