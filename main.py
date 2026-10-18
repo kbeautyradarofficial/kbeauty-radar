@@ -15,11 +15,6 @@ from radar.collect import collect
 from radar.generate import generate
 
 
-def _cta(template: str, env: str) -> str:
-    url = os.environ.get(env)
-    return template.format(url=url) if url else ""
-
-
 def main() -> None:
     mode = os.environ.get("PUBLISH_MODE", "dry-run")
     print(f"[main] mode={mode}")
@@ -43,28 +38,19 @@ def main() -> None:
     print(f"[main] rendered cards -> {card_root}")
 
     if mode in ("draft", "auto"):
-        def cover(lang: str) -> str:
-            return f'<p><img src="{site}/cards/{today}/{lang}-01.jpg" alt="cover" width="540"></p>\n'
-        record["published"]["site_ko"] = publish.site_post(
-            "ko", content["title_ko"], cover("ko") + content["body_ko_html"], content["excerpt_ko"],
-            content["tags"], _cta(config.CTA_KO, "KIT_FORM_KO"))
-        record["published"]["site_en"] = publish.site_post(
-            "en", content["title_en"], cover("en") + content["body_en_html"], content["excerpt_en"],
-            content["tags"], _cta(config.CTA_EN, "KIT_FORM_EN"))
+        record["published"].update(publish.site_posts(content, f"{site}/cards/{today}", "brief"))
 
-    if mode == "auto" and os.environ.get("THREADS_ACCESS_TOKEN"):
-        link = f"\n\n전문 👉 {record['published']['site_ko']}"
-        text = content["threads_ko"][: config.THREADS_MAX_CHARS - len(link)] + link
-        record["published"]["threads"] = publish.threads_post(text)
-
+    # 인스타그램·스레드 게시는 사이트 배포 후 social_post.py 단계에서 진행
     out = Path(config.OUTPUT_DIR)
     out.mkdir(exist_ok=True)
     (out / f"{date.today()}.json").write_text(json.dumps(record, ensure_ascii=False, indent=1), encoding="utf-8")
 
     msg = f"[{config.BRAND}] {mode} 완료\n{content['title_ko']}"
-    days = publish.threads_token_days_left() if os.environ.get("THREADS_ACCESS_TOKEN") else None
-    if days is not None and days < 10:
-        msg += f"\n⚠️ Threads 토큰 {days}일 후 만료 - 갱신 필요"
+    for name, refresh in (("Instagram", publish.instagram_refresh_token), ("Threads", publish.threads_refresh_token)):
+        if os.environ.get(f"{name.upper()}_ACCESS_TOKEN"):
+            days = refresh()  # 매일 연장해 두므로 정상이라면 항상 약 60일
+            if days is not None and days < 10:
+                msg += f"\n⚠️ {name} 토큰 {days}일 후 만료 - 재발급 필요"
     publish.kakao_notify(msg, record["published"].get("site_ko"))
     print(json.dumps(record["published"], ensure_ascii=False))
 
