@@ -1,4 +1,4 @@
-"""현시점(최근 90일) 기준 시리즈 생성: 키플레이어 / 국가별 마켓 / 인더스트리 리포트.
+﻿"""현시점(최근 90일) 기준 시리즈 생성: 키플레이어 / 국가별 마켓 / 인더스트리 리포트.
 
 사용법: python series.py [개수=전체]
 결과: queue/series-<NNN>.json + docs/cards/series/<id>/ (카드 이미지)
@@ -84,7 +84,7 @@ def main(limit: int | None) -> None:
         system = SERIES_SYSTEM.replace("{series}", series).replace("{topic}", topic)
         user = json.dumps({"articles": arts, "competitor_context": notes[:60]}, ensure_ascii=False)
         try:
-            content = call_json(system, user, SCHEMA, research=8)
+            content = call_json(system, user, SCHEMA, research=6)
             _check(content)
             content = review(content, arts, notes)
         except Exception as e:
