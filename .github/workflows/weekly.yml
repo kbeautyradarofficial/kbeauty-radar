@@ -17,7 +17,7 @@ concurrency: kbr
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,12 +25,15 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Install Claude Code CLI (Max subscription path)
+        run: npm install -g @anthropic-ai/claude-code
       - name: Run weekly newsletter
         run: python weekly.py
         env:
           PUBLISH_MODE: ${{ inputs.mode || vars.PUBLISH_MODE || 'draft' }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_WORKSPACE_ID: ${{ vars.ANTHROPIC_WORKSPACE_ID }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
           KIT_TAG_KO: ${{ vars.KIT_TAG_KO }}
           KIT_TAG_EN: ${{ vars.KIT_TAG_EN }}
