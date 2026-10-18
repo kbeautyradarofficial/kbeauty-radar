@@ -60,15 +60,23 @@ Google News RSS ─► Claude (한/영 작성 + 품질검사) ─► 블로그 �
 5. **weekly-newsletter → Run workflow → `draft`** 로 테스트 → Kit의 Broadcasts에 초안이 생기는지 확인
    - 무료 플랜에서 API가 막혀 있으면 실패 알림이 옵니다 → 그때 대안으로 바꿉니다
 
-### 5. Threads 연동 (auto 모드 전 필요)
-1. 인스타그램 앱 → 설정 → **프로페셔널 계정으로 전환**
-2. https://developers.facebook.com → 개발자 등록 → **앱 만들기** → 사용 사례 **"Threads API 액세스"**
-3. 권한 `threads_basic`, `threads_content_publish` 추가
-4. **앱 역할 → Threads 테스터**에 본인 스레드 계정 추가 → 스레드 앱 설정 → 웹사이트 권한에서 초대 수락
-5. **Graph API Explorer(Threads)** 에서 사용자 토큰 발급 → **장기 토큰(60일)** 으로 교환
-6. `me?fields=id` 호출로 사용자 ID 확인
-7. Secrets 추가: `THREADS_USER_ID`, `THREADS_ACCESS_TOKEN`
-   - 토큰은 60일마다 갱신 필요 (만료 10일 전부터 카톡으로 알려줍니다)
+### 5. 인스타그램 + 스레드 자동 게시 (auto 모드 전 필요)
+**Facebook 페이지는 필요 없습니다** ("Instagram 로그인을 통한 Instagram API" 방식). Meta 개발자 앱 1개만 있으면 됩니다.
+1. 인스타그램 → **프로페셔널 계정** 전환 (완료)
+2. https://developers.facebook.com 로그인 → 개발자 등록 → **앱 만들기**
+   - 사용 사례: **"Instagram에서 메시지 및 콘텐츠 관리"** + **"Threads API 액세스"**
+3. Instagram: 앱 대시보드 → Instagram → API 설정(Instagram 로그인) → **계정 추가 → 토큰 생성**
+   - 권한 `instagram_business_basic`, `instagram_business_content_publish`
+   - Secret `INSTAGRAM_ACCESS_TOKEN` 에 저장
+4. Threads: 권한 `threads_basic`, `threads_content_publish` → 앱 역할에 본인 스레드 계정을 테스터로 추가·수락 → 토큰 생성
+   - Secret `THREADS_ACCESS_TOKEN` 에 저장
+5. 두 토큰 모두 매일 실행 때 자동으로 60일 연장됩니다 (실패하면 카톡 알림)
+
+### 5-1. 과거 인사이트 아카이브 (계정 초반 콘텐츠 채우기)
+- **Actions → backfill-archive → Run workflow** (개수 입력) → 2024년부터 지금까지 기사 중 지금도 유효한 주제를
+  골라 한/영 글 + 카드뉴스를 `queue/` 에 쌓습니다 (1건당 약 $0.3)
+- **archive-queue** 가 매일 12:30, 19:30 에 1건씩 꺼내 블로그(+ auto 모드면 인스타·스레드)에 올립니다
+- 한 번에 더 올리려면 archive-queue 를 수동 실행하며 count 를 늘리면 됩니다
 
 ### 6. 카카오톡 알림 (선택)
 1. https://developers.kakao.com → 앱 생성 → **카카오 로그인** 활성화, 동의항목 **"카카오톡 메시지 전송"** 체크
@@ -92,7 +100,8 @@ Google News RSS ─► Claude (한/영 작성 + 품질검사) ─► 블로그 �
 |---|---|---|
 | Secret | `ANTHROPIC_API_KEY` | ✅ |
 | Secret | `KIT_API_KEY` | 뉴스레터 |
-| Secret | `THREADS_USER_ID`, `THREADS_ACCESS_TOKEN` | Threads |
+| Secret | `INSTAGRAM_ACCESS_TOKEN` | 인스타그램 |
+| Secret | `THREADS_ACCESS_TOKEN` | Threads |
 | Secret | `KAKAO_REST_API_KEY`, `KAKAO_REFRESH_TOKEN`, (`KAKAO_CLIENT_SECRET`) | 알림 |
 | Variable | `PUBLISH_MODE` (`draft`/`auto`) | 선택 |
 | Variable | `KIT_TAG_KO`, `KIT_TAG_EN`, `KIT_FORM_KO`, `KIT_FORM_EN` | 뉴스레터 |
