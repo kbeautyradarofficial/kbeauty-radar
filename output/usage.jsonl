@@ -1,3 +1,6 @@
 {"ts": "2026-10-18T08:10:20", "purpose": "research", "path": "api", "cost_usd": 0.23, "run_total_usd": 0.23, "input": 14, "cached": 94499, "output": 5049, "tools": 11}
 {"ts": "2026-10-18T08:13:24", "purpose": "write", "path": "api", "cost_usd": 0.425, "run_total_usd": 0.655, "input": 4, "cached": 0, "output": 21239, "tools": 0}
 {"ts": "2026-10-18T08:15:10", "purpose": "review", "path": "api", "cost_usd": 0.275, "run_total_usd": 0.93, "input": 4, "cached": 0, "output": 13744, "tools": 0}
+{"ts": "2026-10-18T11:28:24", "purpose": "research", "path": "subscription", "cost_usd": 0.0, "run_total_usd": 0.0, "list_price_usd": 0.5976890000000001, "turns": 14}
+{"ts": "2026-10-18T11:29:53", "purpose": "write", "path": "subscription", "cost_usd": 0.0, "run_total_usd": 0.0, "list_price_usd": 0.39961599999999997, "turns": 2}
+{"ts": "2026-10-18T11:31:17", "purpose": "review", "path": "subscription", "cost_usd": 0.0, "run_total_usd": 0.0, "list_price_usd": 0.393085, "turns": 2}
