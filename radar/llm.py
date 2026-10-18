@@ -1,11 +1,15 @@
 """Claude API 호출 헬퍼: JSON 스키마에 맞는 결과만 돌려받습니다."""
 import json
+import os
 
 import anthropic
 
 MODEL = "claude-opus-5-5"
 
-_client = anthropic.Anthropic()  # ANTHROPIC_API_KEY 환경변수 사용
+# ANTHROPIC_API_KEY 환경변수 사용. 워크스페이스에 묶이지 않은 키라면
+# ANTHROPIC_WORKSPACE_ID 를 함께 설정해야 합니다.
+_workspace = os.environ.get("ANTHROPIC_WORKSPACE_ID")
+_client = anthropic.Anthropic(default_headers={"anthropic-workspace-id": _workspace} if _workspace else None)
 
 
 def call_json(system: str, user: str, schema: dict, effort: str = "medium") -> dict:
