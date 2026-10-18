@@ -17,6 +17,14 @@ def _data_uri(content: bytes, mime: str) -> str:
     return f"data:{mime};base64,{base64.b64encode(content).decode()}"
 
 
+LOGO_HINT = re.compile(r"logo|symbol|favicon|og[_-]?(?:default|basic|share)|/ci[_./-]|brand[_-]?ci|sns[_-]?share", re.I)
+
+
+def _looks_like_logo(img_url: str, content: bytes) -> bool:
+    """기업 로고·공유용 기본 이미지는 제품 사진이 아니므로 제외 (주소에 logo 등이 있거나 용량이 아주 작음)."""
+    return bool(LOGO_HINT.search(img_url)) or len(content) < 20_000
+
+
 CLEAN_JS = """
 // 쿠키 동의창·채팅 위젯·하단 고정 배너처럼 화면을 가리는 요소 제거
 for (const el of document.querySelectorAll('body *')) {
@@ -37,7 +45,9 @@ def product_image(url: str) -> str | None:
         r = requests.get(url, headers=UA, timeout=20)
         mime = r.headers.get("content-type", "").split(";")[0]
         if r.ok and mime.startswith("image/"):
-            return _data_uri(r.content, mime) if len(r.content) < 6_000_000 else None
+            if _looks_like_logo(url, r.content) or len(r.content) > 6_000_000:
+                return None
+            return _data_uri(r.content, mime)
         if not r.ok:
             return None
         # 웹페이지면 대표 이미지(og:image / twitter:image) 사용
@@ -46,10 +56,15 @@ def product_image(url: str) -> str | None:
             r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\'](?:og:image|twitter:image)', r.text, re.I)
         if not m:
             return None
-        img = requests.get(urljoin(url, m.group(1)), headers=UA, timeout=20)
+        img_url = urljoin(url, m.group(1))
+        img = requests.get(img_url, headers=UA, timeout=20)
         mime = img.headers.get("content-type", "").split(";")[0]
-        if img.ok and mime.startswith("image/") and len(img.content) < 6_000_000:
-            return _data_uri(img.content, mime)
+        if not (img.ok and mime.startswith("image/")) or len(img.content) > 6_000_000:
+            return None
+        if _looks_like_logo(img_url, img.content):
+            print(f"[visuals] skip logo-like image: {img_url}")
+            return None
+        return _data_uri(img.content, mime)
     except Exception as e:
         print(f"[visuals] product image failed {url}: {e}")
     return None
