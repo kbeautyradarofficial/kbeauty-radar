@@ -14,10 +14,12 @@ MODEL = "claude-opus-5-5"
 _workspace = os.environ.get("ANTHROPIC_WORKSPACE_ID")
 _client = anthropic.Anthropic(default_headers={"anthropic-workspace-id": _workspace} if _workspace else None)
 
-RESEARCH_TOOLS = [
-    {"type": "web_search_20260209", "name": "web_search", "max_uses": 8},
-    {"type": "web_fetch_20260209", "name": "web_fetch", "max_uses": 8},
-]
+def research_tools(uses: int) -> list[dict]:
+    # 페이지 1개당 읽는 분량 상한: 기사 본문은 충분히 읽되 광고·메뉴 등 불필요한 토큰 비용은 막음
+    return [
+        {"type": "web_search_20260209", "name": "web_search", "max_uses": uses},
+        {"type": "web_fetch_20260209", "name": "web_fetch", "max_uses": uses, "max_content_tokens": 6000},
+    ]
 RESEARCH_NOTE = """
 
 Research step (do this before writing): use web_search / web_fetch to open the most important source articles
@@ -26,7 +28,8 @@ claim you plan to use against the full text, add the reference period, and prefe
 you cannot verify. Search in Korean and English. Then output only the final JSON."""
 
 
-def call_json(system: str, user: str, schema: dict, effort: str = "high", research: bool = False) -> dict:
+def call_json(system: str, user: str, schema: dict, effort: str = "high", research: int = 0) -> dict:
+    """research: 웹 검색·페이지 열람 허용 횟수 (0이면 사용 안 함)."""
     messages = [{"role": "user", "content": user}]
     kwargs = dict(
         model=MODEL,
@@ -38,7 +41,7 @@ def call_json(system: str, user: str, schema: dict, effort: str = "high", resear
         system=system + (RESEARCH_NOTE if research else ""),
     )
     if research:
-        kwargs["tools"] = RESEARCH_TOOLS
+        kwargs["tools"] = research_tools(research)
 
     for _ in range(6):  # 서버 도구가 길어지면 pause_turn 으로 끊기므로 이어서 요청
         with _client.beta.messages.stream(messages=messages, **kwargs) as stream:
