@@ -1,0 +1,51 @@
+name: archive-queue
+
+on:
+  schedule:
+    - cron: "30 3 * * *"    # 12:30 KST
+    - cron: "30 10 * * *"   # 19:30 KST
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dry-run | draft | auto"
+        default: "dry-run"
+      count:
+        description: "posts to publish now"
+        default: "1"
+
+permissions:
+  contents: write
+
+concurrency: kbr
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Post next archive item
+        run: python post_queue.py ${{ inputs.count || '1' }}
+        env:
+          PUBLISH_MODE: ${{ inputs.mode || vars.PUBLISH_MODE || 'draft' }}
+          SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+          KIT_FORM_KO: ${{ vars.KIT_FORM_KO }}
+          KIT_FORM_EN: ${{ vars.KIT_FORM_EN }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "kbr-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || (git commit -m "archive post $(date +%F-%H%M)" && git pull --rebase && git push)

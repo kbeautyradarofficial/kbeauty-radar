@@ -14,10 +14,24 @@ permissions:
 
 concurrency: kbr
 
+env:
+  PUBLISH_MODE: ${{ inputs.mode || vars.PUBLISH_MODE || 'draft' }}
+  SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+  ANTHROPIC_WORKSPACE_ID: ${{ vars.ANTHROPIC_WORKSPACE_ID }}
+  KIT_FORM_KO: ${{ vars.KIT_FORM_KO }}
+  KIT_FORM_EN: ${{ vars.KIT_FORM_EN }}
+  INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+  THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+  THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+  KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+  KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
+  KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -31,23 +45,17 @@ jobs:
           sudo apt-get install -y -q fonts-noto-cjk
       - name: Run daily brief
         run: python main.py
-        env:
-          # 수동 실행 시 입력값, 예약 실행 시 저장소 변수 PUBLISH_MODE (없으면 draft)
-          PUBLISH_MODE: ${{ inputs.mode || vars.PUBLISH_MODE || 'draft' }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          ANTHROPIC_WORKSPACE_ID: ${{ vars.ANTHROPIC_WORKSPACE_ID }}
-          SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
-          KIT_FORM_KO: ${{ vars.KIT_FORM_KO }}
-          KIT_FORM_EN: ${{ vars.KIT_FORM_EN }}
-          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
-          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
-          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
-          KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
-          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
-      - name: Save archive
+      - name: Publish to site
         if: always()
         run: |
           git config user.name "kbr-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || (git commit -m "brief $(date +%F)" && git push)
+          git diff --cached --quiet || (git commit -m "brief $(date +%F)" && git pull --rebase && git push)
+      - name: Post to Instagram / Threads (waits for site deploy)
+        run: python social_post.py "output/$(date +%F).json"
+      - name: Save social post ids
+        if: always()
+        run: |
+          git add -A
+          git diff --cached --quiet || (git commit -m "social $(date +%F)" && git pull --rebase && git push)
