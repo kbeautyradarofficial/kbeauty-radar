@@ -38,7 +38,7 @@ instagram_caption_ko (Korean, max 1800 chars), structured like the top Korean be
   Then "출처: outlet, outlet". Then "AI의 도움을 받아 작성했습니다." Then 6-8 hashtags on the last line
   (mix of #K뷰티 #화장품수출 #뷰티마케팅 and story-specific tags).
 threads_ko: under 400 characters, hook first line, 3 short "•" lines, one closing question to invite replies,
-  at most 1 hashtag."""
+  no hashtags."""
 
 SYSTEM = f"""You are the editor of "{config.BRAND}", a daily K-beauty industry intelligence brief.
 Readers: Korean beauty brands, marketers and sellers (Korean edition), and global buyers, distributors
