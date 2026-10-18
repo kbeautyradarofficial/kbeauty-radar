@@ -10,7 +10,7 @@ import os
 from datetime import date
 from pathlib import Path
 
-from radar import config, publish
+from radar import cards, config, publish
 from radar.collect import collect
 from radar.generate import generate
 
@@ -31,14 +31,25 @@ def main() -> None:
         return
 
     content = generate(items)
-    record = {"date": str(date.today()), "mode": mode, "items": items, "content": content, "published": {}}
+    today = date.today()
+    record = {"date": str(today), "mode": mode, "items": items, "content": content, "published": {}}
+
+    # 카드뉴스 이미지: draft/auto 는 사이트(docs/)에 올려 공개 URL을 만들고, dry-run 은 output/ 에만 저장
+    site = os.environ.get("SITE_URL", "").rstrip("/")
+    card_root = Path("docs/cards" if mode in ("draft", "auto") else f"{config.OUTPUT_DIR}/cards") / str(today)
+    for lang, label in (("ko", f"{today:%Y.%m.%d}"), ("en", f"{today:%b %d, %Y}")):
+        paths = cards.render(content[f"cards_{lang}"], lang, label, card_root, site.replace("https://", ""))
+        record["published"][f"cards_{lang}"] = [p.as_posix() for p in paths]
+    print(f"[main] rendered cards -> {card_root}")
 
     if mode in ("draft", "auto"):
+        def cover(lang: str) -> str:
+            return f'<p><img src="{site}/cards/{today}/{lang}-01.jpg" alt="cover" width="540"></p>\n'
         record["published"]["site_ko"] = publish.site_post(
-            "ko", content["title_ko"], content["body_ko_html"], content["excerpt_ko"],
+            "ko", content["title_ko"], cover("ko") + content["body_ko_html"], content["excerpt_ko"],
             content["tags"], _cta(config.CTA_KO, "KIT_FORM_KO"))
         record["published"]["site_en"] = publish.site_post(
-            "en", content["title_en"], content["body_en_html"], content["excerpt_en"],
+            "en", content["title_en"], cover("en") + content["body_en_html"], content["excerpt_en"],
             content["tags"], _cta(config.CTA_EN, "KIT_FORM_EN"))
 
     if mode == "auto" and os.environ.get("THREADS_ACCESS_TOKEN"):
