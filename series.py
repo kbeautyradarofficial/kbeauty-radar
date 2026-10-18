@@ -84,7 +84,7 @@ def main(limit: int | None) -> None:
         system = SERIES_SYSTEM.replace("{series}", series).replace("{topic}", topic)
         user = json.dumps({"articles": arts, "competitor_context": notes[:60]}, ensure_ascii=False)
         try:
-            content = call_json(system, user, SCHEMA)
+            content = call_json(system, user, SCHEMA, research=True)
             _check(content)
             content = review(content, arts, notes)
         except Exception as e:
