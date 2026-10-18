@@ -49,6 +49,14 @@ cards_ko / cards_en (Instagram carousel, Korean / English edition):
   stat: a real number from that story or "" if none; stat_label: max 20 chars.
   what/why/action: one sentence each, max 55 chars (KO) / 95 (EN). action is a concrete instruction to brands/
   marketers (KO) or to buyers/retailers (EN). source: outlet name(s) only.
+  Visuals (from the fact sheet's "visuals" list): when a slide is about a specific product, set
+  visual_type="product" with that product's image/page URL; when it is about a website/app feature or campaign
+  page (e.g. 공식몰 AI 피부 상담), set visual_type="ui" with the page URL to screenshot. visual_credit = brand or
+  outlet name (e.g. "이미지: 에이피알"). Otherwise visual_type="none", visual_url="", visual_credit="".
+  Use at most one visual per slide and only URLs that appear in the fact sheet.
+Numbers rule: never use a vague superlative ("역대 최대", "1위", "급성장", "record") without the actual figure next to
+  it (sales amount, share %, rank, growth % and period). If the fact sheet has no figure, rewrite the claim or drop it.
+  Every slide should carry at least one concrete number.
 
 instagram_caption_ko (Korean, max 1800 chars), structured like the top Korean beauty-insight accounts:
   line 1: hook with the key number. blank line. Then one block per story:
@@ -89,8 +97,10 @@ _CARD = {
             "items": {
                 "type": "object",
                 "properties": {k: {"type": "string"} for k in
-                               ("category", "headline", "stat", "stat_label", "what", "why", "action", "source")},
-                "required": ["category", "headline", "stat", "stat_label", "what", "why", "action", "source"],
+                               ("category", "headline", "stat", "stat_label", "what", "why", "action", "source",
+                                "visual_type", "visual_url", "visual_credit")},
+                "required": ["category", "headline", "stat", "stat_label", "what", "why", "action", "source",
+                             "visual_type", "visual_url", "visual_credit"],
                 "additionalProperties": False,
             },
         },
@@ -139,7 +149,9 @@ Editing checklist (fix everything silently, do not comment):
    takeaway) instead of repeating it.
 4. Readability: shorter sentences, one idea per line, strongest hook in cover/first line.
 5. Voice: remove every banned AI-ism; it must read like a human insider wrote it. Check Korean naturalness.
-6. Keep all length limits and the schema exactly."""
+6. Numbers: any vague superlative without its figure must get the figure from the fact sheet or be rewritten.
+7. Visuals: keep visual_* fields when the URL is in the fact sheet's visuals; product slides should have one.
+8. Keep all length limits and the schema exactly."""
 
 
 def review(content: dict, facts: dict, notes: list[str]) -> dict:
@@ -168,7 +180,7 @@ def generate(items: list[dict], notes: list[str] | None = None) -> dict:
                 for it in items]
     notes = notes or []
     facts = research("Today's K-beauty industry daily brief: pick the 3-5 stories with the most business "
-                     "insight from the last 24h and verify their key facts.", articles, notes, uses=5)
+                     "insight from the last 24h and verify their key facts.", articles, notes, uses=7)
     content = write(SYSTEM, "Write today's brief from the fact sheet.", facts, notes)
     return review(content, facts, notes)
 

@@ -68,6 +68,18 @@ body{font-family:Pretendard,'Malgun Gothic','Apple SD Gothic Neo',sans-serif;let
 .ctas{display:flex;gap:18px;margin-top:64px}
 .ctas span{background:var(--mint);color:var(--navy);font-weight:800;font-size:34px;padding:18px 36px;border-radius:999px}
 .cover-head,.head,.stat span,.hero-label,.cover-sub{white-space:pre-line}
+.vis{display:flex;gap:32px;align-items:center;justify-content:space-between;margin-top:30px}
+.vis.nostat{justify-content:center}
+.vis.nostat .shot.product{width:520px;height:420px}
+.vis .stat{flex-direction:column;align-items:flex-start;gap:10px;margin-top:0;min-width:0}
+.vis .stat strong{font-size:116px}
+.shot{flex:0 0 auto;width:400px;height:400px;border-radius:28px;background:#fff;display:flex;align-items:center;
+  justify-content:center;overflow:hidden;position:relative;box-shadow:0 8px 30px rgba(14,26,58,.10)}
+.shot.product img{max-width:90%;max-height:90%;object-fit:contain}
+.shot.ui{width:300px;height:430px;background:#14161C;padding:12px;border-radius:44px}
+.shot.ui img{width:100%;height:100%;object-fit:cover;object-position:top;border-radius:34px}
+.credit{position:absolute;right:14px;bottom:10px;font-style:normal;font-size:17px;color:#8A8F9C;
+  background:rgba(255,255,255,.85);padding:2px 8px;border-radius:8px}
 .ctas span+span{background:transparent;color:var(--mint);border:2px solid var(--mint)}
 """
 
@@ -82,7 +94,7 @@ for (const el of document.querySelectorAll('.hero, .stat strong')) {
   const isHero = el.classList.contains('hero');
   el.style.whiteSpace = 'nowrap';
   if (isHero) { el.style.display = 'inline-block'; el.style.alignSelf = 'flex-start'; }
-  const limit = isHero ? 900 : 560;
+  const limit = isHero ? 900 : (el.closest('.vis') ? 460 : 560);
   let fs = parseFloat(getComputedStyle(el).fontSize);
   while (el.getBoundingClientRect().width > limit && fs > 40) { fs -= 4; el.style.fontSize = fs + 'px'; }
 }
@@ -125,10 +137,15 @@ def cover_html(c: dict, lang: str, date: str, sources: str, total: int) -> str:
 </div>""")
 
 
-def slide_html(s: dict, idx: int, lang: str, total: int) -> str:
+def slide_html(s: dict, idx: int, lang: str, total: int, visual: dict | None = None) -> str:
     L = LABELS[lang]
     stat = (f"<div class='stat'><strong data-max='150'>{_e(s['stat'])}</strong><span>{_e(s['stat_label'])}</span></div>"
             if s.get("stat") else "")
+    if visual:
+        # 숫자(왼쪽) + 제품 이미지/화면 캡처(오른쪽)
+        credit = f"<i class='credit'>{_e(visual['credit'])}</i>" if visual.get("credit") else ""
+        shot = f"<div class='shot {visual['kind']}'><img src='{visual['src']}'>{credit}</div>"
+        stat = f"<div class='vis'>{stat}{shot}</div>" if stat else f"<div class='vis nostat'>{shot}</div>"
     rows = "".join(
         f"<div class='row{' act' if k == 'action' else ''}'><em>{L[k]}</em><p>{_e(s[k])}</p></div>"
         for k in ("what", "why", "action"))
@@ -157,14 +174,15 @@ def closing_html(lang: str, site: str, total: int) -> str:
 </div>""")
 
 
-def build_pages(cards: dict, lang: str, date: str, site: str) -> list[str]:
+def build_pages(cards: dict, lang: str, date: str, site: str, visuals: list | None = None) -> list[str]:
     slides = cards["slides"]
+    visuals = visuals or [None] * len(slides)
     total = len(slides) + 2
     names = list(dict.fromkeys(n.strip() for s in slides for n in s["source"].split(",")))
     more = {"ko": f" 외 {len(names) - 3}곳", "en": f" +{len(names) - 3} more"}[lang] if len(names) > 3 else ""
     sources = ", ".join(names[:3]) + more
     pages = [cover_html(cards["cover"], lang, date, sources, total)]
-    pages += [slide_html(s, i + 1, lang, total) for i, s in enumerate(slides)]
+    pages += [slide_html(s, i + 1, lang, total, visuals[i]) for i, s in enumerate(slides)]
     pages.append(closing_html(lang, site, total))
     return pages
 
@@ -176,8 +194,11 @@ def render(cards: dict, lang: str, date: str, out_dir: Path, site: str = "") -> 
     paths = []
     with sync_playwright() as p:
         browser = p.chromium.launch()
+        from .visuals import resolve
+        visuals = [resolve(browser, s) for s in cards["slides"]]  # 제품 이미지·화면 캡처 (실패하면 None)
+        print(f"[cards] {lang}: {sum(v is not None for v in visuals)} slides with visuals")
         page = browser.new_page(viewport={"width": W, "height": H})
-        for i, doc in enumerate(build_pages(cards, lang, date, site), start=1):
+        for i, doc in enumerate(build_pages(cards, lang, date, site, visuals), start=1):
             page.set_content(doc, wait_until="networkidle")
             page.evaluate("document.fonts.ready.then(() => true)")
             page.evaluate(FIT_JS)

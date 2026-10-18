@@ -25,8 +25,18 @@ FACTS_SCHEMA = {
             "required": ["claim", "number", "period", "source", "url", "verified"],
             "additionalProperties": False}},
         "angles": {"type": "array", "items": {"type": "string"}},  # 경쟁 계정이 놓친 실무 포인트
+        "visuals": {"type": "array", "items": {             # 카드에 넣을 제품 이미지 / 화면 캡처 후보
+            "type": "object",
+            "properties": {
+                "story": {"type": "string"},
+                "type": {"type": "string", "enum": ["product", "ui"]},
+                "url": {"type": "string"},
+                "credit": {"type": "string"},
+            },
+            "required": ["story", "type", "url", "credit"],
+            "additionalProperties": False}},
     },
-    "required": ["facts", "angles"],
+    "required": ["facts", "angles", "visuals"],
     "additionalProperties": False,
 }
 
@@ -41,7 +51,15 @@ How to work (budget matters - stay within the limits below):
   verified=true only if you saw it in the source text; otherwise false.
 - Time-sensitive data (share, rank, growth, export value) must have a reference period; if articles disagree,
   keep the newest and note the definition (e.g. 식약처 vs 관세청 기준).
+- No vague superlatives: if a source says "역대 최대", "1위", "record" etc., find the actual figure (sales amount,
+  share of category %, rank, growth %) and its period - this is a priority use of the search budget. Example:
+  "아마존 빅딜데이즈 역대 최대" → find K-beauty's share of Amazon beauty sales during the event, the brand's
+  rank or sales figure.
 - angles: 2-4 practical angles competitors (see context) have not covered.
+- visuals (max 3): for stories about a specific product, the product's official page or press-release image URL
+  (brand site / official mall / press release - prefer brand-provided images); for stories about a website/app
+  feature or campaign page (e.g. 공식몰 AI 피부 상담), the exact public page URL to screenshot. credit = brand or
+  outlet. Only include URLs you actually saw.
 Output only the JSON."""
 
 
