@@ -1,4 +1,4 @@
-"""수집한 기사로 한국어/영어 콘텐츠를 만듭니다."""
+﻿"""수집한 기사로 한국어/영어 콘텐츠를 만듭니다."""
 import json
 from datetime import date
 
@@ -146,7 +146,7 @@ def review(content: dict, articles: list[dict], notes: list[str]) -> dict:
     """편집장 검수: 원문 대조 팩트체크 + 경쟁 계정 대비 차별화 + 문체 다듬기."""
     user = json.dumps({"draft": content, "source_articles": articles, "competitor_context": notes[:60]},
                       ensure_ascii=False)
-    revised = call_json(REVIEW_SYSTEM, user, SCHEMA, research=4)  # 의심 가는 숫자만 원문 재확인
+    revised = call_json(REVIEW_SYSTEM, user, SCHEMA, research=3)  # 의심 가는 숫자만 원문 재확인
     _check(revised)
     return revised
 
@@ -158,7 +158,7 @@ def generate(items: list[dict], notes: list[str] | None = None) -> dict:
     user = (f"Date: {date.today()}\n\nArticles collected in the last 24h (JSON):\n"
             f"{json.dumps(articles, ensure_ascii=False, indent=1)}\n\n"
             f"Competitor context:\n" + "\n".join(notes[:60]) + "\n\nWrite today's brief.")
-    content = call_json(SYSTEM + COMPETITOR_RULE, user, SCHEMA, research=8)
+    content = call_json(SYSTEM + COMPETITOR_RULE, user, SCHEMA, research=6)
     _check(content)
     return review(content, articles, notes)
 

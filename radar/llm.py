@@ -42,13 +42,18 @@ def call_json(system: str, user: str, schema: dict, effort: str = "high", resear
     )
     if research:
         kwargs["tools"] = research_tools(research)
-
-    for _ in range(6):  # 서버 도구가 길어지면 pause_turn 으로 끊기므로 이어서 요청
+    blocks = []
+    # 서버 도구가 길어지면 pause_turn 으로 끊기므로 이어서 요청. 단, 이어서 요청할 때마다
+    # 검색 횟수 상한이 다시 생기므로 1번만 이어서 요청해 비용이 폭증하지 않게 함
+    for attempt in range(2):
         with _client.beta.messages.stream(messages=messages, **kwargs) as stream:
             response = stream.get_final_message()
+        blocks += list(response.content)
         if response.stop_reason != "pause_turn":
             break
-        messages = [messages[0], {"role": "assistant", "content": response.content}]
+        messages = [messages[0], {"role": "assistant", "content": blocks}]
+        if research:
+            kwargs["tools"] = research_tools(1)  # 이어서 쓸 때는 검색 최소화
 
     if response.stop_reason == "refusal":
         raise RuntimeError(f"Claude refused: {response.stop_details}")
