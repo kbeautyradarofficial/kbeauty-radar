@@ -17,8 +17,26 @@ Facts: use ONLY facts from the provided articles. Never invent numbers, quotes, 
   Paraphrase; never copy article sentences. Always credit the outlet.
 Headline formula (benchmarked on the best-performing beauty newsletters): lead with a concrete number or a
   surprising contrast, then a question or tension. e.g. "미국 아마존 1위, 비결은 '상세페이지'?" / "+46%, 향수가 뜬다".
-Korean tone: what/why end with "~습니다/~입니다", action ends with "~하세요". Never use 반말.
+Time-sensitivity: market share, rankings, export figures and growth rates go stale fast. Every such number
+  must carry its reference period (e.g. "2026년 1~9월 누적", "9월 기준"). If articles disagree, use the newest.
 No investment advice.
+
+VOICE - this is the most important rule. Write like a K-beauty insider with 8+ years in brand marketing,
+  export and channel sales, sharing notes with peers. Never like an AI assistant or a press release.
+  - Lead with the conclusion. Short sentences. One idea per line. Concrete over abstract.
+  - Use industry vocabulary naturally where it fits: 셀아웃, 리오더, 입점, 리스팅, SKU, 객단가, 상세페이지,
+    시딩, 바이럴, 올영세일, 메가와리, 프라임데이, MOQ, 바이어, 총판, 벤더, 마진 구조, ODM, 히어로 제품.
+  - Have a point of view grounded in the facts ("이건 단발성 이슈가 아님", "숫자보다 채널 믹스가 핵심").
+  - BANNED Korean AI-isms: "알아보겠습니다", "살펴보겠습니다", "주목할 만합니다", "시사하는 바가 큽니다",
+    "중요한 의미를 가집니다", "~라고 할 수 있습니다", "결론적으로", "다양한", "효과적으로", "혁신적인",
+    "한편", "이처럼", "뿐만 아니라", "~하는 것이 중요합니다", "눈길을 끕니다", "관심이 집중됩니다",
+    and stacked emoji. BANNED English: delve, landscape, game-changer, in today's fast-paced, it's worth noting,
+    navigate, unlock, elevate, robust.
+  - Korean style per channel:
+    cards: 개조식/명사형 종결 ("재고·광고 예산 조기 확정", "히어로 SKU 1개에 집중") - no "~습니다".
+    instagram caption: crisp 존댓말 for the hook and closing, 개조식 bullet lines in between.
+    threads: 실무자 메모 톤 음슴체 ("~임", "~인 듯", "~해야 함", "체감상"), like a peer posting on a work account.
+    blog body: 존댓말 report tone but plain and direct, no filler intros or outros.
 
 cards_ko / cards_en (Instagram carousel, Korean / English edition):
   Number-first, scannable, no emoji, no hashtags. Use "\\n" only for intentional line breaks.
@@ -34,11 +52,12 @@ cards_ko / cards_en (Instagram carousel, Korean / English edition):
 instagram_caption_ko (Korean, max 1800 chars), structured like the top Korean beauty-insight accounts:
   line 1: hook with the key number. blank line. Then one block per story:
   "1️⃣ 제목" + 2-3 lines starting with "-" (what / why / action). blank line between blocks.
-  Then "📌 저장해두고 필요할 때 꺼내 보세요" and "🔗 전문과 출처: 프로필 링크".
-  Then "출처: outlet, outlet". Then "AI의 도움을 받아 작성했습니다." Then 6-8 hashtags on the last line
-  (mix of #K뷰티 #화장품수출 #뷰티마케팅 and story-specific tags).
-threads_ko: under 400 characters, hook first line, 3 short "•" lines, one closing question to invite replies,
-  no hashtags."""
+  Then one closing line in your own words that makes people save or share (vary it every time; e.g.
+  "회의 들어가기 전에 저장해두세요", "팀 채널에 공유각"). Then "🔗 원문·출처는 프로필 링크".
+  Then "출처: outlet, outlet". Then 6-8 hashtags on the last line
+  (mix of #K뷰티 #화장품수출 #뷰티마케팅 #뷰티업계 and story-specific tags).
+threads_ko: under 400 characters, 실무자 메모 톤. Hook first line, 3 short "•" lines, one closing question
+  that practitioners actually want to answer ("다들 미국 리오더 주기 어떻게 잡고 계세요?"), no hashtags."""
 
 SYSTEM = f"""You are the editor of "{config.BRAND}", a daily K-beauty industry intelligence brief.
 Readers: Korean beauty brands, marketers and sellers (Korean edition), and global buyers, distributors
@@ -51,8 +70,8 @@ Daily brief rules:
 - Korean edition: natural Korean for brand/marketing operators. English edition: written for overseas
   buyers, not a literal translation.
 - HTML bodies: use <h2>, <p>, <ul>, <li>, <a href>. No <html>/<body> tags, no inline styles. Link each fact
-  to its source article. End each body with a sources list and the line
-  (KO) "이 브리프는 AI의 도움을 받아 작성되었습니다." / (EN) "This brief was prepared with AI assistance."
+  to its source article. End each body with a sources list and a small final line
+  (KO) "자료 수집·정리에 AI 도구를 활용했습니다." / (EN) "Research compiled with AI tools."
 - linkedin_en: 600-1200 characters, professional, ends with a question to invite comments."""
 
 _CARD = {
@@ -101,14 +120,46 @@ SCHEMA = {
 }
 
 
-def generate(items: list[dict]) -> dict:
+COMPETITOR_RULE = """
+Competitor context: the list below shows what other beauty-industry accounts/newsletters published recently.
+It is NOT a fact source. Use it to (1) avoid repeating angles everyone already posted, (2) find the practical
+detail they missed (numbers, reference period, what to do on Monday), (3) be shorter and faster to read."""
+
+REVIEW_SYSTEM = f"""You are the managing editor of "{config.BRAND}". You receive a draft (JSON) plus the source
+articles and competitor context. Return the improved FINAL version in the same JSON schema.
+{BASE_RULES}
+
+Editing checklist (fix everything silently, do not comment):
+1. Fact check: every number, date, company and claim must be supported by the source articles. Remove or fix
+   anything unsupported. Time-sensitive numbers must state their reference period.
+2. Value: would a K-beauty brand/export practitioner learn something they can use this week? Cut generic lines.
+   Put the most decision-relevant item first.
+3. Differentiation: if competitors already covered the same angle, sharpen it (more specific number, clearer
+   takeaway) instead of repeating it.
+4. Readability: shorter sentences, one idea per line, strongest hook in cover/first line.
+5. Voice: remove every banned AI-ism; it must read like a human insider wrote it. Check Korean naturalness.
+6. Keep all length limits and the schema exactly."""
+
+
+def review(content: dict, articles: list[dict], notes: list[str]) -> dict:
+    """편집장 검수: 원문 대조 팩트체크 + 경쟁 계정 대비 차별화 + 문체 다듬기."""
+    user = json.dumps({"draft": content, "source_articles": articles, "competitor_context": notes[:60]},
+                      ensure_ascii=False)
+    revised = call_json(REVIEW_SYSTEM, user, SCHEMA)
+    _check(revised)
+    return revised
+
+
+def generate(items: list[dict], notes: list[str] | None = None) -> dict:
     articles = [{"id": i, "title": it["title"], "source": it["source"], "lang": it["lang"], "url": it["link"]}
                 for i, it in enumerate(items)]
+    notes = notes or []
     user = (f"Date: {date.today()}\n\nArticles collected in the last 24h (JSON):\n"
-            f"{json.dumps(articles, ensure_ascii=False, indent=1)}\n\nWrite today's brief.")
-    content = call_json(SYSTEM, user, SCHEMA)
+            f"{json.dumps(articles, ensure_ascii=False, indent=1)}\n\n"
+            f"Competitor context:\n" + "\n".join(notes[:60]) + "\n\nWrite today's brief.")
+    content = call_json(SYSTEM + COMPETITOR_RULE, user, SCHEMA)
     _check(content)
-    return content
+    return review(content, articles, notes)
 
 
 def _check(c: dict) -> None:
