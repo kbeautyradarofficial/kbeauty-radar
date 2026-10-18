@@ -1,0 +1,340 @@
+{
+ "id": "series-001",
+ "theme": "키플레이어:에이피알 (메디큐브)",
+ "category": "키플레이어",
+ "status": "queued",
+ "articles": [
+  {
+   "title": "화장품 글로벌 흥행에 미용의료 더한다…에이피알, 새 수익원 발굴",
+   "source": "글로벌이코노믹",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRDZ2ZmJUX1pqYVE1eE9MeFZtY25oeWJDbEdSTUdWZTZkb0tlUVB3bWc5VkRQNnZTS1gtTXlPR1lWcXFoRHZUWWVYdWdqOVJNX0h1Q0RLVGFzMmhkaHZNcm1lbXBrZTFjX05oTjFfQm15b29XZzI0Q05saWJnZkVqcFVCemdzQWtkV0tz?oc=5",
+   "date": "2026-10-18"
+  },
+  {
+   "title": "\"바르는 화장품 넘어\"…에이피알, '뷰티 테크'로 수출 공식 재편",
+   "source": "미디어펜",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBickM5OTZFTXIweFhDWHdCWjloamxpQ0JpTGdKb3ByMXZXWFFLRmo0ZWlxcFU1cnh1cGdpSlR3dU9LMXEtalNhUzY3M1VUTC11QjRYetIBWEFVX3lxTE9XaXVSSnU2QVBBMTU5SWw4UkYwZ0NXWkFKSVlJYnRSUDU0NzZ3dmhlWmxUSC1CMnVoSWJVaTlCRVlRUG02Q2VvS1NyRmlGMnQ0eEZtRGYyXzc?oc=5",
+   "date": "2026-10-17"
+  },
+  {
+   "title": "KB증권, 에이피알 3분기 영업익 1695억원 전망",
+   "source": "비건뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYNDVqSThvVkkxUTVJSTE4RWk5QnZEUmNqOFk2ZDFscDM1YlBmMFlIYVlPZEF2NWNLZlZNUGZPVVNWaGdWODE0dHlkQUNRa3pGelJWLTBkS3UyQ09sYzhJUG82UlY4UQ?oc=5",
+   "date": "2026-10-17"
+  },
+  {
+   "title": "3조 매출 앞둔 에이피알 김병훈 호(號) '초격차 K뷰티’ 거머쥔다",
+   "source": "이코노미트리뷴",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9yOFRmelFEUENXOVRmMUhETDA2YkRjeVRkNlRKaDdndGlrQXNQYjZUaklhcV9WNXhSM05vb2RGYWZPdWR1U3lzc09ZbkZKZUlXU1NGYUNENXdLcWYxTnRocDF6bHppRXktcXVNd1FNNjlfZGJ6N1Y0?oc=5",
+   "date": "2026-10-17"
+  },
+  {
+   "title": "에이피알, 목표주가는 낮췄지만…외국계 IB 3곳 ‘매수’ 고수",
+   "source": "위메이크뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lRVRlZHZSSk5pS1VLUFd5OGZXeWxmVnk4RmFuY3JFSzlyQnVvdURMZ0RtWlFvRWl3OHJaZXFCbEN0RXBnNUZNNHBLanczaUtKcG9jQnhGcTZRb3c?oc=5",
+   "date": "2026-10-17"
+  },
+  {
+   "title": "[단독] 미공개정보 샜나...에이피알, 비공개 그룹콜 10분 뒤 주가 급락",
+   "source": "매일경제",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOSEIzM216bFV3aVNjX1FJLWxuMkplbVM2VGNlZEZmUjh1R3FMU21EUmFIMmFMZ05UUXF1bVktRDVEMlpwamVfcGdfeG9oNTU0TFZCYWNR?oc=5",
+   "date": "2026-10-16"
+  },
+  {
+   "title": "\"환율 우려 과도했나\"…에이피알 10% ·달바글로벌 9% 급반등[핫종목]",
+   "source": "뉴스1",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wWndHSXJTcl9NaFVXLUNJQ25jUC1OLWl5MExRWXNZbkFXdS0zTVdVRFlVS3VpNldRUW93V0hFd1lmdUlGV05vWG9aYm1SR29HU3NyQVJ3b01oOEE?oc=5",
+   "date": "2026-10-16"
+  },
+  {
+   "title": "에이피알 주가 27,000원 상승 후 장마감",
+   "source": "아시아뉴스통신",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lbHh2WmJUaE1jLXFMcmc3aWRxYjMybG5oTEtfRVR5TnRiVkxDOFZIYlpNN19VazJjSVFfeHBqVk84SllRQVNyS2xIZmpVMGZCM1NpSGpPRS1MYXRmVDkzX1R1ZVFTSDdwQzVzU29ObFR6RzJL?oc=5",
+   "date": "2026-10-16"
+  },
+  {
+   "title": "메디큐브 EGF NAD 탄력 앰플, 출시 8개월 만에 누적 판매 100만 개 돌파",
+   "source": "스타데일리뉴스",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GTy1kNDFEZzVqTWJwWHZxQ0tuTV9vTDUyV0tLSEFhc0wteDZ3Sk0zVm11WDFrM2ZCMGVYS2x4WHo3V3NOZENPemV4dXRLVWR5OTdneVpSNTBWV3FCOUNqX1VBeC11c2FwUmZIbnlXSTRHYTRKYXUtbdIBeEFVX3lxTE1GTy1kNDFEZzVqTWJwWHZxQ0tuTV9vTDUyV0tLSEFhc0wteDZ3Sk0zVm11WDFrM2ZCMGVYS2x4WHo3V3NOZENPemV4dXRLVWR5OTdneVpSNTBWV3FCOUNqX1VBeC11c2FwUmZIbnlXSTRHYTRKYXUtbQ?oc=5",
+   "date": "2026-10-16"
+  },
+  {
+   "title": "[트렌드+] 아마존 흥행 이어간 메디큐브·라네즈…K뷰티 '블프' 대목 기대감",
+   "source": "ER 이코노믹리뷰",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YZjZFT25rVWpNaWZCUGYyZks5aU1xMVV0OS1JQmhzWG9LYzVnNlBtdFQyWjFEN1hXT203QVdaZUNMS0xoNW8yRHZvQWc2M1kyYm4zRFRwYVhScWdmUWhzTEhLcjBjcXZQdjhkcQ?oc=5",
+   "date": "2026-10-16"
+  },
+  {
+   "title": "에이피알, 메디큐브 공식몰에 AI 상담 도입…피부 고민별 제품 추천",
+   "source": "공감신문",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DLXZ2VEVkTkJVN1NoQkNMaWpHUUZjaFZVS19jdTljQ3JpMDhhNEhWRzVaVFBlZkFFMlhRaEFZRHdDNm4zU2JvOGtVVm5iYkgyZ2dhWWZWbWZOXzljWGlBdGtXbDNKcmRR?oc=5",
+   "date": "2026-10-16"
+  },
+  {
+   "title": "APR targets Latin America with Medicube skin boosters",
+   "source": "매일경제",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1yTjlJMlViR3BFM2Z0WDd4TzRQcjBIeEQ2N2lqNEVheFBXaHZzQ0ZHdzVZNzFyRXVMQUpQWDVKVDNBWHlJWExPV2VrX2dLUElBcS1NY0NPWQ?oc=5",
+   "date": "2026-10-16"
+  },
+  {
+   "title": "Apr jumps as Chile launch of Medicube skin boosters signals Latin push - CHOSUNBIZ",
+   "source": "Chosunbiz",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRWxTdXdzVTRiTWJ3bHFjcGVsYzRYVkROR0FNM0xGYTJpUVpNaFpWWTNqNF83R2piVG9lWmo4dFloOHBKM0xzRGxnQl9wd1BBLWZkcHVaWUI0cThIRnd1VW92cTVqVklMWkFkOF9FREZGQ1pOU2U3U1FjcXFTSHJkTy1XbHRPRnFWX2tSdXNPUkNaZEY10gGUAUFVX3lxTE9FbFN1d3NVNGJNYndscWNwZWxjNFhWRE5HQU0zTEZhMmlRWk1oWlZZM2o0XzdHamJUb2Vaajh0WWg4cEozTHNEbGdCX3B3UEEtZmRwdVpZQjRxOEhGd3VVb3ZxNWpWSUxaQWQ4X0VERkZDWk5TZTdTUWNxcVNIcmRPLVdsdE9GcVZfa1J1c09SQ1pkRjU?oc=5",
+   "date": "2026-10-16"
+  },
+  {
+   "title": "'K뷰티 대장주' 에이피알, 연매출 3조시대 연다",
+   "source": "아시아경제",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CaGlWYXdQZEdaSURJZlE5eFNaREdIZWYzVWRuS05maE54XzNtcXVzZms2WnFpVE03QUYxU1Z5V1k3ZlBmMkxBQ01BTXhUWjIzN0VQUFhJU2FpRUJyVFlIUg?oc=5",
+   "date": "2026-10-15"
+  },
+  {
+   "title": "에이피알, 상장 후 최대 급락…매출 두 배에도 이익률 꺾인 이유",
+   "source": "블로터",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9malVra3djSHFfT2tPTmdPM0dKZUhJdHA4VVBXak9fb2J2UUhWZUJhQkZ4STlfUEs5NUw3UzVnazVVc0pPMkRsTzlWelFVSnZieHg5Z2lMUFFxU3QyckJEUTRkR1FpeGxw0gFsQVVfeXFMTzJSOWZQQ3daR1Q0b2hNU3JabG1kOWtjREZYNFg2YzJlVjRIbTVaOXlLS3NLQS1wYWdQYXNuRk1iZDFrM2FpM0VNRGd3ZW44TDdrUm4wZkxQaTQ0aG5GTHFSTXZqVEVaeXdzRFIx?oc=5",
+   "date": "2026-10-15"
+  },
+  {
+   "title": "에이피알 주가 3,500원 상승 후 장마감",
+   "source": "아시아뉴스통신",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE41VlVVRXdKQlAtRU5aaVdTWUU5dWxjUFN2VDNSbDl6eDhTQ1R3amY3bVg4dldoOTBseXplNDVVaGVUODVQX3BXZGxBZ1FCeGd0ZzQwSktXODNweWRjZHN0eTEwb1dMbWoxbTFpclRlS1ZzNjRH?oc=5",
+   "date": "2026-10-15"
+  },
+  {
+   "title": "에이피알, 메디큐브 스킨부스터 칠레 공급…중남미 유통 확대 : 네이버 블로그",
+   "source": "Naver Blog",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPV3Q1X3otcVp4dF80V3ZtVldJeElBSEREcHhpUG5kSTkxTnNrU1FackM0WWk5bE42bjZia2hUU0NNMVJoVmVzT3J3UkxqNDN6ZFV5bVJPNkhJVE1OTFRGTTkwdEpJT01BVWJfZWpvaktxVkp5cE41a01HN0NUbldhS1l2TFNOU2hSMDRsYTZLYw?oc=5",
+   "date": "2026-10-15"
+  },
+  {
+   "title": "에이피알, PN 스킨부스터 2종 칠레 첫 공급 중남미 시장 공략",
+   "source": "코스인코리아닷컴",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjckZpUkYzejYxSVFJaVg2YnVxOUZMREZxb1NoLTJsT3pXbGFuZ3EwVzRjM1ItemJia3BISDJvWWo2MEwwSXNkcG9aUEk3b2NncWVNeXJtYUVHLXdUZ1pEOHB2bw?oc=5",
+   "date": "2026-10-15"
+  },
+  {
+   "title": "[인사이드 스토리]주가 '급락'한 에이피알…이유는 \"너무 잘 팔려서\"",
+   "source": "비즈워치",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wN2wxOUVXY1lZcFQ3X3VBODJ5Z0ZGUHdUN2hBcnJjMkQtc3JGUXM0d1d5OVFsVUFXRnkzR01ITVp4U0VGTUM3elFDNmgzaTRQSENRa042ZDlDdUFqNGwzUGJBRGF6dGR3M2Iycw?oc=5",
+   "date": "2026-10-15"
+  },
+  {
+   "title": "에이피알, 메디큐브 스킨부스터 칠레 공급⋯ 11월 공식 출시",
+   "source": "브릿지경제",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NVW9kaTRMOG1SeC0ycDQzRmNJS3d6b2w1V3lub21HMFRpSFJLajUzT1ZnNTZJNXFid0wwZElKVXVBaEMtekJ2QWpONWxTeXZZTVFMNXVZSWM0dw?oc=5",
+   "date": "2026-10-15"
+  },
+  {
+   "title": "에이피알, '메디큐브 스킨부스터' 2종 내달 칠레서 공식 출시",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TeUZRZWdHRlNSYUlZSEdVSTR1cGNYUnQ4RldKUFBFNHo5bUpldFN4R3JzY1V0bFU2LW1GSWVjMkVGRUtGTW8xR2ZkYTNWSzdyX0toZG5PdzExZnfSAWBBVV95cUxOMmlsaEswa3BQYkZpQ19URWdGeWdRUVpfTzVsYnpBRGpqUmd3WTNYdVZDSHF3T2lnZ3V4NWJoa25uUmtGbUpDUl9pRVkxX3lRTlNqb3dGdm9kaGJ6cTA5WkI?oc=5",
+   "date": "2026-10-15"
+  },
+  {
+   "title": "에이피알,' 메디큐브 스킨부스터' 칠레서 출시...중남미 공략 外",
+   "source": "톱데일리",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5KTHV1NF9FU0liaHM3NnlMaWRkWnFidmNQQ0NjbHp5cE1KenRaaUg4Y2I3RENqaXVySkFYdXBhWDJseUstTDNHUkJZeXZIS0NO?oc=5",
+   "date": "2026-10-15"
+  },
+  {
+   "title": "에이피알 메디큐브, 아마존 ‘프라임 빅딜데이즈’서 역대 최대 매출",
+   "source": "중앙일보",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uNWhXLXJmUzhDajFIeDY5NlNNN3dycndac1pCY2VCMHhzSDJndkw2d2xObTA2Z0FOeks4bElVRDBrWXdITXlPQ0JrQlVOeThGM1FiWUlR?oc=5",
+   "date": "2026-10-15"
+  },
+  {
+   "title": "에이피알, 메디큐브 스킨부스터 칠레 출시… 의료기기로 영토 확장 - 조선비즈",
+   "source": "Chosunbiz",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNXzgtQjAzSnA1ZmhMUkc1SGxkcVNRVm0xOE45ZkpaUGpkZVBCV1pOS25uODVUNjRkUnV4V1hLMzAwMVdYdmIxaExqRS1KZmN6bmRzbUF5SV81TW9mSHNhWjZrVnRYeWczNmJIWXBhSXFTYmEtR1R0SnRpaFY1T09wRWlWMnVFYnVrQjdVWUpRQTI5VVHSAacBQVVfeXFMTXhXdC1YbFMtRnJ4UXBFcDVkMXo3ajM1QjNCbFAzeWZoUHAwWTR5V0JTbVpWMjB2VWI2TVlrNE9mUFVFQ05uZGFPa3QzWWI4dzdwWnZMN1BWd1liUmRWZDh6SVBmaWhzQTFRR05MNklUdXcxZGc3LVlOQk94U3V1MlZMUm9jQXVGWEliRldaMHRjSHlpUlVieng1NUVfYzVTc1dXYThfdFk?oc=5",
+   "date": "2026-10-15"
+  },
+  {
+   "title": "에이피알, 메디큐브 스킨부스터 칠레 진출…중남미 시장 공략 본격화",
+   "source": "매일일보",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpTmswOC15RklKNUh3cDN5bFQ4N3g1UDhZZVozZWVBOUVsbUV6WHloWWx5TzBwQzJheTZGby1LVU83VDlJSmgxTHpqLW5LOERKa3FXUng0NlpjY0VraW9nbVQ1bG4?oc=5",
+   "date": "2026-10-15"
+  },
+  {
+   "title": "에이피알, 메디큐브 스킨부스터 중남미 진출…내달 칠레서 공식 출시",
+   "source": "서울경제",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0wNGk5cjMxSFNENDZFVEJaLU9PdGh3ZHdpVFR1QnIyTmVXLW9qdHRLRngxN0ItNU91azFDWDRiZGM0Q25BTkEyN25majRoS0E5a3fSAVNBVV95cUxQLVpxdW9qQzEtYU5VblBzSWRiai1SVHNMNGtuU0U1WXNHMC1MUV9nMmlONEtjQnM3LS1WclFfaVdkYWtvNjAyR1pKclcteG51MXhTbw?oc=5",
+   "date": "2026-10-15"
+  },
+  {
+   "title": "에이피알, '메디큐브 스킨부스터' 중남미 공급 본격화",
+   "source": "신아일보",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxNGVxZjFMeFdPVFJrOHhqUWJRY0VpVzlla0xwdnVwOENtVXFYS0VYUEJtdDZ2TjhBajdoS2JZa2JMYTltSGhSWmN6aWNLLTl4Z3J1UkFvVU9iU05IYmxaeENCbDV1Z2E3bjBqNkJYbXI?oc=5",
+   "date": "2026-10-15"
+  },
+  {
+   "title": "에이피알, 메디큐브 스킨부스터 칠레 공급…중남미 유통 확대",
+   "source": "딜사이트",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mX2FxdXlXeUplTlRwUmd2Y2J2dE41ZEdTNGNuZVlOUVVDNHpYT2d4R1VQNkR3eDJqeFpOSVpSSTJLdDlZalVHcVFXLUx6VWM?oc=5",
+   "date": "2026-10-15"
+  },
+  {
+   "title": "APR to launch Medicube Skin Booster in Latin America, starting with Chile",
+   "source": "헤럴드경제",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB4WU96cXNsbXEtZEQ3ZkFOZ3lSYXhSQzVOdENHaU9zelE3X3lYNXIzY3FQY05oSUdqX21yam42US1fRXpfdzlfYXZzbGlCU1pyN1gwc0lEMA?oc=5",
+   "date": "2026-10-15"
+  },
+  {
+   "title": "APR, which runs K-beauty brand \"Medicube,\" is targeting the Latin American market with its skin boos..",
+   "source": "매일경제",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HU2xTeWtOandKeTZWeHZRUE1pZ3NBbUFmdWRLR0ExQnhtQWdUczRNUGxRYWV4SGxGZHF3M1BWNENfNkFjLWtSeUNOR3VIR2tkSndv?oc=5",
+   "date": "2026-10-15"
+  }
+ ],
+ "content": {
+  "title_ko": "8개월 100만 개, 메디큐브의 다음 카드는 '스킨부스터'?",
+  "excerpt_ko": "메디큐브 EGF NAD 탄력 앰플이 출시 8개월 만에 누적 100만 개를 넘겼습니다. 10월 아마존 프라임 빅딜데이즈에서는 역대 최대 매출을 냈습니다. 11월에는 PN 스킨부스터 2종이 칠레에서 공식 출시됩니다. 그런데 시장이 보는 건 매출이 아니라 마진입니다. 2026년 10월 보도 기준으로 실무 포인트만 추렸습니다.",
+  "body_ko_html": "<p><strong>결론부터 말씀드립니다.</strong> 2026년 10월 에이피알(메디큐브)은 세 축을 동시에 굴리고 있습니다. 히어로 SKU, 아마존 메가 세일, 그리고 미용의료(스킨부스터)입니다. 시장의 질문은 '얼마나 파느냐'에서 '얼마나 남기느냐'로 넘어갔습니다.</p><h2>1. 히어로 SKU: EGF NAD 탄력 앰플, 8개월 만에 100만 개</h2><p><a href='https://news.google.com/rss/articles/CBMieEFVX3lxTE1GTy1kNDFEZzVqTWJwWHZxQ0tuTV9vTDUyV0tLSEFhc0wteDZ3Sk0zVm11WDFrM2ZCMGVYS2x4WHo3V3NOZENPemV4dXRLVWR5OTdneVpSNTBWV3FCOUNqX1VBeC11c2FwUmZIbnlXSTRHYTRKYXUtbdIBeEFVX3lxTE1GTy1kNDFEZzVqTWJwWHZxQ0tuTV9vTDUyV0tLSEFhc0wteDZ3Sk0zVm11WDFrM2ZCMGVYS2x4WHo3V3NOZENPemV4dXRLVWR5OTdneVpSNTBWV3FCOUNqX1VBeC11c2FwUmZIbnlXSTRHYTRKYXUtbQ?oc=5'>스타데일리뉴스</a>에 따르면 메디큐브 EGF NAD 탄력 앰플이 출시 8개월 만에 누적 판매 100만 개를 넘겼습니다(10월 16일 보도 기준).</p><p>눈여겨볼 건 네이밍입니다. EGF·NAD라는 성분명이 제품명 맨 앞에 있습니다. 성분명이 곧 검색 키워드라 리스팅과 상세페이지에서 바로 일을 합니다.</p><h2>2. 아마존 프라임 빅딜데이즈 역대 최대 매출</h2><p><a href='https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uNWhXLXJmUzhDajFIeDY5NlNNN3dycndac1pCY2VCMHhzSDJndkw2d2xObTA2Z0FOeks4bElVRDBrWXdITXlPQ0JrQlVOeThGM1FiWUlR?oc=5'>중앙일보</a>는 메디큐브가 10월 프라임 빅딜데이즈에서 역대 최대 매출을 냈다고 전했습니다. <a href='https://news.google.com/rss/articles/CBMibEFVX3lxTE9YZjZFT25rVWpNaWZCUGYyZks5aU1xMVV0OS1JQmhzWG9LYzVnNlBtdFQyWjFEN1hXT203QVdaZUNMS0xoNW8yRHZvQWc2M1kyYm4zRFRwYVhScWdmUWhzTEhLcjBjcXZQdjhkcQ?oc=5'>ER 이코노믹리뷰</a>는 라네즈와 함께 메디큐브를 블프 대목 기대주로 꼽았습니다.</p><p>10월 행사에서 쌓은 리뷰·랭킹이 11월 블프의 출발선입니다. 블프 광고비와 재고는 10월 셀아웃 숫자를 보고 지금 확정해야 합니다.</p><h2>3. 스킨부스터 2종, 11월 칠레 공식 출시</h2><p><a href='https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjckZpUkYzejYxSVFJaVg2YnVxOUZMREZxb1NoLTJsT3pXbGFuZ3EwVzRjM1ItemJia3BISDJvWWo2MEwwSXNkcG9aUEk3b2NncWVNeXJtYUVHLXdUZ1pEOHB2bw?oc=5'>코스인코리아닷컴</a>에 따르면 PN 스킨부스터 2종이 칠레에 첫 공급됐습니다. <a href='https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TeUZRZWdHRlNSYUlZSEdVSTR1cGNYUnQ4RldKUFBFNHo5bUpldFN4R3JzY1V0bFU2LW1GSWVjMkVGRUtGTW8xR2ZkYTNWSzdyX0toZG5PdzExZnfSAWBBVV95cUxOMmlsaEswa3BQYkZpQ19URWdGeWdRUVpfTzVsYnpBRGpqUmd3WTNYdVZDSHF3T2lnZ3V4NWJoa25uUmtGbUpDUl9pRVkxX3lRTlNqb3dGdm9kaGJ6cTA5WkI?oc=5'>연합뉴스</a>는 공식 출시를 11월로 전했습니다.</p><p><a href='https://news.google.com/rss/articles/CBMikwFBVV95cUxNXzgtQjAzSnA1ZmhMUkc1SGxkcVNRVm0xOE45ZkpaUGpkZVBCV1pOS25uODVUNjRkUnV4V1hLMzAwMVdYdmIxaExqRS1KZmN6bmRzbUF5SV81TW9mSHNhWjZrVnRYeWczNmJIWXBhSXFTYmEtR1R0SnRpaFY1T09wRWlWMnVFYnVrQjdVWUpRQTI5VVHSAacBQVVfeXFMTXhXdC1YbFMtRnJ4UXBFcDVkMXo3ajM1QjNCbFAzeWZoUHAwWTR5V0JTbVpWMjB2VWI2TVlrNE9mUFVFQ05uZGFPa3QzWWI4dzdwWnZMN1BWd1liUmRWZDh6SVBmaWhzQTFRR05MNklUdXcxZGc3LVlOQk94U3V1MlZMUm9jQXVGWEliRldaMHRjSHlpUlVieng1NUVfYzVTc1dXYThfdFk?oc=5'>조선비즈</a>는 이를 의료기기로의 확장으로, <a href='https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRDZ2ZmJUX1pqYVE1eE9MeFZtY25oeWJDbEdSTUdWZTZkb0tlUVB3bWc5VkRQNnZTS1gtTXlPR1lWcXFoRHZUWWVYdWdqOVJNX0h1Q0RLVGFzMmhkaHZNcm1lbXBrZTFjX05oTjFfQm15b29XZzI0Q05saWJnZkVqcFVCemdzQWtkV0tz?oc=5'>글로벌이코노믹</a>은 미용의료 새 수익원으로 봤습니다.</p><p>화장품에서 쌓은 브랜드 인지도를 시술 카테고리로 끌고 가는 그림입니다. 첫 무대가 미국이 아니라 중남미라는 점도 체크 포인트입니다. 의료기기는 국가별 분류·인허가가 화장품과 완전히 다르니, 비슷한 확장을 고민 중이라면 이 부분부터 따져봐야 합니다.</p><h2>4. 공식몰 AI 상담</h2><p><a href='https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DLXZ2VEVkTkJVN1NoQkNMaWpHUUZjaFZVS19jdTljQ3JpMDhhNEhWRzVaVFBlZkFFMlhRaEFZRHdDNm4zU2JvOGtVVm5iYkgyZ2dhWWZWbWZOXzljWGlBdGtXbDNKcmRR?oc=5'>공감신문</a>에 따르면 메디큐브 공식몰에 피부 고민별로 제품을 추천하는 AI 상담이 들어갔습니다. <a href='https://news.google.com/rss/articles/CBMiVEFVX3lxTFBickM5OTZFTXIweFhDWHdCWjloamxpQ0JpTGdKb3ByMXZXWFFLRmo0ZWlxcFU1cnh1cGdpSlR3dU9LMXEtalNhUzY3M1VUTC11QjRYetIBWEFVX3lxTE9XaXVSSnU2QVBBMTU5SWw4UkYwZ0NXWkFKSVlJYnRSUDU0NzZ3dmhlWmxUSC1CMnVoSWJVaTlCRVlRUG02Q2VvS1NyRmlGMnQ0eEZtRGYyXzc?oc=5'>미디어펜</a>은 에이피알이 '뷰티 테크' 중심으로 수출 공식을 다시 짜고 있다고 봤습니다.</p><p>SKU가 늘수록 자사몰 전환은 '뭘 사야 하는지'를 빨리 알려주는 쪽이 가져갑니다.</p><h2>5. 숫자: 3분기 영업익 1,695억 원 전망, 그리고 마진</h2><p><a href='https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYNDVqSThvVkkxUTVJSTE4RWk5QnZEUmNqOFk2ZDFscDM1YlBmMFlIYVlPZEF2NWNLZlZNUGZPVVNWaGdWODE0dHlkQUNRa3pGelJWLTBkS3UyQ09sYzhJUG82UlY4UQ?oc=5'>비건뉴스</a>에 따르면 KB증권은 에이피알의 2026년 3분기 영업이익을 1,695억 원으로 전망했습니다(10월 17일 보도). <a href='https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CaGlWYXdQZEdaSURJZlE5eFNaREdIZWYzVWRuS05maE54XzNtcXVzZms2WnFpVE03QUYxU1Z5V1k3ZlBmMkxBQ01BTXhUWjIzN0VQUFhJU2FpRUJyVFlIUg?oc=5'>아시아경제</a>는 연매출 3조 원 시대를 앞뒀다고 봤습니다.</p><p>반대편 숫자도 있습니다. <a href='https://news.google.com/rss/articles/CBMiaEFVX3lxTE9malVra3djSHFfT2tPTmdPM0dKZUhJdHA4VVBXak9fb2J2UUhWZUJhQkZ4STlfUEs5NUw3UzVnazVVc0pPMkRsTzlWelFVSnZieHg5Z2lMUFFxU3QyckJEUTRkR1FpeGxw0gFsQVVfeXFMTzJSOWZQQ3daR1Q0b2hNU3JabG1kOWtjREZYNFg2YzJlVjRIbTVaOXlLS3NLQS1wYWdQYXNuRk1iZDFrM2FpM0VNRGd3ZW44TDdrUm4wZkxQaTQ0aG5GTHFSTXZqVEVaeXdzRFIx?oc=5'>블로터</a>는 10월 15일 상장 후 최대 급락을 다루며, 매출이 두 배로 늘었는데도 이익률이 꺾였다고 짚었습니다. 다음 날인 16일 <a href='https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wWndHSXJTcl9NaFVXLUNJQ25jUC1OLWl5MExRWXNZbkFXdS0zTVdVRFlVS3VpNldRUW93V0hFd1lmdUlGV05vWG9aYm1SR29HU3NyQVJ3b01oOEE?oc=5'>뉴스1</a>은 환율 우려가 과했다는 시각 속에 10% 반등했다고 전했습니다.</p><p>실무자 관점의 핵심은 하나입니다. 해외 매출이 커질수록 성적표는 마진 구조와 환율 관리가 결정합니다.</p><h2>실무자 체크리스트</h2><ul><li>히어로 SKU 제품명에 핵심 성분명이 전면에 있는지 점검</li><li>10월 아마존 행사 리뷰·랭킹 데이터를 블프 광고 예산·재고와 연결</li><li>자사몰에 피부 고민 기반 추천 동선이 있는지 확인</li><li>카테고리 확장 시 국가별 의료기기 분류 사전 확인</li><li>해외 비중이 크다면 채널별 마진·환율 시나리오 미리 계산</li></ul><h2>출처</h2><p>스타데일리뉴스, 중앙일보, ER 이코노믹리뷰, 코스인코리아닷컴, 연합뉴스, 조선비즈, 글로벌이코노믹, 공감신문, 미디어펜, 비건뉴스, 아시아경제, 블로터, 뉴스1</p><p><em>이 리포트는 AI 도구의 도움을 받아 기사 요약·편집을 거쳐 작성되었으며, 투자 권유가 아닙니다.</em></p>",
+  "threads_ko": "메디큐브 EGF NAD 앰플, 출시 8개월 만에 누적 100만 개 넘김 (10/16 보도)\n\n• 10월 아마존 프라임 빅딜데이즈 역대 최대 매출. 블프 출발선 이미 깔아둔 셈\n• 11월 칠레에서 PN 스킨부스터 2종 공식 출시. 화장품 인지도로 의료기기까지 가는 그림\n• 근데 시장은 매출보다 이익률 봄. 매출 두 배인데 이익률 꺾였다는 지적 나옴\n\n다들 10월 아마존 행사 끝나고 블프 광고비 얼마나 더 얹으세요?",
+  "title_en": "1M units in 8 months: is Medicube's next bet skin boosters?",
+  "excerpt_en": "Medicube's EGF NAD ampoule passed 1 million units eight months after launch, the brand posted record sales in October's Amazon Prime Big Deal Days, and two PN skin boosters launch in Chile in November. As of October 2026, the open question is margin, not sales.",
+  "body_en_html": "<p><strong>Bottom line:</strong> As of October 2026, APR (Medicube) is running three engines at once: a skincare hero SKU, Amazon tentpole events, and a new aesthetics line built on skin boosters. The market has stopped asking how much it sells and started asking how much it keeps.</p><h2>1. Hero SKU: EGF NAD ampoule hits 1M units in 8 months</h2><p>Per <a href='https://news.google.com/rss/articles/CBMieEFVX3lxTE1GTy1kNDFEZzVqTWJwWHZxQ0tuTV9vTDUyV0tLSEFhc0wteDZ3Sk0zVm11WDFrM2ZCMGVYS2x4WHo3V3NOZENPemV4dXRLVWR5OTdneVpSNTBWV3FCOUNqX1VBeC11c2FwUmZIbnlXSTRHYTRKYXUtbdIBeEFVX3lxTE1GTy1kNDFEZzVqTWJwWHZxQ0tuTV9vTDUyV0tLSEFhc0wteDZ3Sk0zVm11WDFrM2ZCMGVYS2x4WHo3V3NOZENPemV4dXRLVWR5OTdneVpSNTBWV3FCOUNqX1VBeC11c2FwUmZIbnlXSTRHYTRKYXUtbQ?oc=5'>Star Daily News</a>, the Medicube EGF NAD firming ampoule crossed 1 million cumulative units eight months after launch (reported Oct 16). The actives sit right in the product name, so the name doubles as a search keyword. That pays off directly in listings and product pages.</p><h2>2. Record Amazon Prime Big Deal Days</h2><p><a href='https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uNWhXLXJmUzhDajFIeDY5NlNNN3dycndac1pCY2VCMHhzSDJndkw2d2xObTA2Z0FOeks4bElVRDBrWXdITXlPQ0JrQlVOeThGM1FiWUlR?oc=5'>JoongAng Ilbo</a> reports Medicube posted its highest-ever sales during October's Prime Big Deal Days. <a href='https://news.google.com/rss/articles/CBMibEFVX3lxTE9YZjZFT25rVWpNaWZCUGYyZks5aU1xMVV0OS1JQmhzWG9LYzVnNlBtdFQyWjFEN1hXT203QVdaZUNMS0xoNW8yRHZvQWc2M1kyYm4zRFRwYVhScWdmUWhzTEhLcjBjcXZQdjhkcQ?oc=5'>Economic Review</a> puts Medicube alongside Laneige as K-beauty names carrying Amazon momentum into Black Friday. October reviews and rank are the starting line for November.</p><h2>3. Two skin boosters, Chile launch in November</h2><p><a href='https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjckZpUkYzejYxSVFJaVg2YnVxOUZMREZxb1NoLTJsT3pXbGFuZ3EwVzRjM1ItemJia3BISDJvWWo2MEwwSXNkcG9aUEk3b2NncWVNeXJtYUVHLXdUZ1pEOHB2bw?oc=5'>CosinKorea</a> says two PN skin boosters made their first shipment to Chile, and <a href='https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TeUZRZWdHRlNSYUlZSEdVSTR1cGNYUnQ4RldKUFBFNHo5bUpldFN4R3JzY1V0bFU2LW1GSWVjMkVGRUtGTW8xR2ZkYTNWSzdyX0toZG5PdzExZnfSAWBBVV95cUxOMmlsaEswa3BQYkZpQ19URWdGeWdRUVpfTzVsYnpBRGpqUmd3WTNYdVZDSHF3T2lnZ3V4NWJoa25uUmtGbUpDUl9pRVkxX3lRTlNqb3dGdm9kaGJ6cTA5WkI?oc=5'>Yonhap</a> puts the official launch in November. <a href='https://news.google.com/rss/articles/CBMikwFBVV95cUxNXzgtQjAzSnA1ZmhMUkc1SGxkcVNRVm0xOE45ZkpaUGpkZVBCV1pOS25uODVUNjRkUnV4V1hLMzAwMVdYdmIxaExqRS1KZmN6bmRzbUF5SV81TW9mSHNhWjZrVnRYeWczNmJIWXBhSXFTYmEtR1R0SnRpaFY1T09wRWlWMnVFYnVrQjdVWUpRQTI5VVHSAacBQVVfeXFMTXhXdC1YbFMtRnJ4UXBFcDVkMXo3ajM1QjNCbFAzeWZoUHAwWTR5V0JTbVpWMjB2VWI2TVlrNE9mUFVFQ05uZGFPa3QzWWI4dzdwWnZMN1BWd1liUmRWZDh6SVBmaWhzQTFRR05MNklUdXcxZGc3LVlOQk94U3V1MlZMUm9jQXVGWEliRldaMHRjSHlpUlVieng1NUVfYzVTc1dXYThfdFk?oc=5'>Chosunbiz</a> frames it as an expansion into medical devices, and <a href='https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRDZ2ZmJUX1pqYVE1eE9MeFZtY25oeWJDbEdSTUdWZTZkb0tlUVB3bWc5VkRQNnZTS1gtTXlPR1lWcXFoRHZUWWVYdWdqOVJNX0h1Q0RLVGFzMmhkaHZNcm1lbXBrZTFjX05oTjFfQm15b29XZzI0Q05saWJnZkVqcFVCemdzQWtkV0tz?oc=5'>Global Economic</a> calls aesthetics a new revenue stream. The play: carry a skincare brand name into the treatment category, with Latin America, not the US, as the first test market.</p><h2>4. AI consultation on the brand site</h2><p><a href='https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DLXZ2VEVkTkJVN1NoQkNMaWpHUUZjaFZVS19jdTljQ3JpMDhhNEhWRzVaVFBlZkFFMlhRaEFZRHdDNm4zU2JvOGtVVm5iYkgyZ2dhWWZWbWZOXzljWGlBdGtXbDNKcmRR?oc=5'>Gonggam News</a> reports Medicube added an AI advisor to its official store that recommends products by skin concern. <a href='https://news.google.com/rss/articles/CBMiVEFVX3lxTFBickM5OTZFTXIweFhDWHdCWjloamxpQ0JpTGdKb3ByMXZXWFFLRmo0ZWlxcFU1cnh1cGdpSlR3dU9LMXEtalNhUzY3M1VUTC11QjRYetIBWEFVX3lxTE9XaXVSSnU2QVBBMTU5SWw4UkYwZ0NXWkFKSVlJYnRSUDU0NzZ3dmhlWmxUSC1CMnVoSWJVaTlCRVlRUG02Q2VvS1NyRmlGMnQ0eEZtRGYyXzc?oc=5'>MediaPen</a> describes APR rebuilding its export model around beauty tech. As SKU counts grow, conversion goes to whoever tells shoppers fastest what to buy.</p><h2>5. The numbers: Q3 operating profit forecast and margin</h2><p>Per <a href='https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYNDVqSThvVkkxUTVJSTE4RWk5QnZEUmNqOFk2ZDFscDM1YlBmMFlIYVlPZEF2NWNLZlZNUGZPVVNWaGdWODE0dHlkQUNRa3pGelJWLTBkS3UyQ09sYzhJUG82UlY4UQ?oc=5'>Vegan News</a>, KB Securities forecasts APR's Q3 2026 operating profit at KRW 169.5B (reported Oct 17). <a href='https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CaGlWYXdQZEdaSURJZlE5eFNaREdIZWYzVWRuS05maE54XzNtcXVzZms2WnFpVE03QUYxU1Z5V1k3ZlBmMkxBQ01BTXhUWjIzN0VQUFhJU2FpRUJyVFlIUg?oc=5'>Asia Economy</a> says annual revenue is approaching KRW 3 trillion. On the other side, <a href='https://news.google.com/rss/articles/CBMiaEFVX3lxTE9malVra3djSHFfT2tPTmdPM0dKZUhJdHA4VVBXak9fb2J2UUhWZUJhQkZ4STlfUEs5NUw3UzVnazVVc0pPMkRsTzlWelFVSnZieHg5Z2lMUFFxU3QyckJEUTRkR1FpeGxw0gFsQVVfeXFMTzJSOWZQQ3daR1Q0b2hNU3JabG1kOWtjREZYNFg2YzJlVjRIbTVaOXlLS3NLQS1wYWdQYXNuRk1iZDFrM2FpM0VNRGd3ZW44TDdrUm4wZkxQaTQ0aG5GTHFSTXZqVEVaeXdzRFIx?oc=5'>Bloter</a> (Oct 15) covered the stock's steepest drop since listing and noted margins slipped even as revenue doubled. A day later, <a href='https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wWndHSXJTcl9NaFVXLUNJQ25jUC1OLWl5MExRWXNZbkFXdS0zTVdVRFlVS3VpNldRUW93V0hFd1lmdUlGV05vWG9aYm1SR29HU3NyQVJ3b01oOEE?oc=5'>News1</a> reported a 10% rebound amid views that currency fears were overdone. For operators: as overseas sales scale, margin structure and FX exposure decide the scorecard.</p><h2>What buyers and retailers should watch</h2><ul><li>Hero SKUs with the active in the name move fastest in search-led channels</li><li>October Amazon sell-through is your signal for Black Friday inventory depth</li><li>Skincare brands are stretching into aesthetics; check device classification and clinic channels before taking extensions</li><li>Margin pressure at fast-growing brands can reshape pricing and promo terms; lock Q4 terms early</li></ul><h2>Sources</h2><p>Star Daily News, JoongAng Ilbo, Economic Review, CosinKorea, Yonhap, Chosunbiz, Global Economic, Gonggam News, MediaPen, Vegan News, Asia Economy, Bloter, News1</p><p><em>This report was drafted and edited with the help of AI tools. Not investment advice.</em></p>",
+  "linkedin_en": "1 million units in 8 months. That's Medicube's EGF NAD firming ampoule (reported Oct 16, Star Daily News).\n\nWhat else APR put on the board this October:\n- Highest-ever sales in Amazon Prime Big Deal Days (JoongAng Ilbo). October reviews and rank set the Black Friday starting line.\n- Two PN skin boosters shipped to Chile, official launch in November (CosinKorea, Yonhap). A K-beauty brand stretching into medical devices, with Latin America as the first test market.\n- AI skin-concern advisor on the official store (Gonggam News).\n- KB Securities forecasts Q3 2026 operating profit of KRW 169.5B (Vegan News, Oct 17).\n\nThe tension: Bloter points out margins slipped even as revenue doubled. Scale is no longer the question. Margin structure and FX exposure are.\n\nFor buyers and retailers: brands that put the active in the product name win search-led channels, and K-beauty skincare names are now moving into aesthetics. Worth planning shelf, category and clinic-channel strategy around that.\n\nNot investment advice.",
+  "tags": [
+   "에이피알",
+   "메디큐브",
+   "아마존",
+   "스킨부스터",
+   "K뷰티",
+   "중남미",
+   "히어로제품"
+  ],
+  "cards_ko": {
+   "cover": {
+    "badge": "키플레이어 리포트",
+    "hero_number": "100만개",
+    "hero_label": "EGF NAD 앰플 8개월 누적",
+    "headline": "8개월 100만 개\n다음 카드는 부스터?",
+    "sub": "아마존 최대 매출·칠레 진출·3Q 전망"
+   },
+   "slides": [
+    {
+     "category": "신제품·성분",
+     "headline": "EGF NAD 앰플 100만 개",
+     "stat": "100만개",
+     "stat_label": "출시 8개월 누적 판매",
+     "what": "탄력 앰플, 출시 8개월 만에 누적 100만 개 돌파(10/16 보도).",
+     "why": "성분명이 곧 제품명이자 검색 키워드, 리스팅 효율 직결.",
+     "action": "히어로 SKU 제품명에 핵심 성분명 전면 배치.",
+     "source": "스타데일리뉴스"
+    },
+    {
+     "category": "채널·플랫폼",
+     "headline": "아마존 빅딜데이즈 역대 최대",
+     "stat": "",
+     "stat_label": "",
+     "what": "10월 프라임 빅딜데이즈, 메디큐브 역대 최대 매출.",
+     "why": "10월 리뷰·랭킹이 곧 11월 블프 출발선.",
+     "action": "블프 광고 예산·재고, 10월 셀아웃 기준으로 조기 확정.",
+     "source": "중앙일보, ER 이코노믹리뷰"
+    },
+    {
+     "category": "신제품·성분",
+     "headline": "스킨부스터 2종, 11월 칠레",
+     "stat": "2종",
+     "stat_label": "PN 스킨부스터 첫 공급",
+     "what": "PN 스킨부스터 2종 칠레 첫 공급, 11월 공식 출시.",
+     "why": "화장품 인지도를 의료기기·미용의료로 확장하는 그림.",
+     "action": "카테고리 확장 시 국가별 의료기기 분류부터 점검.",
+     "source": "연합뉴스, 코스인코리아닷컴, 조선비즈"
+    },
+    {
+     "category": "마케팅 사례",
+     "headline": "공식몰에 AI 피부 상담",
+     "stat": "",
+     "stat_label": "",
+     "what": "공식몰에 피부 고민별 제품 추천 AI 상담 도입.",
+     "why": "SKU 늘수록 자사몰 전환은 선택 피로 해소가 관건.",
+     "action": "자사몰에 고민별 추천 동선 1개부터 구축.",
+     "source": "공감신문, 미디어펜"
+    },
+    {
+     "category": "수출·통계",
+     "headline": "3Q 영업익 1,695억 전망",
+     "stat": "1,695억",
+     "stat_label": "2026년 3Q 영업익 전망",
+     "what": "KB증권, 3분기 영업익 1,695억 원 전망(10/17 보도).",
+     "why": "매출 두 배에도 이익률 하락 지적, 마진이 새 쟁점.",
+     "action": "해외 비중 크면 채널별 마진·환율 시나리오 선계산.",
+     "source": "비건뉴스, 블로터, 뉴스1"
+    }
+   ]
+  },
+  "cards_en": {
+   "cover": {
+    "badge": "Key Player Report",
+    "hero_number": "1M",
+    "hero_label": "Ampoule units in 8 months",
+    "headline": "1M units in 8 months\nNext bet: boosters?",
+    "sub": "Amazon record, Chile entry, Q3 outlook"
+   },
+   "slides": [
+    {
+     "category": "Launches",
+     "headline": "EGF NAD ampoule passes 1M units",
+     "stat": "1M",
+     "stat_label": "Units, 8 months",
+     "what": "Medicube's firming ampoule crossed 1M cumulative units 8 months after launch (Oct 16 report).",
+     "why": "The active in the name doubles as the search keyword, lifting listing performance.",
+     "action": "Prioritize hero SKUs with clear active-led naming in search-driven assortments.",
+     "source": "Star Daily News"
+    },
+    {
+     "category": "Channels",
+     "headline": "Record Amazon Prime Big Deal Days",
+     "stat": "",
+     "stat_label": "",
+     "what": "Medicube posted its highest-ever sales in October's Prime Big Deal Days.",
+     "why": "October reviews and rank set the starting line for Black Friday.",
+     "action": "Use October sell-through to set Black Friday inventory depth for K-beauty.",
+     "source": "JoongAng Ilbo, Economic Review"
+    },
+    {
+     "category": "Launches",
+     "headline": "Two skin boosters launch in Chile in Nov",
+     "stat": "2",
+     "stat_label": "PN skin boosters",
+     "what": "Two PN skin boosters shipped to Chile, with official launch set for November.",
+     "why": "A skincare brand name is being stretched into medical devices and aesthetics.",
+     "action": "Check device classification and clinic channels before stocking brand extensions.",
+     "source": "Yonhap, CosinKorea, Chosunbiz"
+    },
+    {
+     "category": "Marketing case",
+     "headline": "AI skin advisor on the brand store",
+     "stat": "",
+     "stat_label": "",
+     "what": "Medicube's official store added AI product recommendations by skin concern.",
+     "why": "As SKU counts grow, conversion depends on cutting choice overload.",
+     "action": "Ask brand partners for concern-based guides to use on shelf and PDPs.",
+     "source": "Gonggam News, MediaPen"
+    },
+    {
+     "category": "Export data",
+     "headline": "Q3 op. profit forecast: KRW 169.5B",
+     "stat": "169.5B",
+     "stat_label": "Q3 2026 forecast (KRW)",
+     "what": "KB Securities forecasts Q3 2026 operating profit of KRW 169.5B (reported Oct 17).",
+     "why": "Margins slipped even as revenue doubled, so profitability is now the debate.",
+     "action": "Expect margin-driven pricing and promo shifts; lock terms ahead of Q4.",
+     "source": "Vegan News, Bloter, News1"
+    }
+   ]
+  },
+  "instagram_caption_ko": "출시 8개월 만에 100만 개. 메디큐브 EGF NAD 앰플 숫자입니다.\n\n1️⃣ 히어로 SKU, 8개월 누적 100만 개\n- EGF NAD 탄력 앰플 누적 100만 개 돌파(10/16 보도)\n- 성분명이 곧 검색 키워드, 리스팅 효율 직결\n- 히어로 SKU 제품명에 핵심 성분 전면 배치\n\n2️⃣ 아마존 빅딜데이즈 역대 최대 매출\n- 10월 프라임 빅딜데이즈 메디큐브 역대 최대\n- 10월 리뷰·랭킹이 블프 출발선\n- 블프 광고비·재고 10월 셀아웃 기준으로 지금 확정\n\n3️⃣ 스킨부스터 2종, 11월 칠레 출시\n- PN 스킨부스터 2종 칠레 첫 공급\n- 화장품 인지도로 의료기기 영역 확장\n- 확장 전 국가별 의료기기 분류부터 점검\n\n4️⃣ 공식몰 AI 피부 상담\n- 피부 고민별 제품 추천 AI 도입\n- SKU 많을수록 선택 피로 해소가 전환 포인트\n- 자사몰 고민별 추천 동선 1개부터\n\n5️⃣ 3Q 영업익 1,695억 원 전망\n- KB증권 2026년 3분기 전망(10/17 보도)\n- 매출 두 배에도 이익률 하락 지적\n- 해외 비중 크면 마진·환율 시나리오 선계산\n\n블프 회의 전에 저장해두시고, 아마존 담당자에게 바로 넘겨주세요.\n🔗 원문·출처는 프로필 링크\n출처: 스타데일리뉴스, 중앙일보, ER 이코노믹리뷰, 연합뉴스, 코스인코리아닷컴, 조선비즈, 공감신문, 미디어펜, 비건뉴스, 블로터, 뉴스1\n#K뷰티 #화장품수출 #뷰티마케팅 #뷰티업계 #메디큐브 #에이피알 #아마존 #스킨부스터"
+ },
+ "cards_ko": [
+  "docs/cards/series/series-001/ko-01.jpg",
+  "docs/cards/series/series-001/ko-02.jpg",
+  "docs/cards/series/series-001/ko-03.jpg",
+  "docs/cards/series/series-001/ko-04.jpg",
+  "docs/cards/series/series-001/ko-05.jpg",
+  "docs/cards/series/series-001/ko-06.jpg",
+  "docs/cards/series/series-001/ko-07.jpg"
+ ],
+ "cards_base": "cards/series/series-001"
+}
