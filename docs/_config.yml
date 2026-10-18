@@ -1,0 +1,21 @@
+title: K-Beauty Radar
+description: "Daily K-beauty export intelligence · 매일 아침 K-뷰티 수출 인사이트"
+theme: minima
+permalink: /:categories/:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+# url / baseurl 은 GitHub Pages가 자동으로 채워줍니다.
+
+# Kit 구독 폼 주소 (Kit에서 폼을 만든 뒤 붙여넣기)
+kit_form_ko: ""
+kit_form_en: ""
+
+minima:
+  skin: auto
+header_pages:
+  - ko/index.html
+  - en/index.html
+exclude:
+  - README.md
