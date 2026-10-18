@@ -77,6 +77,13 @@ for (const el of document.querySelectorAll('[data-max]')) {
   let fs = parseFloat(getComputedStyle(el).fontSize);
   while (el.scrollHeight > +el.dataset.max && fs > 18) { fs -= 2; el.style.fontSize = fs + 'px'; }
 }
+// 큰 숫자는 가로 폭(여백 안쪽)도 넘지 않게
+for (const el of document.querySelectorAll('.hero, .stat strong')) {
+  el.style.display = 'inline-block'; el.style.whiteSpace = 'nowrap'; el.style.alignSelf = 'flex-start';
+  const limit = el.classList.contains('hero') ? 900 : 560;
+  let fs = parseFloat(getComputedStyle(el).fontSize);
+  while (el.getBoundingClientRect().width > limit && fs > 40) { fs -= 4; el.style.fontSize = fs + 'px'; }
+}
 const card = document.querySelector('.card');
 const rows = document.querySelectorAll('.row p');
 let guard = 0;
