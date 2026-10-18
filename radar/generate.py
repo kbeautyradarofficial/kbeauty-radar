@@ -22,7 +22,41 @@ Rules:
   End each body with a sources list and the line
   (KO) "이 브리프는 AI의 도움을 받아 작성되었습니다." / (EN) "This brief was prepared with AI assistance."
 - threads_ko: under 400 characters, hook first line, 3 short bullet-like lines, 2-3 hashtags.
-- linkedin_en: 600-1200 characters, professional, ends with a question to invite comments."""
+- linkedin_en: 600-1200 characters, professional, ends with a question to invite comments.
+- cards_ko / cards_en: Instagram carousel text for the same stories (Korean / English edition).
+  Number-first, scannable, no emoji, no hashtags. Use "\\n" only for intentional line breaks.
+  cover.badge: market + "데일리 브리프" / "Daily brief" (max 16 chars).
+  cover.hero_number: the single most striking REAL number from the articles, max 6 chars (e.g. "+14%", "$100B", "1,200회").
+  cover.hero_label: what that number is (max 22 chars). cover.headline: 2 lines max, ~13 chars per line (KO) / ~22 (EN),
+  with a tension or question hook. cover.sub: one line teaser of the other stories (max 40 chars).
+  slides: one per story (3-5). category: 2-4 word tag (e.g. 수출 통계, 아마존, 통상 리스크).
+  headline: max 24 chars (KO) / 45 (EN). stat: a real number from that story or "" if none; stat_label: max 20 chars.
+  what/why/action: one sentence each, max 55 chars (KO) / 95 (EN). action is a concrete instruction to brands/sellers
+  (KO) or to buyers/retailers (EN). source: outlet name(s) only."""
+
+_CARD = {
+    "type": "object",
+    "properties": {
+        "cover": {
+            "type": "object",
+            "properties": {k: {"type": "string"} for k in ("badge", "hero_number", "hero_label", "headline", "sub")},
+            "required": ["badge", "hero_number", "hero_label", "headline", "sub"],
+            "additionalProperties": False,
+        },
+        "slides": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {k: {"type": "string"} for k in
+                               ("category", "headline", "stat", "stat_label", "what", "why", "action", "source")},
+                "required": ["category", "headline", "stat", "stat_label", "what", "why", "action", "source"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    "required": ["cover", "slides"],
+    "additionalProperties": False,
+}
 
 SCHEMA = {
     "type": "object",
@@ -36,9 +70,11 @@ SCHEMA = {
         "body_en_html": {"type": "string"},
         "linkedin_en": {"type": "string"},
         "tags": {"type": "array", "items": {"type": "string"}},
+        "cards_ko": _CARD,
+        "cards_en": _CARD,
     },
     "required": ["title_ko", "excerpt_ko", "body_ko_html", "threads_ko",
-                 "title_en", "excerpt_en", "body_en_html", "linkedin_en", "tags"],
+                 "title_en", "excerpt_en", "body_en_html", "linkedin_en", "tags", "cards_ko", "cards_en"],
     "additionalProperties": False,
 }
 
@@ -58,5 +94,9 @@ def _check(c: dict) -> None:
     for key in ("body_ko_html", "body_en_html"):
         if len(c[key]) < 500 or "<a " not in c[key]:
             raise ValueError(f"Quality check failed: {key} too short or has no source links")
+    for key in ("cards_ko", "cards_en"):
+        if not c[key]["slides"]:
+            raise ValueError(f"Quality check failed: {key} has no slides")
+        c[key]["slides"] = c[key]["slides"][:5]
     if len(c["threads_ko"]) > config.THREADS_MAX_CHARS:
         c["threads_ko"] = c["threads_ko"][: config.THREADS_MAX_CHARS - 1] + "…"
