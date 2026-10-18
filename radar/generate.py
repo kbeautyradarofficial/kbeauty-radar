@@ -13,9 +13,9 @@ Coverage (the whole K-beauty business, not only export numbers):
   Skip pure celebrity gossip, giveaways and press releases with no business insight.
 Category tags (use exactly one per story): 수출·통계 / 채널·플랫폼 / 신제품·성분 / 모델·광고 / 마케팅 사례 /
   M&A·투자 / 규제·인증  (EN: Export data / Channels / Launches / Ambassadors & ads / Marketing case / Deals / Regulation)
-Facts: use only facts from the provided articles or pages you opened with the research tools. Never invent
-  numbers, quotes, companies or dates. Paraphrase; never copy article sentences. Always credit the outlet.
-  In HTML bodies, link to the actual article URLs you verified.
+Facts: use only facts from the provided FACT SHEET (prefer verified=true; use verified=false facts only with
+  softer wording like "보도에 따르면"). Never invent numbers, quotes, companies or dates. Paraphrase; never copy
+  article sentences. Always credit the outlet. In HTML bodies, link to the fact sheet URLs.
 Headline formula (benchmarked on the best-performing beauty newsletters): lead with a concrete number or a
   surprising contrast, then a question or tension. e.g. "미국 아마존 1위, 비결은 '상세페이지'?" / "+46%, 향수가 뜬다".
 Time-sensitivity: market share, rankings, export figures and growth rates go stale fast. Every such number
@@ -126,13 +126,13 @@ Competitor context: the list below shows what other beauty-industry accounts/new
 It is NOT a fact source. Use it to (1) avoid repeating angles everyone already posted, (2) find the practical
 detail they missed (numbers, reference period, what to do on Monday), (3) be shorter and faster to read."""
 
-REVIEW_SYSTEM = f"""You are the managing editor of "{config.BRAND}". You receive a draft (JSON) plus the source
-articles and competitor context. Return the improved FINAL version in the same JSON schema.
+REVIEW_SYSTEM = f"""You are the managing editor of "{config.BRAND}". You receive a draft (JSON) plus the verified
+fact sheet and competitor context. Return the improved FINAL version in the same JSON schema.
 {BASE_RULES}
 
 Editing checklist (fix everything silently, do not comment):
-1. Fact check: every number, date, company and claim must be supported by the source articles. Remove or fix
-   anything unsupported. Time-sensitive numbers must state their reference period.
+1. Fact check: every number, date, company and claim must match the fact sheet exactly (number, period,
+   source). Remove or fix anything not in it. Time-sensitive numbers must state their reference period.
 2. Value: would a K-beauty brand/export practitioner learn something they can use this week? Cut generic lines.
    Put the most decision-relevant item first.
 3. Differentiation: if competitors already covered the same angle, sharpen it (more specific number, clearer
@@ -142,25 +142,35 @@ Editing checklist (fix everything silently, do not comment):
 6. Keep all length limits and the schema exactly."""
 
 
-def review(content: dict, articles: list[dict], notes: list[str]) -> dict:
-    """편집장 검수: 원문 대조 팩트체크 + 경쟁 계정 대비 차별화 + 문체 다듬기."""
-    user = json.dumps({"draft": content, "source_articles": articles, "competitor_context": notes[:60]},
+def review(content: dict, facts: dict, notes: list[str]) -> dict:
+    """편집장 검수 (도구 없음): 팩트 시트 대조 + 경쟁 계정 대비 차별화 + 문체 다듬기."""
+    user = json.dumps({"draft": content, "fact_sheet": facts, "competitor_context": notes[:20]},
                       ensure_ascii=False)
-    revised = call_json(REVIEW_SYSTEM, user, SCHEMA, research=3)  # 의심 가는 숫자만 원문 재확인
+    revised = call_json(REVIEW_SYSTEM, user, SCHEMA, effort="medium", purpose="review")
     _check(revised)
     return revised
 
 
-def generate(items: list[dict], notes: list[str] | None = None) -> dict:
-    articles = [{"id": i, "title": it["title"], "source": it["source"], "lang": it["lang"], "url": it["link"]}
-                for i, it in enumerate(items)]
-    notes = notes or []
-    user = (f"Date: {date.today()}\n\nArticles collected in the last 24h (JSON):\n"
-            f"{json.dumps(articles, ensure_ascii=False, indent=1)}\n\n"
-            f"Competitor context:\n" + "\n".join(notes[:60]) + "\n\nWrite today's brief.")
-    content = call_json(SYSTEM + COMPETITOR_RULE, user, SCHEMA, research=6)
+def write(system: str, task: str, facts: dict, notes: list[str]) -> dict:
+    """작성 (도구 없음): 짧은 팩트 시트만 보고 한/영 콘텐츠 전체를 씀."""
+    user = json.dumps({"date": str(date.today()), "task": task, "fact_sheet": facts,
+                       "competitor_context": notes[:20]}, ensure_ascii=False)
+    content = call_json(system + COMPETITOR_RULE, user, SCHEMA, effort="high", purpose="write")
     _check(content)
-    return review(content, articles, notes)
+    return content
+
+
+def generate(items: list[dict], notes: list[str] | None = None) -> dict:
+    """매일 브리프: 조사(검색 5회 상한) → 작성 → 검수."""
+    from .research import research
+
+    articles = [{"title": it["title"], "source": it["source"], "lang": it["lang"], "url": it["link"]}
+                for it in items]
+    notes = notes or []
+    facts = research("Today's K-beauty industry daily brief: pick the 3-5 stories with the most business "
+                     "insight from the last 24h and verify their key facts.", articles, notes, uses=5)
+    content = write(SYSTEM, "Write today's brief from the fact sheet.", facts, notes)
+    return review(content, facts, notes)
 
 
 def _check(c: dict) -> None:
