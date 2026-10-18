@@ -10,6 +10,7 @@
 """
 import json
 import os
+import re
 import shutil
 import subprocess
 from datetime import datetime
@@ -18,7 +19,8 @@ from pathlib import Path
 import anthropic
 
 MODEL = "claude-opus-5-5"
-PRICE_IN, PRICE_OUT, PRICE_CACHE_READ, PRICE_SEARCH = 4 / 1e6, 20 / 1e6, 0.2 / 1e6, 10 / 1000
+PRICE_IN, PRICE_OUT, PRICE_SEARCH = 4 / 1e6, 20 / 1e6, 10 / 1000
+PRICE_CACHE_READ, PRICE_CACHE_WRITE = 0.2 / 1e6, 5 / 1e6
 RUN_BUDGET_USD = float(os.environ.get("RUN_BUDGET_USD", "6"))
 USAGE_LOG = Path("output/usage.jsonl")
 _spent = 0.0  # 이번 실행에서 쓴 금액(목록가 기준)
@@ -53,6 +55,8 @@ def _via_subscription(system, user, schema, research, purpose, max_budget_usd) -
         return None
     env = dict(os.environ)
     env.pop("ANTHROPIC_API_KEY", None)  # 키가 있으면 CLI가 API 과금으로 실행되므로 제거
+    # 터미널에서 복사할 때 끼어든 줄바꿈·공백 제거 (토큰에는 공백이 없음)
+    env["CLAUDE_CODE_OAUTH_TOKEN"] = re.sub(r"\s+", "", env["CLAUDE_CODE_OAUTH_TOKEN"])
     cmd = ["claude", "-p", "--model", MODEL, "--output-format", "json",
            "--json-schema", json.dumps(schema, ensure_ascii=False),
            "--system-prompt", system, "--permission-mode", "dontAsk",
@@ -96,8 +100,11 @@ def _via_api(system, user, schema, effort, research, purpose) -> dict:
     u = r.usage
     searches = sum(1 for b in r.content if b.type == "server_tool_use")
     cached = getattr(u, "cache_read_input_tokens", 0) or 0
-    cost = u.input_tokens * PRICE_IN + cached * PRICE_CACHE_READ + u.output_tokens * PRICE_OUT + searches * PRICE_SEARCH
-    _log(purpose, "api", cost, input=u.input_tokens, cached=cached, output=u.output_tokens, tools=searches)
+    written = getattr(u, "cache_creation_input_tokens", 0) or 0
+    cost = (u.input_tokens * PRICE_IN + cached * PRICE_CACHE_READ + written * PRICE_CACHE_WRITE
+            + u.output_tokens * PRICE_OUT + searches * PRICE_SEARCH)
+    _log(purpose, "api", cost, input=u.input_tokens, cache_read=cached, cache_write=written,
+         output=u.output_tokens, tools=searches)
     if r.stop_reason == "refusal":
         raise RuntimeError(f"Claude refused: {r.stop_details}")
     if r.stop_reason in ("max_tokens", "pause_turn"):
