@@ -84,10 +84,13 @@ def main(limit: int | None) -> None:
         system = SERIES_SYSTEM.replace("{series}", series).replace("{topic}", topic)
         user = json.dumps({"articles": arts, "competitor_context": notes[:60]}, ensure_ascii=False)
         try:
-            content = call_json(system, user, SCHEMA, research=True)
+            content = call_json(system, user, SCHEMA, research=8)
             _check(content)
             content = review(content, arts, notes)
         except Exception as e:
+            if "credit balance" in str(e):
+                print("[series] stopped: Anthropic credit balance is too low")
+                break
             print(f"[series] skip {topic}: {e}")
             continue
         n += 1
