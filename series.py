@@ -15,8 +15,8 @@ from pathlib import Path
 from radar import cards, config
 from radar.collect import _fetch, _norm
 from radar.competitors import competitor_notes
-from radar.generate import BASE_RULES, COMPETITOR_RULE, SCHEMA, _check, review
-from radar.llm import call_json
+from radar.generate import BASE_RULES, COMPETITOR_RULE, review, write
+from radar.research import research
 
 QUEUE = Path("queue")
 
@@ -25,8 +25,8 @@ for K-beauty brand, marketing and export practitioners, as of {date.today():%Y�
 {BASE_RULES}
 
 Series rules:
-- Use only the provided articles (last {config.SERIES_LOOKBACK_DAYS} days). This is a 'what is true NOW' report,
-  not history. Prefer the newest facts; anything older than the window is out.
+- Use only the fact sheet (researched from the last {config.SERIES_LOOKBACK_DAYS} days). This is a 'what is true
+  NOW' report, not history. Prefer the newest facts; anything older than the window is out.
 - 키플레이어: latest launches/hero products, campaigns & ambassadors, channel moves (Amazon, TikTok Shop,
   Olive Young, offline retail abroad), latest results/numbers, and what peers can copy or watch.
 - 국가별 마켓: latest export value/growth and K-beauty's share or rank in that market (with reference period),
@@ -35,7 +35,7 @@ Series rules:
 - cards: cover.badge = "{{series}} 리포트" (e.g. "키플레이어 리포트"); 3-5 slides, each a different angle.
 - title_ko/title_en: headline formula with the strongest current number. Bodies: 400-700 words, HTML
   (<h2>,<p>,<ul>,<li>,<a href>), link facts to articles, end with sources and the AI-tools line.
-- linkedin_en: 600-1200 characters. tags: 4-8 keywords.""" + COMPETITOR_RULE
+- linkedin_en: 600-1200 characters. tags: 4-8 keywords."""
 
 
 def _recent_articles(queries: list[str]) -> list[dict]:
@@ -82,14 +82,15 @@ def main(limit: int | None) -> None:
             print(f"[series] skip {topic}: only {len(arts)} recent articles")
             continue
         system = SERIES_SYSTEM.replace("{series}", series).replace("{topic}", topic)
-        user = json.dumps({"articles": arts, "competitor_context": notes[:60]}, ensure_ascii=False)
         try:
-            content = call_json(system, user, SCHEMA, research=6)
-            _check(content)
-            content = review(content, arts, notes)
+            # 조사(검색 6회 상한) → 작성(도구 없음) → 검수(도구 없음)
+            facts = research(f"{series} report on '{topic}' as of {date.today():%Y-%m}: latest numbers with "
+                             "reference periods, key moves, and what practitioners should do.", arts, notes, uses=6)
+            content = write(system, f"Write the {series} report on {topic} from the fact sheet.", facts, notes)
+            content = review(content, facts, notes)
         except Exception as e:
-            if "credit balance" in str(e):
-                print("[series] stopped: Anthropic credit balance is too low")
+            if "credit balance" in str(e) or "Run budget" in str(e):
+                print(f"[series] stopped: {e}")
                 break
             print(f"[series] skip {topic}: {e}")
             continue
