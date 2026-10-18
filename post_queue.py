@@ -25,7 +25,7 @@ def main(count: int) -> None:
         if mode == "dry-run":
             print(f"[queue] would post {item['id']}: {item['theme']}")
             continue
-        cards_base = f"{site}/cards/archive/{item['id']}"
+        cards_base = f"{site}/{item.get('cards_base', 'cards/archive/' + item['id'])}"
         item["published"] = publish.site_posts(item["content"], cards_base, item["id"])
         if mode == "auto":
             card_urls = [f"{site}/{p.removeprefix('docs/')}" for p in item["cards_ko"]]

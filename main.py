@@ -12,6 +12,7 @@ from pathlib import Path
 
 from radar import cards, config, publish
 from radar.collect import collect
+from radar.competitors import competitor_notes
 from radar.generate import generate
 
 
@@ -25,7 +26,7 @@ def main() -> None:
         publish.kakao_notify(f"[{config.BRAND}] 오늘은 새 기사가 {len(items)}개뿐이라 발행을 건너뜁니다.")
         return
 
-    content = generate(items)
+    content = generate(items, competitor_notes())
     today = date.today()
     record = {"date": str(today), "mode": mode, "items": items, "content": content, "published": {}}
 
