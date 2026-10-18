@@ -32,7 +32,8 @@ Rules:
   slides: one per story (3-5). category: 2-4 word tag (e.g. 수출 통계, 아마존, 통상 리스크).
   headline: max 24 chars (KO) / 45 (EN). stat: a real number from that story or "" if none; stat_label: max 20 chars.
   what/why/action: one sentence each, max 55 chars (KO) / 95 (EN). action is a concrete instruction to brands/sellers
-  (KO) or to buyers/retailers (EN). source: outlet name(s) only."""
+  (KO) or to buyers/retailers (EN). source: outlet name(s) only.
+  Korean tone: what/why end with "~습니다/~입니다", action ends with "~하세요". Never use 반말 (e.g. "~해라", "~했다")."""
 
 _CARD = {
     "type": "object",

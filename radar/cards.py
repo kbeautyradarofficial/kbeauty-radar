@@ -151,7 +151,9 @@ def closing_html(lang: str, site: str, total: int) -> str:
 def build_pages(cards: dict, lang: str, date: str, site: str) -> list[str]:
     slides = cards["slides"]
     total = len(slides) + 2
-    sources = ", ".join(dict.fromkeys(s["source"] for s in slides))
+    names = list(dict.fromkeys(n.strip() for s in slides for n in s["source"].split(",")))
+    more = {"ko": f" 외 {len(names) - 3}곳", "en": f" +{len(names) - 3} more"}[lang] if len(names) > 3 else ""
+    sources = ", ".join(names[:3]) + more
     pages = [cover_html(cards["cover"], lang, date, sources, total)]
     pages += [slide_html(s, i + 1, lang, total) for i, s in enumerate(slides)]
     pages.append(closing_html(lang, site, total))
