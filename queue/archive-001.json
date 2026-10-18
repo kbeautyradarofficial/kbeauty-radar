@@ -2,7 +2,7 @@
  "id": "archive-001",
  "theme": "The US overtakes China as K-beauty's No.1 export market, and Korea passes France in the US",
  "category": "Market shift / Export data",
- "status": "queued",
+ "status": "posted",
  "articles": [
   {
    "title": "“K-뷰티, 무섭네”…美서 화장품 강국 프랑스 제쳤다 [언박싱]",
@@ -170,5 +170,13 @@
   "docs/cards/archive/archive-001/ko-04.jpg",
   "docs/cards/archive/archive-001/ko-05.jpg",
   "docs/cards/archive/archive-001/ko-06.jpg"
- ]
+ ],
+ "published": {
+  "site_ko": "https://kbeautyradarofficial.github.io/kbeauty-radar/ko/2026/10/18/archive-001/",
+  "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/10/18/archive-001/"
+ },
+ "social": {
+  "instagram": "18098075102102983",
+  "threads": "18104011328568861"
+ }
 }
