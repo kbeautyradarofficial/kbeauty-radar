@@ -13,8 +13,9 @@ Coverage (the whole K-beauty business, not only export numbers):
   Skip pure celebrity gossip, giveaways and press releases with no business insight.
 Category tags (use exactly one per story): 수출·통계 / 채널·플랫폼 / 신제품·성분 / 모델·광고 / 마케팅 사례 /
   M&A·투자 / 규제·인증  (EN: Export data / Channels / Launches / Ambassadors & ads / Marketing case / Deals / Regulation)
-Facts: use ONLY facts from the provided articles. Never invent numbers, quotes, companies or dates.
-  Paraphrase; never copy article sentences. Always credit the outlet.
+Facts: use only facts from the provided articles or pages you opened with the research tools. Never invent
+  numbers, quotes, companies or dates. Paraphrase; never copy article sentences. Always credit the outlet.
+  In HTML bodies, link to the actual article URLs you verified.
 Headline formula (benchmarked on the best-performing beauty newsletters): lead with a concrete number or a
   surprising contrast, then a question or tension. e.g. "미국 아마존 1위, 비결은 '상세페이지'?" / "+46%, 향수가 뜬다".
 Time-sensitivity: market share, rankings, export figures and growth rates go stale fast. Every such number
@@ -145,7 +146,7 @@ def review(content: dict, articles: list[dict], notes: list[str]) -> dict:
     """편집장 검수: 원문 대조 팩트체크 + 경쟁 계정 대비 차별화 + 문체 다듬기."""
     user = json.dumps({"draft": content, "source_articles": articles, "competitor_context": notes[:60]},
                       ensure_ascii=False)
-    revised = call_json(REVIEW_SYSTEM, user, SCHEMA)
+    revised = call_json(REVIEW_SYSTEM, user, SCHEMA, research=True)
     _check(revised)
     return revised
 
@@ -157,7 +158,7 @@ def generate(items: list[dict], notes: list[str] | None = None) -> dict:
     user = (f"Date: {date.today()}\n\nArticles collected in the last 24h (JSON):\n"
             f"{json.dumps(articles, ensure_ascii=False, indent=1)}\n\n"
             f"Competitor context:\n" + "\n".join(notes[:60]) + "\n\nWrite today's brief.")
-    content = call_json(SYSTEM + COMPETITOR_RULE, user, SCHEMA)
+    content = call_json(SYSTEM + COMPETITOR_RULE, user, SCHEMA, research=True)
     _check(content)
     return review(content, articles, notes)
 
