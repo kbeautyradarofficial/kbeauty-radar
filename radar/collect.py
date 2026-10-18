@@ -17,8 +17,8 @@ LOCALES = {
 }
 
 
-def _fetch(query: str, lang: str) -> list[dict]:
-    q = urllib.parse.quote(f"{query} when:1d")
+def _fetch(query: str, lang: str, period: str = "when:1d") -> list[dict]:
+    q = urllib.parse.quote(f"{query} {period}")
     url = f"https://news.google.com/rss/search?q={q}&{LOCALES[lang]}"
     feed = feedparser.parse(url)
     items = []
@@ -44,6 +44,28 @@ def _seen_links() -> set[str]:
 
 def _norm(title: str) -> str:
     return re.sub(r"[\W_]+", "", title.lower())[:40]
+
+
+def collect_archive(start: date, window_days: int, per_window: int = 12) -> list[dict]:
+    """과거 기사 수집: start부터 오늘까지 기간을 나눠 검색어별로 모읍니다 (백필용)."""
+    items, keys, cursor = [], set(), start
+    while cursor < date.today():
+        end = min(cursor + timedelta(days=window_days), date.today())
+        period = f"after:{cursor} before:{end}"
+        window = []
+        for q in config.BACKFILL_QUERIES:
+            time.sleep(0.5)  # Google News 요청 간격
+            lang = "ko" if re.search(r"[가-힣]", q) else "en"
+            for it in _fetch(q, lang, period)[:per_window]:
+                key = _norm(it["title"])
+                if re.search(r"(?i)blog|블로그|tistory|brunch|youtube", it["source"]):
+                    continue  # 개인 블로그·영상은 출처로 쓰지 않음
+                if key not in keys:
+                    keys.add(key)
+                    window.append(it)
+        items += window
+        cursor = end
+    return items
 
 
 def collect() -> list[dict]:
