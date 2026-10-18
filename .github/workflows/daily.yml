@@ -25,6 +25,10 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Install card renderer (Chromium + Korean fonts)
+        run: |
+          python -m playwright install --with-deps chromium
+          sudo apt-get install -y -q fonts-noto-cjk
       - name: Run daily brief
         run: python main.py
         env:
