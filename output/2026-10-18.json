@@ -523,7 +523,8 @@
   "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/10/18/brief/"
  },
  "social": {
-  "instagram_error": "Meta API 400 me: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A4Pkh4dNt8GcnKFwdbpoTBv\"}}",
-  "threads_error": "Meta API 400 me: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A1ikH6YHXgrqUONCmQ5Eo-l\"}}"
- }
+  "instagram": "18027508400872221",
+  "threads": "18603454330064302"
+ },
+ "social_retries": 1
 }
