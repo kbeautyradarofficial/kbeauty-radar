@@ -2,7 +2,7 @@
  "id": "series-002",
  "theme": "키플레이어:아모레퍼시픽 (코스알엑스·라네즈)",
  "category": "키플레이어",
- "status": "queued",
+ "status": "posted",
  "articles": [
   {
    "title": "아모레퍼시픽, 인도 첫 '밋유어뷰티 아카데미' 성료",
@@ -493,5 +493,13 @@
   "docs/cards/series/series-002/ko-06.jpg",
   "docs/cards/series/series-002/ko-07.jpg"
  ],
- "cards_base": "cards/series/series-002"
+ "cards_base": "cards/series/series-002",
+ "published": {
+  "site_ko": "https://kbeautyradarofficial.github.io/kbeauty-radar/ko/2026/10/19/series-002/",
+  "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/10/19/series-002/"
+ },
+ "social": {
+  "instagram_error": "Meta API 400 me: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ACg9VeIZ6usihSYN-R_XPqS\"}}",
+  "threads_error": "Meta API 400 me: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A3ifzr419LfTgKmE5BujgqA\"}}"
+ }
 }
