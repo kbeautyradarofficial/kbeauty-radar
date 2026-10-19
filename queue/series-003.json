@@ -2,7 +2,7 @@
  "id": "series-003",
  "theme": "키플레이어:LG생활건강",
  "category": "키플레이어",
- "status": "queued",
+ "status": "posted",
  "articles": [
   {
    "title": "82,019 Shares of CenterPoint Energy, Inc. $CNP Bought by Banque Pictet & Cie SA",
@@ -482,5 +482,13 @@
   "docs/cards/series/series-003/ko-05.jpg",
   "docs/cards/series/series-003/ko-06.jpg"
  ],
- "cards_base": "cards/series/series-003"
+ "cards_base": "cards/series/series-003",
+ "published": {
+  "site_ko": "https://kbeautyradarofficial.github.io/kbeauty-radar/ko/2026/10/19/series-003/",
+  "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/10/19/series-003/"
+ },
+ "social": {
+  "instagram_error": "Meta API 400 me: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"Axexg3IVZstoDog0vvFH5y4\"}}",
+  "threads_error": "Meta API 400 me: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AvGSKVoZ9fjqQOzZumQ0vER\"}}"
+ }
 }
