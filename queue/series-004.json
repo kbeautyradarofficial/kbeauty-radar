@@ -2,7 +2,7 @@
  "id": "series-004",
  "theme": "인더스트리:뷰티 모델·광고 트렌드",
  "category": "인더스트리",
- "status": "queued",
+ "status": "posted",
  "articles": [
   {
    "title": "AGE20'S, 성수 팝업 이어 서울 전역 광고···28~34세 여성 공략",
@@ -490,5 +490,13 @@
   "docs/cards/series/series-004/ko-05.jpg",
   "docs/cards/series/series-004/ko-06.jpg"
  ],
- "cards_base": "cards/series/series-004"
+ "cards_base": "cards/series/series-004",
+ "published": {
+  "site_ko": "https://kbeautyradarofficial.github.io/kbeauty-radar/ko/2026/10/19/series-004/",
+  "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/10/19/series-004/"
+ },
+ "social": {
+  "instagram": "17951532114294730",
+  "threads": "17977072212131633"
+ }
 }
