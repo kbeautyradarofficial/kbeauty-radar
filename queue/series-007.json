@@ -2,7 +2,7 @@
  "id": "series-007",
  "theme": "키플레이어:달바글로벌",
  "category": "키플레이어",
- "status": "queued",
+ "status": "posted",
  "articles": [
   {
    "title": "달바글로벌, 글로벌 브랜드 도약 시동…해외 오프라인 유통망 넓힌다",
@@ -483,5 +483,13 @@
   "docs/cards/series/series-007/ko-05.jpg",
   "docs/cards/series/series-007/ko-06.jpg"
  ],
- "cards_base": "cards/series/series-007"
+ "cards_base": "cards/series/series-007",
+ "published": {
+  "site_ko": "https://kbeautyradarofficial.github.io/kbeauty-radar/ko/2026/10/20/series-007/",
+  "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/10/20/series-007/"
+ },
+ "social": {
+  "instagram": "18200082466379528",
+  "threads": "17905136442356826"
+ }
 }
