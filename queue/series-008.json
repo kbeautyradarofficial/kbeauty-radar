@@ -2,7 +2,7 @@
  "id": "series-008",
  "theme": "키플레이어:VT코스메틱 (리들샷)",
  "category": "키플레이어",
- "status": "queued",
+ "status": "posted",
  "articles": [
   {
    "title": "[업계잇-슈!] 화장품, 이제 어떻게 진피로 전달할 것인가 ‘그것이 문제로다’-①",
@@ -474,5 +474,13 @@
   "docs/cards/series/series-008/ko-05.jpg",
   "docs/cards/series/series-008/ko-06.jpg"
  ],
- "cards_base": "cards/series/series-008"
+ "cards_base": "cards/series/series-008",
+ "published": {
+  "site_ko": "https://kbeautyradarofficial.github.io/kbeauty-radar/ko/2026/10/21/series-008/",
+  "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/10/21/series-008/"
+ },
+ "social": {
+  "instagram": "18157892881508763",
+  "threads": "18097650836675327"
+ }
 }
