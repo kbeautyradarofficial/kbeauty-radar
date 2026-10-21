@@ -549,5 +549,9 @@
   ],
   "site_ko": "https://kbeautyradarofficial.github.io/kbeauty-radar/ko/2026/10/21/brief/",
   "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/10/21/brief/"
+ },
+ "social": {
+  "instagram_error": "Meta API 403 media_publish: {\"error\":{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we ma",
+  "threads": "18063543860528148"
  }
 }
