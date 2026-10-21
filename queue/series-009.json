@@ -2,7 +2,7 @@
  "id": "series-009",
  "theme": "국가별 마켓:미국",
  "category": "국가별 마켓",
- "status": "queued",
+ "status": "posted",
  "articles": [
   {
    "title": "K-뷰티 수출 3강 시장 분석①: 미국 수출 14% 증가…무역수지 17.0% 확대",
@@ -336,5 +336,13 @@
   "docs/cards/series/series-009/ko-06.jpg",
   "docs/cards/series/series-009/ko-07.jpg"
  ],
- "cards_base": "cards/series/series-009"
+ "cards_base": "cards/series/series-009",
+ "published": {
+  "site_ko": "https://kbeautyradarofficial.github.io/kbeauty-radar/ko/2026/10/21/series-009/",
+  "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/10/21/series-009/"
+ },
+ "social": {
+  "instagram": "18013754609970260",
+  "threads": "17895421287427350"
+ }
 }
