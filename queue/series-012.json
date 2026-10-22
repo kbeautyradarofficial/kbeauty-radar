@@ -338,7 +338,8 @@
   "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/10/22/series-012/"
  },
  "social": {
-  "instagram_error": "Meta API 400 0: {\"error\":{\"message\":\"Unsupported get request\",\"type\":\"IGApiException\",\"code\":100,\"error_subcode\":33,\"fbtrace_id\":\"A7YPlrHfJaps51-734R18ga\"}}",
+  "instagram_error": "Meta API 400 0: {\"error\":{\"message\":\"Unsupported get request\",\"type\":\"IGApiException\",\"code\":100,\"error_subcode\":33,\"fbtrace_id\":\"AhRPMYsN_ys96IjY2HPLkfz\"}}",
   "threads": "17894258937433007"
- }
+ },
+ "social_retries": 1
 }
