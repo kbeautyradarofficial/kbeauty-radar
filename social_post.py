@@ -5,7 +5,9 @@ PUBLISH_MODE=auto 일 때만 실제로 게시합니다.
 """
 import json
 import os
+import random
 import sys
+import time
 from pathlib import Path
 
 from radar import config, publish
@@ -21,6 +23,8 @@ def main(path: str) -> None:
     if os.environ.get("PUBLISH_MODE") != "auto" or (record.get("social") and not failed_channels(record["social"])):
         print("[social_post] skipped (not auto mode or already posted)")
         return
+    if os.environ.get("GITHUB_EVENT_NAME") == "schedule":
+        time.sleep(random.randint(0, 15 * 60))  # 매일 같은 시각에 올라가지 않도록
     site = os.environ.get("SITE_URL", "").rstrip("/")
     card_urls = [f"{site}/{p.removeprefix('docs/')}" for p in record["published"].get("cards_ko", [])]
     if record.get("social"):  # 이전에 실패한 채널만 다시 시도
