@@ -2,7 +2,7 @@
  "id": "series-012",
  "theme": "인더스트리:아마존·틱톡샵 채널",
  "category": "인더스트리",
- "status": "queued",
+ "status": "posted",
  "articles": [
   {
    "title": "닥터지, 틱톡샵 상륙…美 뷰티 시장 공략 속도",
@@ -332,5 +332,13 @@
   "docs/cards/series/series-012/ko-06.jpg",
   "docs/cards/series/series-012/ko-07.jpg"
  ],
- "cards_base": "cards/series/series-012"
+ "cards_base": "cards/series/series-012",
+ "published": {
+  "site_ko": "https://kbeautyradarofficial.github.io/kbeauty-radar/ko/2026/10/22/series-012/",
+  "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/10/22/series-012/"
+ },
+ "social": {
+  "instagram_error": "Meta API 400 0: {\"error\":{\"message\":\"Unsupported get request\",\"type\":\"IGApiException\",\"code\":100,\"error_subcode\":33,\"fbtrace_id\":\"A7YPlrHfJaps51-734R18ga\"}}",
+  "threads": "17894258937433007"
+ }
 }
