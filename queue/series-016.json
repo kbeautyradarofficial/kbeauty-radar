@@ -2,7 +2,7 @@
  "id": "series-016",
  "theme": "인더스트리:뷰티 M&A·투자",
  "category": "인더스트리",
- "status": "queued",
+ "status": "posted",
  "articles": [
   {
    "title": "식품만으론 성장 한계… 화장품·가전·바이오 ‘찜’",
@@ -339,5 +339,12 @@
   "docs/cards/series/series-016/ko-05.jpg",
   "docs/cards/series/series-016/ko-06.jpg"
  ],
- "cards_base": "cards/series/series-016"
+ "cards_base": "cards/series/series-016",
+ "published": {
+  "site_ko": "https://kbeautyradarofficial.github.io/kbeauty-radar/ko/2026/10/23/series-016/",
+  "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/10/23/series-016/"
+ },
+ "social": {
+  "threads": "17972418975165066"
+ }
 }
