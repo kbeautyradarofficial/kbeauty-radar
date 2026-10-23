@@ -2,7 +2,7 @@
  "id": "series-015",
  "theme": "국가별 마켓:유럽·영국",
  "category": "국가별 마켓",
- "status": "queued",
+ "status": "posted",
  "articles": [
   {
    "title": "[3신] ‘2026년 제5회 K-Beauty 수출 규제 대응 컨퍼런스’... 베라 교수 ”유해성·노출·생물학적 기전 통합체계 필요“",
@@ -337,5 +337,12 @@
   "docs/cards/series/series-015/ko-06.jpg",
   "docs/cards/series/series-015/ko-07.jpg"
  ],
- "cards_base": "cards/series/series-015"
+ "cards_base": "cards/series/series-015",
+ "published": {
+  "site_ko": "https://kbeautyradarofficial.github.io/kbeauty-radar/ko/2026/10/23/series-015/",
+  "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/10/23/series-015/"
+ },
+ "social": {
+  "threads": "17914101240284810"
+ }
 }
