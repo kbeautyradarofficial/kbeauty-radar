@@ -1,0 +1,551 @@
+{
+ "date": "2026-10-27",
+ "mode": "auto",
+ "items": [
+  {
+   "title": "News | K-beauty retailer known for $2 products plans 550 US stores",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMW12TWppOHl1VHRMblBpSzIzOElCX3pBNUF3b0VJSEtHbDBQMEYwUzl5Ym1zQ3VTMjlSalJqWl9PMzUxMHo0N2VwOVVfX3l3aFhlM1I3V3dFcEJMQ25UT0Q3a0tkQmpnWnN4M3hvcmgzS1duVVFWY1dCZjh4ajNicTR5LTBoS1JzQjgwcXY2LW9NQ0RBLVoyY1Nid3dISWs?oc=5",
+   "source": "CoStar",
+   "lang": "en",
+   "published": 1793139945
+  },
+  {
+   "title": "화장품신문 (Beautynury.com) :: 가정용 염모제 브랜드 ‘클레롤’ 95번째 나이테",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12LW9QYUFtYVg3QlY0MnB1a1FUUG5SbkN6SG9RR3NqUWFUUHY1MWRrMUhpdlNscWoxU2t5V3dGcllVY2xSUnRKX1hHZldlUHQ4eVVZWkZrY09DcmFIbnF4aUYtaV84bGpM?oc=5",
+   "source": "뷰티누리",
+   "lang": "ko",
+   "published": 1793139060
+  },
+  {
+   "title": "[뷰티 트렌드] 더블유케어 웰에이징 뷰티 브랜드 단아로, 배우 오승아 전속모델 발탁 外",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aNjZ0SXE5YWs0ZS1pU1dobVF1ZTEwdWUyVzFWWThrTkZ4SnBIU3ZsSjBZU05CaGx0c0RLUkRaOVg2bVdoT3c3N3p1UDkxYnVKQWZuVGtjUTdNOHNpLXc5aWtwUHc2eFJvem90OQ?oc=5",
+   "source": "베이비뉴스",
+   "lang": "ko",
+   "published": 1793135815
+  },
+  {
+   "title": "[K-뷰티 신화를 쓰다 ①] 프랑스에 이어 세계 2위 수출 대국으로 우뚝…20년간 수출 38배 늘어나",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB2WVFuTmF2M0l1cmRjYUh3UTdjam5JaWROaUxfUW1BRGFUdEFpNzNZd3ZUcFlNZFlURmZ2TElXOWFKbUdPXzgtRUctVy1Zak5Ya094MWR3YmFrOGpFRDdTZ3FuZ1lON3p0STlZVVdfZ1BwWWM?oc=5",
+   "source": "소비자가 만드는 신문",
+   "lang": "ko",
+   "published": 1793135460
+  },
+  {
+   "title": "\"핼러윈 지나 블프·크리스마스 온다\"…美 연말 선물에 뜬 K-뷰티",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1jdUJxUFB6TzRlNl9EYkZhVkVvRDdFeEE1RmtJYks5TjFmbkJSNGJJSTVFRjNSQUpPTERUU0NNckFQSnU2TzI0TzF0a1Z1cHlSMVhJVlQ4aWZXODBPaEhfbnpJYWQ?oc=5",
+   "source": "뉴스1",
+   "lang": "ko",
+   "published": 1793135400
+  },
+  {
+   "title": "\"5명 중 4명은 아직 안 샀다\"…아마존, K뷰티판 더 키운다 [현장+]",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zbW9LbGxPOVhaVUxjSjNUa2h1Tk1GQmdTSUtFM2xDdVBOSGhzWXZNWDZNRWVFNFM3YTNiakVXdFcyXzlEem9oTWpOT0liOXZXZU5zYWZyak9ndw?oc=5",
+   "source": "한국경제",
+   "lang": "ko",
+   "published": 1793134807
+  },
+  {
+   "title": "\"눈 밑에 돌고래 붙였더니 난리\"…전 세계 열광한 'K뷰티' 뭐길래 [권용훈의 트렌드워치]",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDNjY3TWxmRWh3WERzWnhnM0laQTFCcldPNDZ1MWJrRjhFVzB6RVRWazN5b2pTMk9SZmlCY3Yya3hlQWFzeEg5bU52dnYySDdLYkFJdkdRZW11QQ?oc=5",
+   "source": "한국경제",
+   "lang": "ko",
+   "published": 1793134802
+  },
+  {
+   "title": "화장품신문 (Beautynury.com) :: K-뷰티, 해외 시장서 일상 소비로 자리 잡는다",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9aMGhDeE85ZXFZNmNFV2k1ZFI3Zk9PZkdqdHRpakl4enZqblBuMnBmdXlQRlpneEJDOTJoLVJrYVI4VXlTSTNwV1U0dUw1RkxyQTFPMFp3V3lpWWptbHE4?oc=5",
+   "source": "뷰티누리",
+   "lang": "ko",
+   "published": 1793134800
+  },
+  {
+   "title": "화장품신문 (Beautynury.com) :: 수분 관리, 피부장벽·탄력까지 넓어진다",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE82Uk5DMTNFZXQzbG9RVmVhWjJjRkZ2N2Y5OGQtcDByaEdXNWxFWHJBcFIxSHpGZjFXVWMtbXVoY2xWaHYtaGkzNkwzeG4tVGlpWW0zdWp2SlRvZ01oZFpUVU9ISEM4Zm8x?oc=5",
+   "source": "뷰티누리",
+   "lang": "ko",
+   "published": 1793134800
+  },
+  {
+   "title": "‘중국의 로레알’은 탄생할까 ﻿[박지민의 중국과 미래]",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1GV2VrNWxESE5ITFFvb2lDZHJTZnBpYm9DLXVvM0lEWUJKR2hHaGlLbjRqdlRHcmc3XzBDUmFOSnllR0ZSMXlOUFZwd0lrZl9wS3JXZzQwVVFUWFZDZWRuR25sWjBPLVAxNVVxTTR3b2vSAXRBVV95cUxOY0t6R1RaNU1RUTVnaFVyLU4yVHVrUzRHUzZSRmJoNzNGME5jdXpnZ1Q5dzJTZHlsU2JmdDJTYlAwSTliWFAxc1V4Z1RkR0ZfdEoxb0g2SHV0SUJVN043X2FLT2RRelVOOEZwVl9wNkEwNk85UA?oc=5",
+   "source": "IT조선",
+   "lang": "ko",
+   "published": 1793134800
+  },
+  {
+   "title": "The Free K-Beauty Way to Stop Hair Loss",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LLVQ5S1JxVFVGX2JpajVCeVlpU3JUZk5wN203eFhIV3hhMTRJVVNKckZNSHdiNGlQcEdDeW9kNDA0QTlpUzdJZE9YUWhVelFQdk5BWUhkYUFNcG92S0dIU29nczBRbmU3b0xPdWxfTQ?oc=5",
+   "source": "Vogue",
+   "lang": "en",
+   "published": 1793133349
+  },
+  {
+   "title": "[가보니] 한국콜마 연우, 성수서 매달 트렌드 브리핑…인디 브랜드 접점 넓혔다",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lQXpMaHRrRm1NSTRYUFRSa2R0UjI3T3RsWEZvMG4tZF9ONlltZGIwaWlXVlc5WVJZN2tGQ3psdVJzbGcybktpQ3ZfeGZrcndnUmlaS3FBWW9kWEo3cl8zcmhBT3RmLWRsbUpFZWNwY0VNeVRw?oc=5",
+   "source": "대한경제",
+   "lang": "ko",
+   "published": 1793132416
+  },
+  {
+   "title": "Target Corporation Unveils Newly Transformed SoHo Store",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORDJEX2c5amE1RVlpNE5QU0dnbl83d0REUHFhME1MYTZqV0ZLLWpydERxT0ZwR3U1VHppY3R2dVNxbXpWU1VyNFMzaEEyUWtIWVpqWGRuaHlkY2VDVkMwbVdMejNzX0oxUF9RajNBX0lPUVpzdVFNMHl6cTJEam93MktOU28xdVgyQWtBTWZ0bFlzNy1RZnh4WGFNc09wbnZ5ZWc?oc=5",
+   "source": "Home Furnishings Business",
+   "lang": "en",
+   "published": 1793131066
+  },
+  {
+   "title": "'The $12 serum stick that fixes my tired commuter skin in seconds.'",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zQ0o1MHp1NVhBMVEwMGx4b3dwaHZLTEhxQnlRNHIzSW1Ua2VJd0ktVkgtZXJJemM5QWZvY19ESFFkRDFnTnZmeTM0VW9MSnhDSjMxMENCcDdnY1ZuRmc?oc=5",
+   "source": "Mamamia",
+   "lang": "en",
+   "published": 1793131008
+  },
+  {
+   "title": "This K-Beauty Cleanser Pulls An ‘UNGODLY Amount Of Gunk’ From Pores — And It’s 25% Off",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTTJLaGVNcm9Xb3ZUTnVkeTFqWXpqcVljelhoaDNUZFNCZUctYmt5R2M3TnljekpIWkE5REl1cFVzc0FmWHI5MFdiQ1FVZEJ4N0dJRklWNDJuclJoV0lvMTQtbEdrWkVlVXlYYW02aUhEU2JVNjJSOGllUmFrLWMtanFhOTFTRG43dkJtTWttbjbSAZYBQVVfeXFMT3RrdGIzNXRZYUh3eVhMeF8xaDE1aHp3c2ZFNFdJQi0zVkE2TzdqMlA3Y0ZlMWdid2NUVHFoem0zTjAxdmMxX1JLWFFNanUyN0NTWlV4VXpucFFPTk9MdE5rOHFSNzBCdDY2Y1RZZHZFemIxel9IQjIwaWwwdGRoVkZrOXVXaEtFamk4MEpkSGZBYjFuMkRn?oc=5",
+   "source": "HuffPost",
+   "lang": "en",
+   "published": 1793128878
+  },
+  {
+   "title": "아마존, ‘글로벌 1위’ K뷰티에 구애",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Oa3oyeXFwMzUzSV92WFFqM1lGQUUzRGlMQjB1dkUwcHdJekdmRmR6M1d4LXlHamRrcmtPM0xENl9CQWRrZHhvVG1xUklYUnRuR1JqaDZpQQ?oc=5",
+   "source": "서울신문",
+   "lang": "ko",
+   "published": 1793128762
+  },
+  {
+   "title": "Glycolic Acid Peel Market in Asia: Size, Trends and Forecast to 2035",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNT2ptQXZfdFUyX29NLTNtTXhDdFBHblU1ZXRTVXdDSHlzRGVkRmEtOGJSM2NvSWxPSWw2Rm5RdWl4NlRRc1dMbU1EYUpyc1RiTWZxOEVWalFoU2ctUmNXdnl2WElfUXB4X2hvbU1NY1RuM1FqaHQzdmhhOHFwWFk3b2V4Vk9kX2NkNllyeWZIVExWeFFwRnJZamQzN0NlaC15SWJranlncw?oc=5",
+   "source": "IndexBox",
+   "lang": "en",
+   "published": 1793128407
+  },
+  {
+   "title": "Beauty Updates: L’Oréal Paris Signs Adria Arjona & More",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1PdUJGVlNFZVB0NkxScE8xTFRhT2loTkxiNGdOb0xFcUhWRWNQZEd4OW40SS05LUVVa0NIaVVCc2ZBb0VfTUJkaWVTQzRRYW9nXzJoTVcyYzRXYlh6VXpnT0VScWd5c1kxaVRmVHdRSVZrNjA?oc=5",
+   "source": "BeautyNewsDaily",
+   "lang": "en",
+   "published": 1793127542
+  },
+  {
+   "title": "인덴트코퍼레이션, K브랜드 글로벌 진출 돕는 커머스 AI 에이전트 ‘인덴트M’ 출시",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15aC1qeTA5cjFpQTJialhtdWxWaFhhU00yXzVpUnRLdHFQN3FBc1FJQkNlTndWODlFS0ZxS3BVYVcwM0psUXJIVHhaeUNtdG1saDVDOU5YWkJvRmJGdmxJMmcwVdIBY0FVX3lxTE15aC1qeTA5cjFpQTJialhtdWxWaFhhU00yXzVpUnRLdHFQN3FBc1FJQkNlTndWODlFS0ZxS3BVYVcwM0psUXJIVHhaeUNtdG1saDVDOU5YWkJvRmJGdmxJMmcwVQ?oc=5",
+   "source": "스포츠경향",
+   "lang": "ko",
+   "published": 1793125200
+  },
+  {
+   "title": "This K-Beauty Exosome Serum Is Just $12",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4zcUk1b2JJNE5rQ1NQTUp1dXl4eUJaQ25TR0ZwSi1McUx3THFWWjZNN3VqTjVrZHZyQlNPV0RmUUJSUlpsdG43SjAwRUtMUjBCN3cyNDNZZ2NpUUpaN3dpYTNLTXRLcXdpNURfdjRkclBhTEVKM2dxMg?oc=5",
+   "source": "New York Magazine",
+   "lang": "en",
+   "published": 1793124000
+  },
+  {
+   "title": "Barry Keoghan Admits to $6K Cosmetic Work After Brutal Attacks on His Looks",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZjFMSFFaQ2M0dGRaM1p6emwzZ2ZCUlBLQS0wdHNjQ1BHUGtPekNnZXYtUTIyNHNGdUhOWWZPejMxY243TFBUeXJxQ3EwX3RkTnA0RUtTdjBxbGhiN29OYlVuVmNRWldUdi1jbFVqRms4OGJ0cVRsWTVMdDRYT3VLeG4xSmdrczA3aVVwdjNNN0M1d1ZLM0pvT3lDQ0pxRjJxSjNXcA?oc=5",
+   "source": "Yahoo",
+   "lang": "en",
+   "published": 1793123215
+  },
+  {
+   "title": "Woman, 52, finds 63p fix to stop eye makeup from 'creasing in my fine lines'",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcTJYcVJjMXBrNG5RaThnMEtwTUt0d2NCcUo5T2FFTXNOaWtiXzJCRmlQRmo4RElhTHlVODdzdkNTY2d4R3liTHhCQzdfeDhLY1hzNkdWYzJ0TmQtRlhOYkFNeERZbklEeXJtaTVhSzRNOUM2VktnUGdvZE44QnlzSkVBcGY4QkJBZ29RUnBDZ2IzbHhKOHJwLVJycGhsTkNFVTYw0gGjAUFVX3lxTE1xMlhxUmMxcGs0blFpOGcwS3BNS3R3Y0JxSjlPYUVNc05pa2JfMkJGaVBGajhESWFMeVU4N3N2Q1NjZ3hHeWJMeEJDN194OEtjWHM2R1ZjMnROZC1GWE5iQU14RFluSUR5cm1pNWFLNE05QzZWS2dQZ29kTjhCeXNKRUFwZjhCQkFnb1FScENnYjNseEo4cnAtUnJwaGxOQ0VVNjA?oc=5",
+   "source": "Liverpool Echo",
+   "lang": "en",
+   "published": 1793118780
+  },
+  {
+   "title": "Is your K-beauty popular in Korea, or have you been buying ‘export brands?’",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTkc3N3JuR19tRUVmblZCVEU3UXhSV29mNjJBY3NJd053cE5rTlRmYWRiQzJrV2pWa3JOYWZwSlY5azFwSzhHUkRRcGRuOEhVcm5wVzFBWVYzZGhaX0hJcXpQOExvX21rWTY2RXdQcWVVOE56TE85VmxfT1F2X3A1dTI0Q1BwLUNs?oc=5",
+   "source": "NBC News",
+   "lang": "en",
+   "published": 1793118604
+  },
+  {
+   "title": "Score this viral K-beauty glass skincare routine for as low as $23",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONDNYdmsxRG00TDU3cHF2YWQ1NkVrRm4zT0VpWkltdUhCVWdyQlFBaFJEV2dWQ2g5UlhuRnR3a1N3bHdxZmZER3BOSDNEV054MjNZRUd5QU9NME9PcU9aUEtLUnlvdVJseV9adlVDWTY3aWNTekY0WVFkd0NicXdjd3dEWWNXYVZtMVF3RjFOOWxYRTBmZmpsTG9OOWxSZDgxR0NVbEZ4ZFlNTzUzbzE2OTI4REJhclNBQlR2bjJmNWc1QQ?oc=5",
+   "source": "USA Today",
+   "lang": "en",
+   "published": 1793118120
+  },
+  {
+   "title": "아마존서 날개 단 K뷰티⋯ 미국 넘어 유럽 시장 ‘정조준’",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oaDJSTERBQ1c4SHFySmlYd0p4R3M0N2lXVHdIX0paenVxbzg4eWc0cmtWSElxODRaUC1nM0x3d3VTWk1vVnVvc2FncC1PR1VVUjJTdDBMNlU?oc=5",
+   "source": "국민일보",
+   "lang": "ko",
+   "published": 1793114460
+  },
+  {
+   "title": "Target debuts New York-inspired food market inside remodeled store",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWTlBOEh1Ry0xWndlZ0JWc201VGloMlhKbWJQLUxLaHNBTXFDUnhPZUZyTDh3OHZ5eUh4aW9iby1WOFgyVEJ5VEY1ZEVBNzVPLVI4aEtDWjVzdUNValJDdHdScG5xNWx1MEwtcjJxX0VlV1RoSEw4QzdsQlExeThHaVVJd1YwMnJzWnEwV0NIeEdPNHRZdnBkX2YwNzd6OGlqclNNWTdxd3M?oc=5",
+   "source": "Grocery Dive",
+   "lang": "en",
+   "published": 1793114180
+  },
+  {
+   "title": "화장품 수출 ‘역대 최대’ 글로벌 진출 속도",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ndFB0bkZSc00tSmFCWEl3TzJRQnV1cWNvNENBSWxKRk9iOTNJdG5qVE5tQ0M0RmFuMU05UkM0WWc5aDRqSHdnVnFzemJaNnRpbTlOWGJPVG1SUnF1OHl3cjdFaE9hOVU?oc=5",
+   "source": "강원도민일보",
+   "lang": "ko",
+   "published": 1793113321
+  },
+  {
+   "title": "K뷰티 수출 질주... 3분기 누적 111억 달러 돌파, 역대 최대",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qSWN2Zl91MTNPaUJmd1FaTnFpdjZKWlBRbEJsclBJb291b0VROWZ4VGZDYzZXeGU4TGp1YUtEanRGNmIyZUQ0a0lXeDVlQm9sU1ktekpCUHZvVWlNbWs5SWR1QTZsQVdOenlJelBFbF8?oc=5",
+   "source": "시장경제신문",
+   "lang": "ko",
+   "published": 1793113241
+  },
+  {
+   "title": "Korean Skincare Brand FULLY Launches at More Than 580 Sephora Stores Across the U.S.",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLVRscWJPbTllTEV6VWpST2lYc21zX0xYWFZuR3NPMVR4dm1vdVlydmhLRlpuWG9ZSkozbDlKdEl5S21SX2N0VXhWQjMyQVo1Z2dYMFVnYVp5RlhQTUY3ckhqLWI3SDF0bDhMNWtWWXVmeHNJX3hZamE3V00zNzd6ZUY4VlpTeTdTUkZKdExUNHpWRUtzYnRmMkVzYzYybk96M084SVcwLTluSHVmVmw1bk50ZUNkbmdRTC1BUHlFU282RHI5TFVfS1M3Rmlyb3BnQ000Zg?oc=5",
+   "source": "PR Newswire",
+   "lang": "en",
+   "published": 1793113200
+  },
+  {
+   "title": "FULLY expands U.S. retail presence with Sephora launch",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUndRdmgwVVBNbko1LXF3eDZ5ZW16Smx3NmYzNk1RLXBCVy13Tnl6eXh1OW9HdnFmUFh4MmdTR1V0VG1ad0NZOHZBT2FvVGpiS3hjdEZKRnpZTFBZTXJGbjdVSklzOGNQMXI1UXlEeDhRYnVmUGNGTXdpWkdVeWhtVG9lVGNZYW9RQzZWLW1tUQ?oc=5",
+   "source": "Mass Market Retailers",
+   "lang": "en",
+   "published": 1793111438
+  },
+  {
+   "title": "K-뷰티에 전 세계 ’러브콜’…중소기업 수출도 역대 최대",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBieVU4WmNSNEJfUUJ3MlVqcWFTUGZ2WHgxWWdwZUNoM3Z5R2dDZGxlVW0zMGV2cEhyYjAzTVk2RnlBOU5TdGpSNFI4QkVfam5fNGJiajNxRHprbXBLZ3RrdTRYX2RBVEk?oc=5",
+   "source": "연합뉴스TV",
+   "lang": "ko",
+   "published": 1793110200
+  },
+  {
+   "title": "[오늘 하루, 10월 28일] 자기 자신...",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5qMXphUkU2S0lXNmVPSnRJZF9Ya3lfb1dfeGc4bm9uUmN2SjRpZUtqRTVNTWstdmdCMkRyV09rcXRUengwQUF3aXNaQXdkTUgwRFZqZHdUdl9hTy1XeE9nRGZzOA?oc=5",
+   "source": "코스인코리아닷컴",
+   "lang": "ko",
+   "published": 1793109708
+  },
+  {
+   "title": "﻿윤상현 콜마그룹 부회장 “K뷰티 지속성장 100% 가능”",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VdUluZ0Y4Q1lOSHgwVGhmUEMyTVpBeE5rMm9ITklCUUN3aXo1T3c0Q0JOemNVUkNxbGJzOVFOMG1wX2F3ZFAzRUw3Tjh0Y0hVcHVkYzBCUC0ydzMyVUloQjNqRHNZY05YSlVYUGFVUVXSAXBBVV95cUxNVXVJbmdGOENZTkh4MFRoZlBDMk1aQXhOazJvSE5JQlFDd2l6NU93NENCTnpjVVJDcWxiczlRTjBtcF9hd2RQM0VMN044dGNIVXB1ZGMwQlAtMnczMlVJaEIzakRzWWNOWEpVWFBhVVFV?oc=5",
+   "source": "글로벌경제신문",
+   "lang": "ko",
+   "published": 1793109546
+  },
+  {
+   "title": "Nebraska cattlemen work with U.S.-based Coupang to access overseas markets",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QclhHcHRIMkMzOVpmVlZOSkFqRS1fXzI1OVF5elhkTUhmcUYxQS1yNGdDZGY2QWNGNHJ1Q0Jtc25DMzBuNTBsOXdEV1J4UFpwMFp5SnNzbWtBcTNnSVFxMmZPWUMyRXBwelJWVDNGQWdEbm1Gb2ZBSWRWUWF5UQ?oc=5",
+   "source": "Coupang, Inc.",
+   "lang": "en",
+   "published": 1793109463
+  },
+  {
+   "title": "윤상현 콜마그룹 부회장 “K뷰티 지속성장 원동력은 새로운 브랜드의 탄생”",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Ka1M1SXJEckIwVHd3TF83ZGVkYUR2Y0J1Q1JZbm9xMnI1Znp3X1NyOGRrclVpRl9WN2s5Zm5HUFRGZUgxMDlhYmxNdUJCcTBFeExrRWQ4SkJSMzI1bVk4bXdhVy1rY1dnb1Z3?oc=5",
+   "source": "헬스경향",
+   "lang": "ko",
+   "published": 1793108534
+  },
+  {
+   "title": "Nicolas Hieronimus Talks About GLP-1’s ‘Impact’ on Skincare",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbVNydWpWejBCclh4WERQcTV4NEhzNDJoNnFLX1ZPbnkyTFRwUmRCa1Ezd1FHREdrd3hRNk5LdmExR3FURFByRjEzWHVtNkxrWm5OMmYwT2ttak53QW90elp1YzZ3dS1RbzRKMnE4MnMxczBKVTlvQTBPVnhKc1k2MkdLeTVHRnZEcVlwbVhzRFl0TjRkQ2VyejZ6RGZpWW9ybWVzTkFn?oc=5",
+   "source": "Beauty Packaging",
+   "lang": "en",
+   "published": 1793108141
+  },
+  {
+   "title": "“매일이 서바이벌 오디션”…콜마 윤상현이 꼽은 K뷰티의 경쟁력 [현장+]",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3X3R4dXZqbzFsVjl0UkhaTUdmRXlhdlo4aHVCXzRZRXo2UVFyU1RTYlBkdWx2NktjWW9Rb2hLbmN5MnNRa05iYXFWVVR2Sjk3cC1Zd1dyRTd0Qi1JNGdWeS1mZw?oc=5",
+   "source": "쿠키뉴스",
+   "lang": "ko",
+   "published": 1793107056
+  },
+  {
+   "title": "CJ OLIVE YOUNG targets regional growth with new heritage-themed flagship in Gyeongju",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2xaazBaWjVtMmNVb2VTZEZBZDNaaDBPUndhV25SNmdFOVBHS25sQTFvWmVQbUJHU2xnaVFhX2swY1B3b0h2bklvNllZX1AxRHZLQWJXM01pYUt6ZVVsZmlwWkU1bzU5ZTRvNF9sd2dFTFNxdmJYUlRtU2VtTXhSaG0tcWRuQUVMbkVZRjBTSkkxVVZCUVdNbnA1YzBjMlJYcThFOWtfSUM1OWNGRU9zdWln?oc=5",
+   "source": "marketech apac",
+   "lang": "en",
+   "published": 1793106726
+  },
+  {
+   "title": "Kolmar’s Yoon Sang-hyun backs sustainable K-beauty growth, touts Amazon tie-up",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPR0RsVzVRNERLSUN0bWlBSmNXWHF3enR5alNMaU5uX1hQVEhjSmpHN0dCYURyel9NUmVPOFZPcjJFMU1RYVNxTGQwMWNXRENNQnBMTmhmSUxmYmxyOUJwWnplazFrOXpncFp0WFpyd0RDZmlVTHpKNkc2ZXQwaWRBb093ekhENy1jTFJ6SzVfZVVpSDTSAZMBQVVfeXFMT0dEbFc1UTRES0lDdG1pQUpjV1hxd3p0eWpTTGlObl9YUFRIY0pqRzdHQmFEcnpfTVJlTzhWT3IyRTFNUWFTcUxkMDFjV0RDTUJwTE5oZklMZmJscjlCcFp6ZWsxazl6Z3BadFhacndEQ2ZpVUx6SjZHNmV0MGlkQW9Pd3pIRDctY0xSeks1X2VVaUg0?oc=5",
+   "source": "Chosunbiz",
+   "lang": "en",
+   "published": 1793106000
+  },
+  {
+   "title": "콜마 윤상현 부회장 “K뷰티 지속성장, 100% YES…새 브랜드 탄생이 힘”",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZndvWU1mWWM2TVBzYk1GcnBoc2xxUlhHWUkzekpkTzdtRUNtS3hvTWpnb1g5NHBTMTh2MjBBX3hXNG9IWldiamJGY0F5dEpSVGk4eDhicGNIZW1TZm1zX19MV04ycDVWRXp4VFBsU3A0RFpabU8yMkEyRTB3NXVSanFuNml1aE9nTlN0WHFadFg5Nkw1ZF9uZERRb2prTkpSMUJPQzdfNNIBpwFBVV95cUxPZndvWU1mWWM2TVBzYk1GcnBoc2xxUlhHWUkzekpkTzdtRUNtS3hvTWpnb1g5NHBTMTh2MjBBX3hXNG9IWldiamJGY0F5dEpSVGk4eDhicGNIZW1TZm1zX19MV04ycDVWRXp4VFBsU3A0RFpabU8yMkEyRTB3NXVSanFuNml1aE9nTlN0WHFadFg5Nkw1ZF9uZERRb2prTkpSMUJPQzdfNA?oc=5",
+   "source": "Chosunbiz",
+   "lang": "ko",
+   "published": 1793105940
+  },
+  {
+   "title": "경산시, K-뷰티 생산·수출 거점 육성 구상",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1fREtYUWxIWGxqSzJybmFKWXphS1pKbUhhOThSNC1QU1RENldSS0h5d1ByQnhkLTVXRnYzTWtjcWRta0EtcUxYcFpzcXFnbEFocVI2aW5MNjcxLW5jZ1dlOF9RQUFzX3piempF?oc=5",
+   "source": "대구신문",
+   "lang": "ko",
+   "published": 1793103069
+  },
+  {
+   "title": "라인플러스, K-뷰티 해외 진출 돕는다…AI로 아마존 상품 이미지·문구 자동 제작",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fYXJ6a2VCNllFMi16UnMxYnZ2NW9UbFFLMmlqekxwNWdrQXhjc2dfeU9Uc2lQVUFWYjM5R1ZwV1B5ZGVQTGdJYWRNMGxjZjRNdS1ZMEFYMkp1Yy02YVp4Y0NPOU1aN1A3eFlreA?oc=5",
+   "source": "뉴스탭",
+   "lang": "ko",
+   "published": 1793103047
+  },
+  {
+   "title": "Curology Partners with Dove Cameron to Launch New Skincare Line",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWXVzc3UweXJ0Ujc2d1k5V3FId0tKUHVSRUV3aUNCMk43V2FpblAtYlhuVHlGLU1CZTZwZ1FpdW4td09QcnN0WEUteE5HdUZQUHFFcDFVc1hsRG5FZlRBS3JpcDhSUV9hLXk1NmRYMVBSTDFPb01qVE9zNGVZeU9waVFfVzVubFN3bkpjTjlZaDNQVDNsM2RjczF6NjFNYTRCYWNZMXJQd0NEMUYwQ3hn?oc=5",
+   "source": "Beauty Packaging",
+   "lang": "en",
+   "published": 1793102984
+  },
+  {
+   "title": "윤상현 콜마그룹 부회장 \"K뷰티 지속 성장 100% 확신\" 외친 이유",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXX2tjMWluTUoxejBHa2NSYjBOT0pGNVV2VnZTZktoN09FcU5fOVlGR25CNFdjeFVZTmNfWHNXN0xTWTBmMFhxOVZsUWxiUXNWcjdoemxteTBqU2xCbWdlQUdVX2xkTVF1eU9RZDJfRjBFdFJYcl9V?oc=5",
+   "source": "이코노미트리뷴",
+   "lang": "ko",
+   "published": 1793101850
+  },
+  {
+   "title": "K뷰티, 계속 잘나갈까…아마존의 대답은 “시장 무궁무진”",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MZDYwYXhEb1JFUTYxUm1ESm1hZGR1N3A2ZTRyOWZZTjZFUlRQdGpVcnN6LWdyNUZLalJUcVFDZW1zOW1POWxYNm5HVzZzcmU5OFJrMGpoQlg4d9IBX0FVX3lxTFBhazRSaUctNENCYUZ5T2pFWXBIdjE3c25WUmpkYWgyR3diTVVhbjUwVklPQkVwMEtPTEhYVXZLYjIxcFNtMTBGamllVUhmTUxLejBIRGNycGtfZ2pyUUxR?oc=5",
+   "source": "경향신문",
+   "lang": "ko",
+   "published": 1793101740
+  },
+  {
+   "title": "“The steady emergence of new brands is driving K-beauty’s growth”... Kolmar Group Vice Chairman Hyun Yun to speak at ‘Amazon Beauty in Seoul’",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOS0hUaUJZQUNBNHdyUjI1MURLNnVHTjFlbEJCTnZYMnF2QUhjMWtCNnZhaHFVWUxLTjZHblNTV0tZRF9NdWJmRUItTzMyemNiWVJvZG9ycldMMVNybWdmQWFNWjJDZHJ0anYwbEVLTTE5TU5yTUo0Q2dJWGhIRGxNZA?oc=5",
+   "source": "스포츠조선",
+   "lang": "en",
+   "published": 1793101679
+  },
+  {
+   "title": "\"새 브랜드 꾸준한 탄생이 K뷰티 성장 원동력\"…윤상현 콜마그룹 부회장, '아마존 뷰티 인 서울' 강연",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5VM3lYdzFTOFh4TDJrQnhiaFRIcXQ3N21udzlTMkR4dWV6TXNhaVlwUDA5cHZxT0JLTFBRS1pMNFNqOW5tOVFoeGhtRDZrRG1oSFZqSjBFQjVKMjV1bnlVak5mWlloNU1fWGJ0bXlHTDBtSGtWNDA5cA?oc=5",
+   "source": "스포츠조선",
+   "lang": "ko",
+   "published": 1793101619
+  },
+  {
+   "title": "Alleyoop Founder Leila Kashani Talks Time-Saving Makeup",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jYWxvUDBPTWlaM2hrSFREandtaFFpaU0xX3cxSzJVa1ZWdVZrcGxEWHhRY0ljSDBEeFBPQTVXcDlxTnZ0bHVNcmI0ZEVHN004VHpPcWs4TzVmLWFKdHVJWnR4Z2pNWWM5X3dXYzFR?oc=5",
+   "source": "BeautyNewsDaily",
+   "lang": "en",
+   "published": 1793099719
+  },
+  {
+   "title": "아마존, K-뷰티의 글로벌 성장 가속화 위한 4대 프로젝트 발표",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9DTnl4T28ySFM4WmJ2Z1FJSy1VcDFLYWo4c2JIM05NMVNObnVycEpiR0l3V1FkTWM5UlRZWkpMTjlkMV9FM1B6NUZza2U4dGZQejFCR0dOUmx2STUwV3hsX3RB?oc=5",
+   "source": "CNC NEWS",
+   "lang": "ko",
+   "published": 1793098714
+  },
+  {
+   "title": "일동제약그룹·나인앤컴퍼니, 합작법인 ‘아이디나인’ 출범…더마코스메틱 시장 공략",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HZXBEQlo4ZlNqaEpXUXNFU1doN29hM0U3Z1otcHotZnVyQTVhVjJTanlCTFY0aVFweWlLNm5DeDdMT3M1UEZwUlh6WkJEdG1LNkpRZG5iTlJOdnpkNnJPMGtSbnNoOVY2cXl3MEpaejRaZ9IBdEFVX3lxTE5PbjZ4Q2ozTjRzR24xZGRlUHN1VzZ1cDM5dGFIemh5MC1vc3RqZy1PbGpVU1VHT2M4bWFOREtldGt2VUVCLXpuZ3VYdVJWQmNyZnVtcVNxclJCSlZjR3ZPc08wclI4Sk0xWGItcVdWaTNPMW5V?oc=5",
+   "source": "더퍼스트미디어",
+   "lang": "ko",
+   "published": 1793098708
+  }
+ ],
+ "content": {
+  "title_ko": "수출 +31.1%, 아마존은 '나머지 80%'를 노린다",
+  "excerpt_ko": "2026년 1~9월 화장품 수출은 111억 달러로 31.1% 늘었습니다. 같은 날 아마존은 헤어·웰니스 셀러 유치와 2027년 유럽 진출 지원을 발표했습니다. 미국 오프라인은 세포라부터 달러숍까지 가격대별로 갈라지고 있습니다.",
+  "body_ko_html": "<h2>1. 1~9월 수출 111억 달러, 미국 비중 21.1%</h2>\n<p>식약처 잠정치로 2026년 1~9월 화장품 수출은 111억 달러입니다. 전년 같은 기간보다 31.1% 늘었고, 1~9월 누적으로는 가장 큰 금액입니다. 같은 기간 누적액은 2022년 60억, 2023년 62억, 2024년 74억, 2025년 85억 달러였습니다. (<a href=\"https://cosinkorea.com/news/article.html?no=58439\">코스인코리아</a>)</p>\n<ul>\n<li>국가별(1~9월): 미국 23.5억 달러(21.1%), 중국 15.8억 달러(14.2%), 일본 8.9억 달러(8.0%). 성장 국가로는 영국·네덜란드·폴란드가 꼽혔습니다.</li>\n<li>품목: 성장을 이끈 건 스킨케어로, 87.2억 달러입니다.</li>\n<li>3분기만 보면 41.7억 달러로, 2분기(38.8억 달러)보다 7.5% 늘었습니다.</li>\n</ul>\n<p>보도에 따르면 2025년 연간 수출 잠정치는 약 114억 달러(+12.3%)입니다. 9개월 실적이 작년 연간 실적에 거의 다가섰습니다. (<a href=\"https://www.cosinkorea.com/mobile/article.html?no=56516\">코스인코리아</a>)</p>\n<p><strong>실무 포인트:</strong> 누적 증가율보다 분기 증가폭을 보셔야 합니다. 3분기의 전분기 대비 증가율은 7.5%였습니다. 연말 물량은 작년 리오더 패턴이 아니라 최근 셀아웃 데이터로 잡는 편이 안전합니다.</p>\n\n<h2>2. 아마존 뷰티 고객 중 K뷰티 구매자는 5명 중 1명</h2>\n<p>10월 27일 '아마존 뷰티 인 서울 2026'에서 아마존이 프로젝트 4개를 발표했습니다. 3년간 선도 K뷰티 브랜드 7곳을 키우고, 2027년에는 헤어·웰니스 신규 셀러 50곳과 신규 상품 200개를 들여오며, K뷰티 브랜드 약 100곳의 유럽 진출을 돕는다는 내용입니다. (<a href=\"https://www.news1.kr/industry/distribution/6333284\">뉴스1</a>)</p>\n<ul>\n<li>아마존 발표에 따르면 1~9월 한국 셀러의 뷰티 매출은 전년 대비 약 2배로 늘었습니다. K뷰티 성장 속도는 뷰티 카테고리 전체의 3배가 넘는다고 합니다. (<a href=\"https://news.bizwatch.co.kr/article/consumer/2026/10/27/0032\">비즈워치</a>)</li>\n<li>아마존은 자사 뷰티 고객 5명 중 1명이 K뷰티를 산다고 밝혔습니다. 아직 사지 않은 약 80%를 잠재 고객으로 보고 있습니다. (<a href=\"https://www.kukinews.com/article/view/kuk202610270114\">쿠키뉴스</a>)</li>\n<li>보도에 따르면 '프로젝트 밀리언'은 첫해 매출 100만 달러를 목표로 하는 신규 셀러 50곳에 기획·리스팅·물류·마케팅을 지원합니다. '프로젝트 아우토반'은 유럽 5개국에 진출할 때 필요한 세무 등록·인증·규제 대응·다국어 리스팅을 지원합니다. (<a href=\"https://www.heraldk.com/article/2026102622334499225\">헤럴드경제 미주판</a>)</li>\n</ul>\n<p><strong>실무 포인트:</strong> 집계 기준이 달라 바로 비교할 수는 없습니다. 그래도 아마존이 발표한 한국 셀러 매출 증가(약 2배)가 수출 통계(+31.1%)보다 가파릅니다. 플랫폼에서 출발한 인디 브랜드가 더 빨리 크고 있다는 뜻으로 읽힙니다. 나머지 80%는 스킨케어 히어로 제품 하나로는 잡기 어렵습니다. 헤어·웰니스 SKU를 테스트할 때입니다.</p>\n\n<h2>3. 아마존 유럽 5개국 지원, 승부는 인증 서류에서 갈린다</h2>\n<p>아마존이 2027년 유럽 진출을 지원하겠다고 한 K뷰티 브랜드는 약 100곳입니다. 수출 통계에서도 영국·네덜란드·폴란드가 성장 국가로 꼽혔습니다. (<a href=\"https://www.news1.kr/industry/distribution/6333284\">뉴스1</a>, <a href=\"https://cosinkorea.com/news/article.html?no=58439\">코스인코리아</a>)</p>\n<p><strong>실무 포인트:</strong> 프로그램 지원을 받아도 CPNP 등록, EU 책임자(RP) 지정, 현지어 라벨은 결국 브랜드가 챙겨야 합니다. 신청 전에 히어로 SKU 2~3개부터 서류를 정리해두세요.</p>\n\n<h2>4. 올영 에디트, 미국 세포라 580여 개 매장 입점</h2>\n<p>보도에 따르면 CJ올리브영의 'Olive Young K-Beauty Edit'은 8월 20일 미국 세포라 580여 개 매장과 Sephora.com에 들어갔습니다. 올리브영 자료로는 500개 이상입니다. 19개 브랜드, 스킨케어 중심 약 150개 SKU로 구성됐습니다. (<a href=\"https://www.koreajoongangdaily.com/business/olive-young-products-to-be-sold-at-580-us-sephora-stores/12809027\">코리아중앙데일리</a>)</p>\n<p>올리브영 보도자료에 따르면 2026년 말까지 싱가포르·말레이시아·태국·홍콩, 2027년에는 캐나다·호주·영국·중동으로 넓힐 계획입니다. (<a href=\"https://www.webull.com/news/15344930971673600\">올리브영 보도자료/Webull</a>)</p>\n<p><strong>실무 포인트:</strong> 올영 에디트가 세포라 해외 매장으로 들어가는 통로 하나가 됐습니다. 올영 입점 브랜드라면 2027년 진출국에 맞춰 패키지와 인증을 미리 손봐두세요.</p>\n\n<h2>5. 달러숍부터 K뷰티 전문점까지, 미국 오프라인은 가격대별로 갈라지는 중</h2>\n<p>저가 뷰티 리테일러 Miss A는 현재 약 100개인 미국 매장을 2030년까지 550개로 늘리고 연매출 10억 달러를 내겠다는 목표를 세웠습니다(회사 목표치). (<a href=\"https://captimes.com/news/business/bargain-beauty-shop-miss-a-on-track-to-open-first-madison-store-soon/article_befe3bc6-818c-4bcc-8ea4-878b5554bf18.html\">Cap Times</a>) 코어사이트 집계에서는 2026년 42주차 미국 신규 출점 1위가 K뷰티 리테일러 모이다(Moida)였습니다. 한 주에 11개 매장을 열었습니다. (<a href=\"https://coresight.com/research/weekly-us-store-openings-and-closures-tracker-2026-week-42-k-beauty-retailer-moida-leads-openings-with-11-stores/\">Coresight Research</a>)</p>\n<p><strong>실무 포인트:</strong> 스페셜티(세포라), K뷰티 전문점(모이다), 달러숍(Miss A)은 마진 구조가 전혀 다릅니다. SKU 하나로 세 채널에 다 들어가면 가격이 무너집니다. 채널마다 용량과 구성을 달리한 전용 SKU를 설계하세요.</p>\n\n<h2>출처</h2>\n<ul>\n<li><a href=\"https://cosinkorea.com/news/article.html?no=58439\">코스인코리아 (식약처 발표 인용)</a></li>\n<li><a href=\"https://www.cosinkorea.com/mobile/article.html?no=56516\">코스인코리아 (2025 송년특집)</a></li>\n<li><a href=\"https://www.news1.kr/industry/distribution/6333284\">뉴스1</a></li>\n<li><a href=\"https://news.bizwatch.co.kr/article/consumer/2026/10/27/0032\">비즈워치</a></li>\n<li><a href=\"https://www.kukinews.com/article/view/kuk202610270114\">쿠키뉴스</a></li>\n<li><a href=\"https://www.heraldk.com/article/2026102622334499225\">헤럴드경제 미주판</a></li>\n<li><a href=\"https://www.koreajoongangdaily.com/business/olive-young-products-to-be-sold-at-580-us-sephora-stores/12809027\">Korea JoongAng Daily</a></li>\n<li><a href=\"https://www.webull.com/news/15344930971673600\">Olive Young 보도자료 (Webull)</a></li>\n<li><a href=\"https://captimes.com/news/business/bargain-beauty-shop-miss-a-on-track-to-open-first-madison-store-soon/article_befe3bc6-818c-4bcc-8ea4-878b5554bf18.html\">Cap Times</a></li>\n<li><a href=\"https://coresight.com/research/weekly-us-store-openings-and-closures-tracker-2026-week-42-k-beauty-retailer-moida-leads-openings-with-11-stores/\">Coresight Research</a></li>\n</ul>\n<p><small>자료 수집·정리에 AI 도구를 활용했습니다.</small></p>",
+  "threads_ko": "1~9월 화장품 수출 111억 달러, +31.1%(식약처 잠정). 9개월 만에 작년 연간(약 114억 달러)을 거의 따라잡음.\n• 미국 23.5억 달러로 비중 21.1%. 중국(15.8억)과는 격차 꽤 벌어짐\n• 아마존 발표로는 뷰티 고객 5명 중 1명만 K뷰티 구매. 2027년엔 헤어·웰니스 셀러 50곳 유치에 유럽 진출 약 100개 브랜드 지원한다고 함\n• 미국 오프라인은 세포라(보도상 올영 에디트 580여 매장)부터 달러숍 Miss A까지 가격대별로 갈라지는 중. 채널 전용 SKU 없으면 가격 무너질 듯\n다들 유럽 갈 때 CPNP·RP는 직접 하세요, 대행 쓰세요?",
+  "title_en": "Exports +31.1%, and Amazon wants the other 80% of beauty shoppers",
+  "excerpt_en": "Korean cosmetics exports reached USD 11.1bn in Jan–Sep 2026, up 31.1%. Amazon is recruiting Korean hair and wellness sellers and plans to take about 100 Korean brands into Europe. US physical retail is splitting by price tier, from Sephora down to dollar stores.",
+  "body_en_html": "<h2>1. USD 11.1bn in nine months, with the US at 21.1%</h2>\n<p>Provisional MFDS data puts Korea's cosmetics exports for January–September 2026 at USD 11.1bn, up 31.1% YoY. No earlier Jan–Sep period was higher. The same months totaled USD 6.0bn in 2022, 6.2bn in 2023, 7.4bn in 2024 and 8.5bn in 2025. (<a href=\"https://cosinkorea.com/news/article.html?no=58439\">CosinKorea</a>)</p>\n<ul>\n<li>By destination (Jan–Sep): US USD 2.35bn (21.1%), China USD 1.58bn (14.2%), Japan USD 0.89bn (8.0%). The UK, Netherlands and Poland were named as growth markets.</li>\n<li>Skincare led at USD 8.72bn.</li>\n<li>Q3 on its own came to USD 4.17bn, 7.5% above Q2 (USD 3.88bn).</li>\n</ul>\n<p>Reported provisional exports for full-year 2025 were about USD 11.4bn (+12.3%). The first nine months of 2026 nearly match that. (<a href=\"https://www.cosinkorea.com/mobile/article.html?no=56516\">CosinKorea</a>)</p>\n<p><strong>For buyers:</strong> Supply is growing, but Q3 was up only 7.5% on Q2. Plan Q4 and Q1 orders from your own sell-through, not from the headline growth rate.</p>\n\n<h2>2. Amazon: only 1 in 5 beauty shoppers buys K-beauty</h2>\n<p>At Amazon Beauty in Seoul 2026 (Oct 27), Amazon announced four projects. It will develop 7 leading K-beauty brands over three years. In 2027 it plans to bring in 50 new hair and wellness sellers with 200 new products and help about 100 K-beauty brands enter Europe. (<a href=\"https://www.news1.kr/industry/distribution/6333284\">News1</a>)</p>\n<ul>\n<li>According to Amazon, Korean sellers' beauty sales roughly doubled YoY in Jan–Sep, and K-beauty is growing more than 3x as fast as beauty overall. (<a href=\"https://news.bizwatch.co.kr/article/consumer/2026/10/27/0032\">BizWatch</a>)</li>\n<li>Amazon says one in five of its beauty customers buys K-beauty and treats the other ~80% as untapped demand. (<a href=\"https://www.kukinews.com/article/view/kuk202610270114\">Kuki News</a>)</li>\n<li>Reports describe two of the programs. \"Project Million\" fully supports 50 new sellers that aim for USD 1M in first-year sales, covering planning, listing, logistics and marketing. \"Project Autobahn\" handles tax registration, certification, compliance and multilingual listings in 5 EU countries. (<a href=\"https://www.heraldk.com/article/2026102622334499225\">Herald Korea US</a>)</li>\n</ul>\n<p><strong>For buyers:</strong> Expect more Korean brands to reach Europe, and to show up in hair and wellness, already selling on Amazon. If you distribute in the EU, ask brands about their Amazon plans early. Exclusivity and pricing terms get harder to win once a brand sells direct.</p>\n\n<h2>3. Europe: compliance decides who gets in</h2>\n<p>Amazon's goal of about 100 brands entering Europe in 2027 lines up with the export data, which named the UK, Netherlands and Poland as growth markets. (<a href=\"https://www.news1.kr/industry/distribution/6333284\">News1</a>, <a href=\"https://cosinkorea.com/news/article.html?no=58439\">CosinKorea</a>)</p>\n<p><strong>For buyers:</strong> Before you commit to a Korean line for the EU, check CPNP notification, the Responsible Person and local-language labels for every SKU. Distributors that can act as RP have leverage now.</p>\n\n<h2>4. Olive Young's edit is in 580+ US Sephora stores</h2>\n<p>Reports say CJ Olive Young's \"K-Beauty Edit\" launched on Aug 20 in more than 580 US Sephora stores and on Sephora.com. Olive Young's own figure is 500+. The edit has about 150 SKUs, mostly skincare, from 19 brands including FULLY. (<a href=\"https://www.koreajoongangdaily.com/business/olive-young-products-to-be-sold-at-580-us-sephora-stores/12809027\">Korea JoongAng Daily</a>) According to Olive Young, Singapore, Malaysia, Thailand and Hong Kong come next by end-2026, followed by Canada, Australia, the UK and the Middle East in 2027. (<a href=\"https://www.webull.com/news/15344930971673600\">Olive Young release via Webull</a>)</p>\n<p><strong>For buyers:</strong> If you sell in the 2027 markets, Sephora will likely have a curated Korean assortment. Look for brands outside the edit, or formats that don't overlap with it.</p>\n\n<h2>5. US stores split by price tier</h2>\n<p>Dollar-price beauty chain Miss A plans to go from about 100 US stores to 550 and reach USD 1bn in annual sales by 2030 (company targets). (<a href=\"https://captimes.com/news/business/bargain-beauty-shop-miss-a-on-track-to-open-first-madison-store-soon/article_befe3bc6-818c-4bcc-8ea4-878b5554bf18.html\">Cap Times</a>) In Coresight's week 42 tracker, K-beauty retailer Moida opened 11 stores, more than any other US retailer that week. (<a href=\"https://coresight.com/research/weekly-us-store-openings-and-closures-tracker-2026-week-42-k-beauty-retailer-moida-leads-openings-with-11-stores/\">Coresight Research</a>)</p>\n<p><strong>For buyers:</strong> Specialty stores (Sephora), K-beauty specialists (Moida) and dollar stores (Miss A) each need their own pack sizes and margins. Ask suppliers for channel-specific SKUs so the same item doesn't carry three prices in one mall.</p>\n\n<h2>Sources</h2>\n<ul>\n<li><a href=\"https://cosinkorea.com/news/article.html?no=58439\">CosinKorea (citing MFDS)</a></li>\n<li><a href=\"https://www.cosinkorea.com/mobile/article.html?no=56516\">CosinKorea (2025 year-end special)</a></li>\n<li><a href=\"https://www.news1.kr/industry/distribution/6333284\">News1</a></li>\n<li><a href=\"https://news.bizwatch.co.kr/article/consumer/2026/10/27/0032\">BizWatch</a></li>\n<li><a href=\"https://www.kukinews.com/article/view/kuk202610270114\">Kuki News</a></li>\n<li><a href=\"https://www.heraldk.com/article/2026102622334499225\">Herald Korea US</a></li>\n<li><a href=\"https://www.koreajoongangdaily.com/business/olive-young-products-to-be-sold-at-580-us-sephora-stores/12809027\">Korea JoongAng Daily</a></li>\n<li><a href=\"https://www.webull.com/news/15344930971673600\">Olive Young release (Webull)</a></li>\n<li><a href=\"https://captimes.com/news/business/bargain-beauty-shop-miss-a-on-track-to-open-first-madison-store-soon/article_befe3bc6-818c-4bcc-8ea4-878b5554bf18.html\">Cap Times</a></li>\n<li><a href=\"https://coresight.com/research/weekly-us-store-openings-and-closures-tracker-2026-week-42-k-beauty-retailer-moida-leads-openings-with-11-stores/\">Coresight Research</a></li>\n</ul>\n<p><small>Research compiled with AI tools.</small></p>",
+  "linkedin_en": "Korean cosmetics exports reached USD 11.1bn in January–September 2026, up 31.1% YoY (MFDS provisional). Nine months of 2026 nearly match all of 2025.\n\nThree things for sourcing teams this week:\n\n• The US is the top destination at USD 2.35bn, 21.1% of the Jan–Sep total. China is well behind at USD 1.58bn. The UK, Netherlands and Poland were named as growth markets.\n• Amazon says only 1 in 5 of its beauty customers buys K-beauty. For 2027 it plans to add 50 hair and wellness sellers with 200 new products and help about 100 Korean brands enter Europe.\n• US stores are splitting by price tier. Olive Young's edit is reportedly in 580+ Sephora stores. Moida opened 11 US stores in week 42, more than any other retailer. Dollar-price chain Miss A targets 550 stores by 2030.\n\nWhat it means: more Korean brands will reach the EU already listed on Amazon. A single SKU also can't sit at Sephora and in a dollar store at once. The strongest distributors will be the ones that can act as EU Responsible Person and negotiate channel-specific SKUs.\n\nBuyers: have you started asking Korean suppliers for channel-exclusive SKUs, or does one line still go to every channel?",
+  "tags": [
+   "K뷰티",
+   "화장품수출",
+   "아마존",
+   "올리브영",
+   "세포라",
+   "미국리테일",
+   "유럽진출",
+   "CPNP"
+  ],
+  "cards_ko": {
+   "cover": {
+    "badge": "데일리 브리프",
+    "hero_number": "+31.1%",
+    "hero_label": "1~9월 화장품 수출 증가율",
+    "headline": "9개월에 111억 달러\n다음 판은 어디서?",
+    "sub": "수출·아마존·미국 오프라인 체크포인트 5개"
+   },
+   "slides": [
+    {
+     "category": "수출·통계",
+     "headline": "9개월 111억 달러, 미국 21.1%",
+     "stat": "$11.1B",
+     "stat_label": "2026년 1~9월 누적",
+     "what": "1~9월 화장품 수출 111억 달러, 전년 대비 +31.1%(식약처 잠정)",
+     "why": "미국 23.5억 달러(21.1%), 중국 15.8억 달러와 격차 확대",
+     "action": "3분기 전분기 대비 +7.5%, 연말 물량은 셀아웃 기준 산정",
+     "source": "코스인코리아, 식약처",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    },
+    {
+     "category": "채널·플랫폼",
+     "headline": "아마존 뷰티 고객 5명 중 1명만 K뷰티",
+     "stat": "1/5",
+     "stat_label": "K뷰티 구매 고객(아마존)",
+     "what": "아마존, 2027년 헤어·웰니스 셀러 50곳·신규 상품 200개 유치",
+     "why": "아마존 발표상 1~9월 한국 셀러 매출 약 2배, 미구매 80%",
+     "action": "스킨케어 히어로 외 헤어·웰니스 SKU 1~2개 테스트",
+     "source": "뉴스1, 비즈워치, 쿠키뉴스",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    },
+    {
+     "category": "규제·인증",
+     "headline": "아마존 유럽 100곳 지원, 관건은 인증",
+     "stat": "약 100곳",
+     "stat_label": "2027년 유럽 진출 지원",
+     "what": "아마존, 2027년 K뷰티 약 100개 브랜드 유럽 진출 지원 계획",
+     "why": "보도 기준 5개국 세무·인증·다국어 리스팅까지 지원",
+     "action": "CPNP 등록·EU 책임자(RP) 지정, 히어로 SKU부터 준비",
+     "source": "뉴스1, 헤럴드경제 미주판",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    },
+    {
+     "category": "채널·플랫폼",
+     "headline": "세포라 580여 매장에 올영 에디트",
+     "stat": "580+",
+     "stat_label": "미국 세포라 매장(보도)",
+     "what": "올영 K뷰티 에디트, 19개 브랜드·약 150개 SKU로 입점(보도)",
+     "why": "연말 아시아 4개, 2027년 영국 등 4개 시장 확대 계획",
+     "action": "올영 입점 브랜드는 2027년 진출국 기준 패키지·인증 정비",
+     "source": "코리아중앙데일리, 올리브영",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    },
+    {
+     "category": "채널·플랫폼",
+     "headline": "달러숍 Miss A, 100→550개 매장",
+     "stat": "550개",
+     "stat_label": "2030년 미국 매장 목표",
+     "what": "Miss A, 2030년 매장 550개·연매출 10억 달러 목표(회사 목표)",
+     "why": "모이다는 42주차 미국 신규 출점 11개로 주간 1위",
+     "action": "채널별 마진 구조 분리, 저가 채널은 전용 SKU로 대응",
+     "source": "Cap Times, Coresight",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    }
+   ]
+  },
+  "cards_en": {
+   "cover": {
+    "badge": "Daily brief",
+    "hero_number": "+31.1%",
+    "hero_label": "Jan–Sep export growth",
+    "headline": "$11.1bn in 9 months.\nWhere's the next leg?",
+    "sub": "Exports, Amazon, US retail: 5 notes"
+   },
+   "slides": [
+    {
+     "category": "Export data",
+     "headline": "USD 11.1bn in Jan–Sep, US takes 21.1%",
+     "stat": "$11.1B",
+     "stat_label": "Jan–Sep 2026 exports",
+     "what": "Korean cosmetics exports hit USD 11.1bn in Jan–Sep 2026, up 31.1% YoY (MFDS provisional).",
+     "why": "The US took USD 2.35bn (21.1%), ahead of China at USD 1.58bn. Skincare made up USD 8.72bn.",
+     "action": "Q3 grew 7.5% QoQ. Set Q4 and Q1 orders from your own sell-through, not the headline growth.",
+     "source": "CosinKorea, MFDS",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    },
+    {
+     "category": "Channels",
+     "headline": "1 in 5 Amazon beauty shoppers buy K-beauty",
+     "stat": "1 in 5",
+     "stat_label": "Amazon beauty buyers",
+     "what": "In 2027, Amazon will recruit 50 Korean hair/wellness sellers with 200 new products.",
+     "why": "Amazon says Korean sellers' beauty sales ~doubled in Jan–Sep. 80% of shoppers haven't bought.",
+     "action": "Scout Korean hair and wellness lines now, before they scale direct on Amazon.",
+     "source": "News1, BizWatch, Kuki News",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    },
+    {
+     "category": "Regulation",
+     "headline": "~100 K-beauty brands to the EU via Amazon",
+     "stat": "~100",
+     "stat_label": "Brands, EU push 2027",
+     "what": "Amazon plans to help about 100 K-beauty brands enter Europe in 2027.",
+     "why": "Reports say support covers tax, certification and multilingual listings in 5 EU countries.",
+     "action": "Check CPNP status and the Responsible Person for each SKU before signing EU distribution.",
+     "source": "News1, Herald Korea US",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    },
+    {
+     "category": "Channels",
+     "headline": "Olive Young edit in 580+ Sephora stores",
+     "stat": "580+",
+     "stat_label": "US Sephora doors",
+     "what": "Olive Young's K-Beauty Edit: 19 brands and about 150 SKUs at Sephora US (reported).",
+     "why": "Plan: 4 Asian markets by end-2026, then Canada, Australia, UK, Middle East in 2027.",
+     "action": "In 2027 rollout markets, source brands or formats that don't overlap with the edit.",
+     "source": "Korea JoongAng Daily, Olive Young",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    },
+    {
+     "category": "Channels",
+     "headline": "Dollar-store chain Miss A targets 550 stores",
+     "stat": "550",
+     "stat_label": "US stores by 2030",
+     "what": "Miss A aims to grow from ~100 to 550 US stores and USD 1bn in sales by 2030 (company target).",
+     "why": "K-beauty retailer Moida led all US openings in week 42 with 11 stores.",
+     "action": "Ask suppliers for channel-specific SKUs so prices stay aligned across tiers.",
+     "source": "Cap Times, Coresight",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    }
+   ]
+  },
+  "instagram_caption_ko": "1~9월 화장품 수출 111억 달러, 전년 대비 +31.1%입니다.\n\n1️⃣ 9개월 111억 달러, 미국 비중 21.1%\n- 2026년 1~9월 누적 기준 최대치(식약처 잠정)\n- 미국 23.5억 달러, 중국 15.8억 달러와 격차 확대\n- 3분기 전분기 대비 +7.5%, 연말 물량은 셀아웃 기준으로\n\n2️⃣ 아마존 뷰티 고객 5명 중 1명만 K뷰티\n- 아마존 발표상 1~9월 한국 셀러 매출 약 2배\n- 2027년 헤어·웰니스 셀러 50곳·신규 상품 200개 유치\n- 스킨케어 외 SKU로 미구매 80% 테스트\n\n3️⃣ 아마존 유럽 진출, 약 100개 브랜드 지원\n- 보도 기준 5개국 세무·인증·다국어 리스팅 지원\n- 수출 통계상 영국·네덜란드·폴란드 성장\n- CPNP·EU 책임자(RP) 지정부터 준비\n\n4️⃣ 올영 에디트, 미국 세포라 580여 개 매장(보도)\n- 19개 브랜드·약 150개 SKU\n- 연말 아시아 4개, 2027년 4개 시장 확대 계획\n- 진출국 기준 패키지·인증 미리 정비\n\n5️⃣ 달러숍 Miss A, 100→550개 매장 목표\n- 2030년 연매출 10억 달러 목표(회사 목표치)\n- 모이다는 42주차 미국 신규 출점 11개로 1위\n- 채널별 전용 SKU로 가격 붕괴 방지\n\n다음 주 해외영업 회의 전에 한 번 더 열어보시라고 저장 추천드립니다.\n🔗 원문·출처는 프로필 링크\n출처: 코스인코리아, 뉴스1, 비즈워치, 쿠키뉴스, 헤럴드경제 미주판, 코리아중앙데일리, Cap Times, Coresight\n#K뷰티 #화장품수출 #뷰티마케팅 #뷰티업계 #아마존 #올리브영 #세포라 #유럽진출"
+ },
+ "published": {
+  "cards_ko": [
+   "docs/cards/2026-10-27/ko-01.jpg",
+   "docs/cards/2026-10-27/ko-02.jpg",
+   "docs/cards/2026-10-27/ko-03.jpg",
+   "docs/cards/2026-10-27/ko-04.jpg",
+   "docs/cards/2026-10-27/ko-05.jpg",
+   "docs/cards/2026-10-27/ko-06.jpg",
+   "docs/cards/2026-10-27/ko-07.jpg"
+  ],
+  "cards_en": [
+   "docs/cards/2026-10-27/en-01.jpg",
+   "docs/cards/2026-10-27/en-02.jpg",
+   "docs/cards/2026-10-27/en-03.jpg",
+   "docs/cards/2026-10-27/en-04.jpg",
+   "docs/cards/2026-10-27/en-05.jpg",
+   "docs/cards/2026-10-27/en-06.jpg",
+   "docs/cards/2026-10-27/en-07.jpg"
+  ],
+  "site_ko": "https://kbeautyradarofficial.github.io/kbeauty-radar/ko/2026/10/27/brief/",
+  "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/10/27/brief/"
+ }
+}
