@@ -522,7 +522,8 @@
   "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/11/05/brief/"
  },
  "social": {
-  "instagram_error": "Meta API 400 me: {\"error\":{\"message\":\"Error validating access token: You cannot access the app till you log in to www.instagram.com and follow the instructions given.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"ALp2rw12ibbv5Fi87e2LfpO\"}}",
-  "threads": "18106441207992560"
- }
+  "threads": "18106441207992560",
+  "instagram_error": "Meta API 400 me: {\"error\":{\"message\":\"Error validating access token: You cannot access the app till you log in to www.instagram.com and follow the instructions given.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AyCCwbFo02d1kDGkGfh3n_j\"}}"
+ },
+ "ig_attempts": 1
 }
