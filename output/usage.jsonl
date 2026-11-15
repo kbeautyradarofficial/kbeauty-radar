@@ -112,3 +112,4 @@
 {"ts": "2026-11-15T22:34:04", "purpose": "research", "path": "subscription", "cost_usd": 0.0, "run_total_usd": 0.0, "list_price_usd": 0.5694143, "turns": 15}
 {"ts": "2026-11-15T22:35:38", "purpose": "write", "path": "subscription", "cost_usd": 0.0, "run_total_usd": 0.0, "list_price_usd": 0.407964, "turns": 2}
 {"ts": "2026-11-15T22:36:56", "purpose": "review", "path": "subscription", "cost_usd": 0.0, "run_total_usd": 0.0, "list_price_usd": 0.3770482, "turns": 2}
+{"ts": "2026-11-15T23:43:08", "purpose": "write", "path": "subscription", "cost_usd": 0.0, "run_total_usd": 0.0, "list_price_usd": 0.709044, "turns": 2}
