@@ -116,3 +116,6 @@
 {"ts": "2026-11-16T22:43:47", "purpose": "research", "path": "subscription", "cost_usd": 0.0, "run_total_usd": 0.0, "list_price_usd": 0.5421866000000001, "turns": 13}
 {"ts": "2026-11-16T22:45:13", "purpose": "write", "path": "subscription", "cost_usd": 0.0, "run_total_usd": 0.0, "list_price_usd": 0.399416, "turns": 2}
 {"ts": "2026-11-16T22:46:46", "purpose": "review", "path": "subscription", "cost_usd": 0.0, "run_total_usd": 0.0, "list_price_usd": 0.4133576, "turns": 2}
+{"ts": "2026-11-17T22:49:35", "purpose": "research", "path": "subscription", "cost_usd": 0.0, "run_total_usd": 0.0, "list_price_usd": 0.5593306, "turns": 12}
+{"ts": "2026-11-17T22:50:59", "purpose": "write", "path": "subscription", "cost_usd": 0.0, "run_total_usd": 0.0, "list_price_usd": 0.397984, "turns": 2}
+{"ts": "2026-11-17T22:52:22", "purpose": "review", "path": "subscription", "cost_usd": 0.0, "run_total_usd": 0.0, "list_price_usd": 0.3997776, "turns": 2}
