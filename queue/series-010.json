@@ -337,8 +337,9 @@
   "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/10/21/series-010/"
  },
  "social": {
-  "instagram_error": "Meta API 403 media_publish: {\"error\":{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we ma",
-  "threads": "17931622161162167"
+  "threads": "17931622161162167",
+  "instagram_error": "Meta API 400 me: {\"error\":{\"message\":\"Error validating access token: You cannot access the app till you log in to www.instagram.com and follow the instructions given.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"APB-l7ZtLNh4pjCSOBln8M2\"}}"
  },
- "social_retries": 3
+ "social_retries": 3,
+ "ig_attempts": 1
 }
