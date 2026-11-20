@@ -1,0 +1,525 @@
+{
+ "date": "2026-11-20",
+ "mode": "auto",
+ "items": [
+  {
+   "title": "Korean tourism startups court North American market at US industry showcase",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUVZMeGU5anlpVW80dWFaTDZ5Vi0yR0xOamtFMVlLNFZQWUl2SnJxNk9WQm5HNkxYS2J1ZVFidGJMbHg3T0hHNWNtZzRqRktNRlNwQzBmSWRsWkw2ZUF4WExNRlc3VVFJdjNnUGlSV1dIRmRqUU5EdHY4Zjk3b1BneFExTUgyM0JUUnNMbXE3NEIzdDk2aEMtc0ljZUxtSF9GMzJadVdZajJCM0E3dVRnaWdKcUdOTlpYQ0hPaUhLblY3SFFZMkFaUkdPQjk5NGxS0gHWAUFVX3lxTE5oQXUwRW53OWp5WDdrYTNqal9PY2Y3UWRKYVhiQVB1SnJwV1ZUMG8tMlRtbElhVjNjb0lDeGVQZlJFMXJMeUFud05GSmlCWnpRTEpNVHRwWlRZMlFHamltUTRRMnc3WjRMM3lBdFE5NnFoc2xGVmM4UXh0NllqUXNtTjJyOUNuWTk2OTZmR3JnTFRoNHlLVFZoemFzTER1anA0RzFjM0ZFRFpsbkhNSWlNbGJxN3p6Tm81RC0ySmFHN2x0QnpJNTB1SUpjM1FMak9tLXlPb2c?oc=5",
+   "source": "The Korea Times",
+   "lang": "en",
+   "published": 1795141502
+  },
+  {
+   "title": "강원 미용 의료기기, 홍콩 전시회서 K-뷰티 위상 높였다",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9wbkd6SWIyRmtscnBfYlJPRktKRUFCTVNMb2UwdzRIZmpKaWNaNENiVUwyQ2dWbGdZMWZBNTRoc1hLVnhVWFpfeHBIMGFJbTZwREJUNGJKX2NhcExqNGY5Q3d2dERReWRIT1N3?oc=5",
+   "source": "영서신문",
+   "lang": "ko",
+   "published": 1795140857
+  },
+  {
+   "title": "CJ올리브영, 첫 테크 콘퍼런스서 글로벌·AI 전략 공개",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qSkdQOUtwUTV2M1VpSEJ0VjRJVU5jVkFIY3loYVMtMXQ3NC1lT1pEY3FTak9iZzYxUzFOSHpQWnJoOTVZdVYwVWZuMzhfTnAzTl9OdnYyckRJSTZuMDJ5RS1UdzBVNGNs?oc=5",
+   "source": "한국섬유신문",
+   "lang": "ko",
+   "published": 1795140835
+  },
+  {
+   "title": "CJ올리브영, 첫 테크 콘퍼런스 개최...글로벌·AI 중심 플랫폼 확장 구상",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wam9ESHZwaEJxTWdXbUJQMHhMNnRlWGRJNDVjeGZMVm5lWnIybjA5QlhCT3VsTGFERFJlcElhbnBPUE16R2xCOHc3VjE5WVJzcEp1cEQ1RjU1SGZ1YjFSVE1ISEZPYVpiRmdNUEtCOA?oc=5",
+   "source": "이코노미사이언스",
+   "lang": "ko",
+   "published": 1795140645
+  },
+  {
+   "title": "Purito Seoul Offers Up to 72% Off Bestselling K-Beauty Skincare for Black Friday",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xcUpBUmVPMW1IZnEyN3ZsMjdLQ3pQUDlqNG5lZFh1d2pHMDh1UWtYem9LYTBrdlluUVZ0cXRNTHM5U1RmRmhXNWRSc29nb0gxVjd5QzhlVzNLblFk?oc=5",
+   "source": "ACROFAN USA",
+   "lang": "en",
+   "published": 1795139494
+  },
+  {
+   "title": "올리브영, 에이전틱 커머스로 글로벌 AI쇼핑 확장",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB5TGFhUDhuMnRTQzJ1anpLWXp5dGhKSlozRi1CR3NLOGNYOVBRRGZBcUZSYjV0dmM2eFo1QVZfY3BPMlQxdlFoVUFoZ2taM21nUU9aVzdNYng5bF8weld2QXRESV9Jb2lBZXNB?oc=5",
+   "source": "https://www.kmjournal.net/",
+   "lang": "ko",
+   "published": 1795139257
+  },
+  {
+   "title": "올리브영, 브랜드 떼고 ‘색(色’)으로 승부…홍대에 ‘색조 성지’ 열었다",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45d1dwVzNuLTJfTUdoNnBqeDJLN29fVGhMRUstRFc4X2Y0UW1HM1JvZGJ4SUdVRUlqdjdZcGZqbkNHTWVFamdGQkNodVdHN3JETE5vZjZpMTl4MkVaUUhRMQ?oc=5",
+   "source": "마이데일리",
+   "lang": "ko",
+   "published": 1795139001
+  },
+  {
+   "title": "Black Friday K-beauty picks for 2026 are named in a new Skintastic Tips comparison",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMmdqdWEzcFkyV3lqVDBCQldaSlN4czExTWtKaG5GVWk2UFRJZWxnSk5lOXRpa3pjdmNWNlZfS0l6WWJ0WXo3bHpTeHMwd0NyV0ViNGpVWlBEdy1rbjBXUGlZZzdOcHVJYnp6NVU5X09WRGxnT2stYWttbWhLTDdZVE0tX25BVVR2TkhYbkdJempWX0ZnMjNJMkFIcWxDYTNHVWVrVw?oc=5",
+   "source": "openPR.com",
+   "lang": "en",
+   "published": 1795138924
+  },
+  {
+   "title": "CJ올리브영, 첫 테크 콘퍼런스 개최…AI·글로벌 플랫폼 전략 공개",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95UFJUQ01HOWVSWnVjMUJjV18ydGg2VW5ORWYzTkduODZkdFpxZnFPaVNzVmtTTWRpRHk2WDRiTWRXaHNQMkpCMHloOU5ILVQ5WE8ySUhVSjU2VWlFcnMtLVFzd01VNEFwbHc?oc=5",
+   "source": "한국면세뉴스",
+   "lang": "ko",
+   "published": 1795138749
+  },
+  {
+   "title": "앳하트 나현, 스쿨룩스 2027 시즌 전속 모델 발탁…‘광고계 블루칩’ 존재감 입증",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4tY0U1cDZ0MTRZWXdkSFVfS1RrRFJyOEN0enNEcFpWUjEzZTN4Z3dTNWMzaFMxV2huUkhhS0J5eDJEQ2FRcTdOdHlnTlBnaUpfbjZkZDF6Tm8?oc=5",
+   "source": "스포츠서울",
+   "lang": "ko",
+   "published": 1795138694
+  },
+  {
+   "title": "“10분에 1000명 비교”…K뷰티·K푸드 해외 마케팅에 뛰어든 AI",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5aSWd4LTZhekx2S1p5VzBzeGxpOVNiLVZoaUh4Rml5Z20xaDR0Nk9mYzh3dEZoTnZJMzFjRG1lSXFRajdDQ0ZJVFZCalplYTEzRVlkOEVaZHFQX1lJVUpoVDFMa0NUbjZ0WXJ6Q1dmZ9IBZkFVX3lxTE56S0tnZlUzVEdVaWhpbEV5UFliS2hVS0l5dzU1OG4zYnZDeFpWdzVJSkxxVnBvZWo3eGNtbEpsTHF4dXdBX0ZuMlVfS0RVaGdmY3pVWFNmZUV3VzdUVjJzUEdTRzI2QQ?oc=5",
+   "source": "동아일보",
+   "lang": "ko",
+   "published": 1795138291
+  },
+  {
+   "title": "[똑똑한케어] CJ올리브영, 몽클로스, 스킨푸드, LG생활건강 온더바디, 애경산업 원씽, 세포랩, 깨끗한나라, 바디프랜드, 세라젬",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ka21ab3RpTDBjX0NKM3BRZHhXYktyOFc4MGZqRFVnV2NwZmp2b2M2Ykx5Tm5NODVmWHpQNmtySU91M1I4WXB1a1c4dWpTcmxoeEoyNUdPMV9oWEk?oc=5",
+   "source": "에너지경제신문",
+   "lang": "ko",
+   "published": 1795138200
+  },
+  {
+   "title": "K-뷰티가 이끈 중소기업 수출 신기록…'1조 달러 수출' 뒤엔 화장품 있었다",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uU1BOR3JZOVhtcUhMQzN4eVgwUmxZc2hNLUVEVzNZTVRWY0VfWG1waWs3Rkw5QTJqdE1yUVpNTFk5ZERrbjJabmVvWEZObk1Vdi1sWVFzNFZ1T09IeUdSTnBLWHAxb3Zy?oc=5",
+   "source": "Queen 이코노미퀸",
+   "lang": "ko",
+   "published": 1795137908
+  },
+  {
+   "title": "[블랙프라이데이 기획①] \"아마존·틱톡샵 주문 급증\"…코스맥스가 진단한 K-뷰티 연말 특수",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwTFRjbzV0UUx1eVEtU3lzY2d4SlN6OWtDZ3A1c2pqZUFQa01mY2IyQnlsY3YxS0FJVGNSN0VDdUdsaU1kX2dOUlVnYzVrRGR1VnpTckt1YW5BMWZPQ2U0REp4LU80Xzk1dFE?oc=5",
+   "source": "뷰티경제",
+   "lang": "ko",
+   "published": 1795137000
+  },
+  {
+   "title": "'화장품도 AI가 골라준다'…올리브영, 2400만 회원 앞세워 글로벌 뷰티시장 공략",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1BeTZ1dmVkYU9NNmJnZ2ViNjFfM3hTbFN6UzZLdktYeWpHWng3VmRmOXZaSnZzQkJuMElxRFVfcUczUTdDRC1SWkxGOGFHdlNER09OV3RmUDk2SVFOU1lwdkRZQXFkd9IBakFVX3lxTE1nQ0UzT3Nzc2hvOUx2QnRLRjNqOXJHX2ZqcEQzRGZoMlhvM2l0QXVxR1FWT2l3eENvZjhIWWhsZ2dPS2NJRDJlajNhQ3piaURxM1ZZTmVHYzktMFVmYjFKOEZEM2o2LVhYZXc?oc=5",
+   "source": "테크M",
+   "lang": "ko",
+   "published": 1795136879
+  },
+  {
+   "title": "[특징주] 화장품주, 한중 FTA 협상 타결 영향.. 일제히 '급등'",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVnJQUG03aGl4YWFGR3lnbHhFcHFHV1dWNzV5Y3VuXzRudFNNVmRVN3Y3bVl6dDJNNlI2cUo1TWhUQVlFNFdZVEs3THBlQktOY3YtSWNjaXBtUDZqV1BUMXF5amRTY3VIU2lkQXRmZlVkTE1rbDRFQzZKYXY3UjRmNldNQzRRRm5u?oc=5",
+   "source": "글로벌이코노믹",
+   "lang": "ko",
+   "published": 1795136665
+  },
+  {
+   "title": "‘K뷰티 하우스’ 美 LA 오픈…글로벌 비즈니스 허브 출범",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96QWZHQlRJT1dwM3hPNmlhRUFzR3RfbmFFcEt0MHA5eHZxdTVlV1dOR1BzR1hwRVF0cUJIS3ZiTlVtMXZoUzhyNy1Vd2lELUhNc1BlMTBtdWpqRENtRF9ZbHA3Yw?oc=5",
+   "source": "코스모닝",
+   "lang": "ko",
+   "published": 1795136562
+  },
+  {
+   "title": "CJ올리브영, AI 쇼핑·글로벌몰 현지화 추진…미국서 매장·온라인 연계 구상",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5yamJWODZnLW84d01pRTVUOTRMX3ZFZnRSYVdzdHVpREVKY0xWclhUMnVUbXJGSDhqa05FMWRKR1gtUW1HN1NRTkpKN3lHSnExd29qWWEzTmhJZTFfZGpHMWlYMUtHalZYV3pseQ?oc=5",
+   "source": "뉴시안",
+   "lang": "ko",
+   "published": 1795136561
+  },
+  {
+   "title": "[K-뷰티 3대 수출시장 종합] '기초화장품', 미·중·일 3국서 나란히 고성장",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNWWlla0g1aERWTEF5UEwtN0ZwWHQwS19Vc3poSEV5WXB5UnVZdm1fM0dPV2RiMTRuVVhjVFFlTTZ0RWhLdWszdGxOV0FwWkg3dUJkZ1YxNFB2ejBkaGE4QU9rSUJsbVMwdHc?oc=5",
+   "source": "뷰티경제",
+   "lang": "ko",
+   "published": 1795136400
+  },
+  {
+   "title": "“월요일 아침에도 맥주맛?” 테라 제로, 파격 광고로 출시 첫해 3관왕",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BbmY3RDlOVS1HNzMzN0trcTV1TmYwMkplYWsxYXZMVm83NWQySWdJVm5DQmM5TDFUaHJ2aU1LQ1c5Szl6UExNTDhHVl82SzJ1ZVk1UlRucEFTUFpBNnMzdTd3MWN0UEt3QWxsMg?oc=5",
+   "source": "뉴스탭",
+   "lang": "ko",
+   "published": 1795136323
+  },
+  {
+   "title": "플러스엑스팜, 근력운동 겨냥한 크레아틴 건기식 출시",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBESmNQY090eHFLcjlKV2NZVG9pYklmWWlqUVJESlZqUXZzU2NIcGwyZlA0cXRxQmp5SmsyNG5OZFlObXM1SGdpZEF0RW5Wb09qc24xdG1lbHFBNVV4Z1ZrMndXX0t6VmNPd2U4eg?oc=5",
+   "source": "약사공론",
+   "lang": "ko",
+   "published": 1795136239
+  },
+  {
+   "title": "From Hanbok-Wrapped Compacts to Ink-Inspired Eyeliner, HWIRAN Takes Korean Beauty to the World",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43aW9lODdpcHlpVnVSWll5SGdLa2I4RVlKcjZOTlVFOWs5TUpfRzc4amVxSDh0SHMtaldoZlQ0VXAzX043YlJyckk0eEV0VU5UdWw5RVMyTE5YN3BMcWRQTkd6S3E2QQ?oc=5",
+   "source": "동아일보",
+   "lang": "en",
+   "published": 1795135869
+  },
+  {
+   "title": "CJ올리브영, 글로벌·AI 경쟁력 강화…애경산업은 아동 문화체험 후원",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zMnNmYUFaaVJ4RzR3UjNqSXp2aER6UEJDWlhtd0RmdEpqNnpCb0pnTWdGTnVMMXpnNnVlRER4ZDBaUWNxQlZBR2ZzSUY1QWtiTnNTcTgxN1IxVDRaUVgyV0VEYjZURkRWaUNn0gFUQVVfeXFMUGRiVlpxY1JvaDA0QXFKQkhoYnNzWXAtN1NYdS1JOTBSNngwZFEybGZmSmw2bEsySWhRWGJrcDNiN3Fja29DVDUwRVloODBoNXUxUzhi?oc=5",
+   "source": "세계일보",
+   "lang": "ko",
+   "published": 1795135691
+  },
+  {
+   "title": "그룹 앳하트 나현, 스쿨룩스 2027 시즌 전속 모델 발탁",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Sa3pIMTI4bzZxZUVNQVdDWk5Hek1tVFRJcFB3WU9FZHY0amZQRExuc1JsTVFSeWJXdlJ3NlhSZlpLSTVKS0xock8tLTRVYVpNTDE2LXVHSzM1MkUzMk1kZlpZZ1pHMGw4dTVOVXNRQjJPbU0?oc=5",
+   "source": "스페셜타임스",
+   "lang": "ko",
+   "published": 1795135252
+  },
+  {
+   "title": "E8, 美 예스세일즈와 신제품 출시 전략 AI 솔루션 공동 개발 - 머니투데이",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1rT1lOMnFIVVRrM0RsWUN3bkJrOG9vU2xrMzhzdDRKWWVsdThlNTZROEE2cFZUaU5qMEE2NW5tTl9aaFdoU1ZlNDlBcTB6VFVRQzVMd2N6SHA3RGYzSlF3TFhTLXNyZjNHQklRTFZROW5ONlpuWWfSAXtBVV95cUxQUXpCRW1NWE1rWmc5T2VZRU1RTGl0V0MtT2g0bklvbWlpclZQYW1yZHNFeW05V3c0OUZUelhkYXp6QnBnb0tzaFRXQm1CSHJVSDVwcWhLbGRpYVhLUGduM0JJcWVIS0YxM2JkdWdYYWtvbzFsVVl4dW9pT2M?oc=5",
+   "source": "머니투데이",
+   "lang": "ko",
+   "published": 1795135200
+  },
+  {
+   "title": "CJ올리브영, 옴니채널 기술 글로벌 이식…AI 커머스 확장 시동",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0wQ0FpdklzaDhYU25CZDZYeWtwZWF2SGFGUWtwVkNCRWI3Z2FjRnM1dlhzUmFSaVFLVHMtVGZSdDg5X3FBVWRSVTFtdUVfRmkxRjZsaUw1aEg?oc=5",
+   "source": "더트래커",
+   "lang": "ko",
+   "published": 1795134890
+  },
+  {
+   "title": "나현, 스쿨룩스 2027 시즌 전속 모델 발탁…광고계 영향력 확대",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5TeWNJdUwzdUtoTzVUbnRCeUdybUhzVmxBZlpfcWZfc3cxZG54ajVTSlRFYnh1S1dxamdjSGpIdjd5T09TdG5LMmpyWERWSGpTNDBxaWxGckdpZkFjcGVkTVdzVQ?oc=5",
+   "source": "MHN스포츠",
+   "lang": "ko",
+   "published": 1795134705
+  },
+  {
+   "title": "[특징주] 한국화장품, 한중 FTA 타결 기대감에 이틀째 급등…11%↑",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5HeWdzRkc1UzRyaW5jeUR1YmJTSENGbTFQeXF1cUxLdzlLeW1OREFYSTVEbGhLTDlQcTJ3dkUzWDRXU3RIRnVUZG1JT1NXdFRLTmRBNmJrQzk5UdIBWEFVX3lxTE9KSUxlbElFQUdjTklXMXdNVmNfX2JOUDUzWkNsel9EQ2VWVEI4ZFdBUkpSdERoZkY5SlQyT0U4T2Q3RmtLTml6S0p1N010ZExZb2J0QWZNU3g?oc=5",
+   "source": "아주경제",
+   "lang": "ko",
+   "published": 1795134602
+  },
+  {
+   "title": "2027 인디뷰티 서울, 오는 24일 K뷰티 해외 진출 전략 웨비나 개최",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ULVFKRGFULXNCU2w2TlNicTdjUzhLSkxCX0ZkcmxBdmRjSDVBVUVKbzZFOTVFSjZFejlNMFRsejc1cTFrSXlicHlQaG1qWlBZWWxmZW1fSjRCVVVkLUp3dkg4Y2hRVmlIWWtnR9IBbEFVX3lxTE9ULVFKRGFULXNCU2w2TlNicTdjUzhLSkxCX0ZkcmxBdmRjSDVBVUVKbzZFOTVFSjZFejlNMFRsejc1cTFrSXlicHlQaG1qWlBZWWxmZW1fSjRCVVVkLUp3dkg4Y2hRVmlIWWtnRw?oc=5",
+   "source": "AP신문",
+   "lang": "ko",
+   "published": 1795134451
+  },
+  {
+   "title": "[영상] 남원 화장품 첫 유럽 수출...코빅스 8억 어치 선적",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WYk5Rbk5DRjJWenlxdWRHVWJ0bGlHT2JnTlA1dVFxc3hoUjdnMzVXdWp5RU5Kand5OTRmNXBiZWsyY0dTai1MWFJJMEMycHI3NDVudlVONFRBWnhJRllJ?oc=5",
+   "source": "MTN 머니투데이방송",
+   "lang": "ko",
+   "published": 1795134107
+  },
+  {
+   "title": "올리브영, 첫 테크 콘퍼런스 개최…AI·글로벌 플랫폼 전략 공개",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBKSGlGX0trTVBjVElMb0JXSURMbkR4QkpTdHpFbzBjeFRlRWhPMWhFSGhYUHE5bHF1RlJxeDd5TWJCajVWMnhWbFpIc0c?oc=5",
+   "source": "아이뉴스24",
+   "lang": "ko",
+   "published": 1795134057
+  },
+  {
+   "title": "CJ올리브영, 테크 콘퍼런스 성료...글로벌·AI 중심 플랫폼 고도화 추진",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rMENGU0JCMjhWWEVhVTVScVk5NnE4UGd3emtaN2diMnYzcEJnal9YdnItQjhHSWJhVkhIR21GWWdJS3d1cDRtSWxHV2NVcHFfSmRJX3dsd05TYWtVOTJncDFwcjdqSjZ1?oc=5",
+   "source": "www.fetv.co.kr",
+   "lang": "ko",
+   "published": 1795133718
+  },
+  {
+   "title": "[특징주] 한국화장품, 상한가 이어 18%대 상승…한한령 완화 기대",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FTlc2a0U3QWJ2WFhYXzQwUDdWS0poLTk4Ym9sZWthcHhWWGVBMkdScHp4TVlkTzZDODkyZlhlUUxVRWwwbjBJM25nYjBNeHp4T3FDTg?oc=5",
+   "source": "이투데이",
+   "lang": "ko",
+   "published": 1795133580
+  },
+  {
+   "title": "앳하트 나현, 스쿨룩스 2027 시즌 전속 모델 발탁",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1oOXl0cXFnb0ZvYjBPczRZb3h0cXRtRHBkNTIyYW55RURZd2tJTXdESzhNVWJmd2syQkswRXFObGRxdm54MHpRV0tQYWhTY0RQajhtcElDcFg4bFRjamJvNE1qLXhFSkU1SDM0YVk5QjlGZw?oc=5",
+   "source": "톱스타뉴스",
+   "lang": "ko",
+   "published": 1795133438
+  },
+  {
+   "title": "인디뷰티 서울, 24일 K뷰티 해외 진출 웨비나 개최",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBTbzQxZ1puc0RzcUg0VFdzX2dtWjFEWThMQVZzUWRtWEFaYzByM1dZVExCZmZ5Q2N4TVE1ZmdpOWNlM2k2S29zRWNmVXYwNXFabF9RdEdNd0k3ODhFZXJHUk05aWtxZw?oc=5",
+   "source": "비건뉴스",
+   "lang": "ko",
+   "published": 1795133384
+  },
+  {
+   "title": "에스쁘아, ‘더마 커버 블레미쉬 밤’ 신규 컬러 출시…화사한 피부 표현 돕는 피치 아이보리",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaDA5OTJJWlFrVTVvYXU5YXZjYWNpTjRzelhEbXU5cEJRSmdqb1VvY0NfdHZrRUJUbm5fUXdxMk1XNDRaN0oxS3pTMjMyVEtidlBHSE1naFNhb3BXMWdOeEh3aktZSlhDRHluTjFqRHhzTzMwLTZ4dDV0d0tDcnVUNm5ZRUlsOWJFMGltcndB?oc=5",
+   "source": "뷰티트래블뉴스",
+   "lang": "ko",
+   "published": 1795133124
+  },
+  {
+   "title": "K뷰티, 미국 패션 유통 중심부 뚫는다…LA에 ‘K뷰티 하우스’ 개관",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6Uk1OWTNqUWJ0NTBLWWhOTmRKNVNkM01KYWhhcUhNczhzRWlDZWdzcVN1a1JQbTRfOHJyYXFHdzF1X1JiTWhrcVZXS3lvUEJpTVdPWHNZLTNKUUZVS2hySnBzZlk2bVQyUm9Eeg?oc=5",
+   "source": "뉴스탭",
+   "lang": "ko",
+   "published": 1795132909
+  },
+  {
+   "title": "2027 인디뷰티 서울, ‘K뷰티 해외 진출 웨비나’ 개최…인증·판로 확대 전략 공유",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1leV9YVF9OSHpzSW1SZVB4UnFqSWstaGNFeExiOWROeXVjU2I0N0hRUFRjZTN0dnYzUWIxTk42eHBZWld2YU1Vb1Rpc3FUUkRONUNqV1BMZC1YWXl3V29vSC1R?oc=5",
+   "source": "이코노미스트",
+   "lang": "ko",
+   "published": 1795132896
+  },
+  {
+   "title": "강남구, 외국인환자 65만 명 유치 성과, ‘K-의료관광 도시브랜드’ 11번째 대상",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4tWkI1d1JBWElFS2JYUEkyUndJR2pTNVdaMjBYN1FoZHRLaGFXZl94MGpCMzlta0IzMEdwMmNXYS1Wb3dHTjIwRVFFa2JYS25ha3RHeFRHcTJmSzVDdFRFWEZ6bTQzN0F0V19ySkFyUUpnYzRE0gF0QVVfeXFMTi1aQjV3UkFYSUVLYlhQSTJSd0lHalM1V1oyMFg3UWhkdEtoYVdmX3gwakIzOW1rQjMwR3AyY1dhLVZvd0dOMjBFUUVrYlhLbmFrdEd4VEdxMmZLNUN0VEVYRnptNDM3QXRXX3JKQXJRSmdjNEQ?oc=5",
+   "source": "이뉴스투데이",
+   "lang": "ko",
+   "published": 1795132891
+  },
+  {
+   "title": "울산 식품·화장품 중소기업, 온라인으로 중국 바이어 만난다",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zS1NqcWJNSm1SQXV4dlludFNlbFRqc0lHc1FXc3cxdXE0aXBfbmdWakUxVkJmOVdneWlaNllqU25XOUpNc2MxZG9jaUF4MmRIU3l1ek9UM1pkT2V0cko2dtIBYEFVX3lxTE5zS1NqcWJNSm1SQXV4dlludFNlbFRqc0lHc1FXc3cxdXE0aXBfbmdWakUxVkJmOVdneWlaNllqU25XOUpNc2MxZG9jaUF4MmRIU3l1ek9UM1pkT2V0cko2dg?oc=5",
+   "source": "연합뉴스",
+   "lang": "ko",
+   "published": 1795132804
+  },
+  {
+   "title": "스카이브릿지글로벌, 전략적 투자 유치…'유니딧' 앞세워 북미 공략",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE92TmF0ZTlmTklBQ0tzckRyQTRMYzhsTl9UNUV3MGlDbzBETWwyUVpwS3Fhd3pDbWlLVktGa3BidHFJZWxtaUNhWHM1aTZQZHFfanJSUmMwcGQtNXd4MFBsNUdkV1RtQ1ZiMW5FZFpZMA?oc=5",
+   "source": "뉴스퀘스트",
+   "lang": "ko",
+   "published": 1795132800
+  },
+  {
+   "title": "Kolmar BNH to Supply 16 'K-Wellness' Products to Boots in the UK",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Db0lmM2VCZnp6MnhwUW1pOVJsbGRDUnpBdWNIODJ6VEE4UmIzelBrSWdKYl9TT3p5SmN5OTd0RmpKQ2lmUWFfWWZ2TnBDNVpHN2JPWm91a1pySFpvTnpqbzI0ekNlblpaZ01Zand3cC11aVRGZWI2MkJIWQ?oc=5",
+   "source": "Yahoo Finance Singapore",
+   "lang": "en",
+   "published": 1795132800
+  },
+  {
+   "title": "올리브영, 첫 테크 콘퍼런스… “글로벌·AI로 쇼핑 경쟁력 높인다”",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbW5HbWZZOWZVWTRma3hrZzNhTnhTYW5ocUk1eGhmdUVNenpDWm8yeXZHcmhoSUZHN0FRaWpPSkdKZFVHUUZ3a1Zvd0U0NXEwVTRIcFpOYUJzT1ZLcG9VVUp2S3RCblUtY1d4Wm9NTjRDNjFXb2t6NUpWSFY5NWZUdEVQRmpwX1VzZ1pjdDROd2V1czVlQlRrVWFCaUpKZ9IBngFBVV95cUxPbW5HbWZZOWZVWTRma3hrZzNhTnhTYW5ocUk1eGhmdUVNenpDWm8yeXZHcmhoSUZHN0FRaWpPSkdKZFVHUUZ3a1Zvd0U0NXEwVTRIcFpOYUJzT1ZLcG9VVUp2S3RCblUtY1d4Wm9NTjRDNjFXb2t6NUpWSFY5NWZUdEVQRmpwX1VzZ1pjdDROd2V1czVlQlRrVWFCaUpKZw?oc=5",
+   "source": "Chosunbiz",
+   "lang": "ko",
+   "published": 1795132560
+  },
+  {
+   "title": "롯데웰푸드 ‘자일리톨’, 김소현·손준호 부부 발탁… ‘자일리톨 테크’ 캠페인 전개",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMcGZlY1N5akctVnZhdk9qa1ZneXNySW5vSjJ4VHVNOWJWWENqMHB0bmRpTTNoRFdtMHp0cjZYbTlaeDZtcklkcGY1NDlXZVVUUEhoaE9oQS1nY04zblhYRDBCVFJqc2I5NzhJ?oc=5",
+   "source": "맥스무비",
+   "lang": "ko",
+   "published": 1795132492
+  },
+  {
+   "title": "반도체·자동차·K뷰티의 저력...한국 수출, 사상 첫 1조 달러 돌파",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jenFneWxBcFZVR0tyd29VZ2ZSOFhyNC0yaGs5NDZhUmFzSjZxYXltNmxSdHlXT3hsU2N4WG1GQmc5SnQ3aHlaLVZXS3MtR04zdVdPWGJHMHhSWmVPSDdzRzlhZE5LZ2piM19N?oc=5",
+   "source": "소비자경제",
+   "lang": "ko",
+   "published": 1795132195
+  },
+  {
+   "title": "김소현·손준호 부부, ‘자일리톨' 모델 발탁...광고 3편 공개",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UZk14ZWw0c25nT3huRlFiS3lGMWZYSkdjbThISklGM25WbjJxS2J1UEZTNmw4dHhVNWxfRDJ4SXlxbXRCZDNuaDZFN2tKUjI0Qm9Sa0Z0NnN4b29tMEE4bjE3Z0FRUQ?oc=5",
+   "source": "싱글리스트",
+   "lang": "ko",
+   "published": 1795131873
+  },
+  {
+   "title": "K뷰티 유통 넘어 글로벌 테크기업으로…올리브영, AI 승부수",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE41aWZJTU9mTkFqd1pKeU9pMHpwZ2xQTmQxV3o5SW51allHeXNwZGJBWHk2WVlnNjRWQUc4UUNSQThZTjlzdHBfYk0yYkFkT1hnTkFQb3RMaVkxLXR4dUhCbG91VG54QjYzbHozMGpB?oc=5",
+   "source": "뉴스인사이드",
+   "lang": "ko",
+   "published": 1795131538
+  },
+  {
+   "title": "올리브영, 첫 테크 콘퍼런스…글로벌·AI 전략 공개",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBqSHh5cmlZU0p5YWV6bUI2Z0taT2hSdVpSNWpfbDdBdFYzOEs3WVh2VGZDaks2N1V0MzNhWkIxRVZ0ZjZKR2lmQm9tUU5YV0JncG1EOHNSM1pvYmN6Rk15S3JaN2JlVm5oODdwOXdjRjgwRWJlTzZF0gF3QVVfeXFMUGpIeHlyaVlTSnlhZXptQjZnS1pPaFJ1WlI1al9sN0F0VjM4SzdZWHZUZkNqSzY3VXQzM2FaQjFFVnRmNkpHaWZCb21RTlhXQmdwbUQ4c1IzWm9iY3pGTXlLclo3YmVWbmg4N3A5d2NGODBFYmVPNkU?oc=5",
+   "source": "핀포인트뉴스",
+   "lang": "ko",
+   "published": 1795131181
+  },
+  {
+   "title": "Korea sees Nigeria as gateway for K-Beauty in Africa - Deputy Head of Mission, Tak Namgung",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWEZGbzFhZllfY3VaZExtVWpRUmRCWl9meE5PekZscER1SGlvaXVHUm5VMW41dTV3ZHBlSmlfQkxTZ19FbDl6T21JUUtyazJtZEI5RHF0T3lvc1luSDRQRDBMV20yV3NONy1xaDAteXMtN0lpNTFYa0dLU1pPbXF3WndiaS15TDl0VmVMZ0lsQ20zZGRIWnRTM1l6cUtiOHRGcDFfc0tiM3dMV0tKWEM1NU5DblA3M3ZwNUpNUEQxc3oyUQ?oc=5",
+   "source": "Vanguard News",
+   "lang": "en",
+   "published": 1795130533
+  },
+  {
+   "title": "올리브영, 옴니채널 기술 고도화…AI·글로벌로 플랫폼 확장",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4ZEFIMV9vQjYxbnEzNnYxUlRmRTIwUkx6aUZTRjVoRXBsSXpqTmV1ZE5FSjBWLV9VZ2E0bEFYc3JiVTFxRE43SUtMVXU0VWhESkQyZmp2S0hZWlhIRWc?oc=5",
+   "source": "뉴스투데이",
+   "lang": "ko",
+   "published": 1795130520
+  }
+ ],
+ "content": {
+  "title_ko": "FTA에 상한가, 중국 수출은 +2.9%? 숫자는 미국·유럽을 가리킵니다",
+  "excerpt_ko": "한·중 FTA 2단계 타결 다음 날 한국화장품이 상한가(+29.98%)를 기록했습니다. 그런데 2026년 1~10월 중국향 화장품 수출은 +2.9%에 그쳤습니다. 같은 기간 중소기업 화장품 수출은 3분기 +28.6%, 온라인은 +97.5%였습니다. 올리브영은 11월 19~20일 AI 에이전틱 커머스 추진 계획과 색조 특화 매장을 공개했습니다.",
+  "body_ko_html": "<h2>1. FTA에 상한가, 중국 수출은 +2.9% (규제·인증)</h2>\n<p>한·중 FTA 서비스·투자 후속협상(2단계)이 11월 18일 정상회담에서 실질 타결됐습니다. 2018년 3월 협상 개시 후 8년 8개월 만입니다. 이르면 2027년 6월 서명, 같은 해 하반기 발효가 목표입니다. (<a href=\"https://www.etoday.co.kr/news/view/2650060\">이투데이</a>)</p>\n<p>주가는 바로 반응했습니다. 한국화장품은 11월 19일 29.98% 오른 6,460원에 마감했습니다. 이날 유가증권시장 상한가는 이 종목 하나였습니다. 20일 장중에도 11% 넘게 올랐습니다. (<a href=\"https://www.ajunews.com/view/20261120092551047\">아주경제</a>)</p>\n<p>실물 숫자는 다릅니다. 서울경제TV 보도에 따르면 이번 타결안에는 화장품 분야 별도 개방 조치가 없습니다. 2026년 1~10월 중국향 화장품 수출 증가율도 전년 동기 대비 2.9%였습니다. 같은 보도는 중국에서 매장 30개 이상을 운영하는 한국 기업의 독자 운영을 허용하는 내용이 들어갔다고 전했습니다. (<a href=\"https://www.sentv.co.kr/article/view/sentv202611190121\">서울경제TV</a>)</p>\n<p>제 판단으로는 이 조항의 직접 수혜자는 브랜드사가 아니라 매장을 운영하는 리테일러입니다. 발효도 빨라야 2027년 하반기입니다. 중국 예산은 세부 조항이 공개된 뒤 조정해도 늦지 않습니다.</p>\n\n<h2>2. 중소기업 화장품 수출 3분기 +28.6%, 온라인은 +97.5% (수출·통계)</h2>\n<p>중기부 집계로 2026년 3분기 중소기업 화장품 수출은 27억9천만 달러였습니다. 전년 동기 대비 28.6% 늘었습니다. 1~9월 누계는 76억5천만 달러(+26.4%)입니다. 3분기 화장품 온라인 수출은 97.5% 늘었고, 영국·네덜란드 등 유럽이 성장을 끌었습니다. (<a href=\"https://news.mtn.co.kr/article/2026102610042532823\">MTN</a>)</p>\n<p>같은 분기 중소기업 전체 수출은 334억 달러(+8.8%)로 분기 기준 역대 최대였습니다. 1~9월 누계는 965억 달러(+9.5%)입니다. 중소기업 최대 수출시장은 중국에서 미국으로 바뀌었습니다. (<a href=\"https://magazine.hankyung.com/business/article/202610265151b\">한경비즈니스</a>)</p>\n<p>3분기 기준 중소기업 전체 +8.8%, 화장품 +28.6%입니다. 화장품이 평균보다 3배 넘게 빠릅니다. 집계 범위는 다르지만 중국향 +2.9%와 나란히 놓으면 성장이 어디서 나오는지 보입니다. 블랙프라이데이 전에 유럽 D2C·마켓플레이스 팀은 CPNP 등록 상태와 현지 물류 리드타임부터 다시 확인하세요.</p>\n\n<h2>3. 올리브영, AI가 장바구니 짜는 커머스 추진 (채널·플랫폼)</h2>\n<p>CJ올리브영은 11월 19일 성수동에서 첫 테크 콘퍼런스 'define:OMNI'를 열었습니다. IT 업계 관계자 등 약 500명이 참석했습니다. 5대 기술 전략은 데이터 기반 옴니채널, 지능형 공급망, 매장 경험, 국경 없는 글로벌 플랫폼, 에이전틱 커머스입니다. 에이전틱 커머스는 AI가 탐색·비교·추천·장바구니 구성을 돕는 방식입니다. 출시 일정은 없고 추진 단계입니다. (<a href=\"https://www.kmjournal.net/news/articleView.html?idxno=14299\">KMJ</a>)</p>\n<p>2026년 11월 발표 기준 숫자입니다.</p>\n<ul>\n<li>회원 2400만 명: 국내 올리브 멤버스 1800만 + 글로벌 멤버스 600만 이상</li>\n<li>글로벌몰 매출 연평균 성장률 70% 이상(산정 기간 미공개), 글로벌몰 UI·UX는 권역·국가별 현지화 예정</li>\n<li>매장 외국인 구매액 1조 원 돌파, 온라인 매출 비중 30% 이상(2018년 '오늘드림' 도입 이후), 스킨스캔 누적 이용 100만 건 이상</li>\n</ul>\n<p>미국도 진행 중입니다. 아이뉴스24 보도에 따르면 올리브영은 2026년 3월 약 3,600㎡ 규모 물류센터를 구축했고, 5월 캘리포니아 패서디나에 미국 1호 매장과 미국 전용 온라인몰을 열었습니다. 내년 상반기까지 미국 매장 7곳 계획은 아직 이 매체 보도로만 나왔습니다. (<a href=\"https://m.inews24.com/v/2028476\">아이뉴스24</a>)</p>\n<p>입점 브랜드 입장에서 핵심은 하나입니다. 추천을 AI가 맡으면 노출은 상세페이지 데이터 품질이 정합니다. 성분·제형·기능 태그, 리뷰, 재고 정보를 SKU별로 지금 정리해두세요. 출시 일정이 나온 뒤 시작하면 늦습니다.</p>\n\n<h2>4. 올리브영 색조 매장, 신규 브랜드 26% (채널·플랫폼)</h2>\n<p>올리브영은 11월 20일 서교동에 색조 특화 매장 '컬러 그라운드 홍대'를 열었습니다. 영업면적 174평, 4개 층입니다. 진열 기준은 브랜드가 아니라 제품 종류·제형·기능입니다. 입점 색조 브랜드의 26%가 올리브영 첫 입점입니다. (<a href=\"https://www.insight.co.kr/news/582434\">인사이트</a>)</p>\n<p>브랜드 블록이 없으면 인지도 낮은 인디 브랜드도 같은 선반에서 붙습니다. MD 제안서 첫 줄은 브랜드 스토리가 아니라 \"어떤 제형, 어떤 기능\"이어야 합니다. 다음 체크 포인트는 이 매장 셀아웃이 다른 매장 리스팅으로 이어지느냐입니다.</p>\n\n<h2>참고 흐름</h2>\n<p>한국 화장품 수출은 연간 기준 2020년 75억 달러에서 2025년 114억 달러로 늘었습니다. (<a href=\"https://www.kmjournal.net/news/articleView.html?idxno=14299\">KMJ</a>)</p>\n\n<h2>출처</h2>\n<ul>\n<li><a href=\"https://www.etoday.co.kr/news/view/2650060\">이투데이</a></li>\n<li><a href=\"https://www.ajunews.com/view/20261120092551047\">아주경제</a></li>\n<li><a href=\"https://www.sentv.co.kr/article/view/sentv202611190121\">서울경제TV</a></li>\n<li><a href=\"https://news.mtn.co.kr/article/2026102610042532823\">MTN 머니투데이방송</a></li>\n<li><a href=\"https://magazine.hankyung.com/business/article/202610265151b\">한경비즈니스</a></li>\n<li><a href=\"https://www.kmjournal.net/news/articleView.html?idxno=14299\">KMJ(kmjournal)</a></li>\n<li><a href=\"https://m.inews24.com/v/2028476\">아이뉴스24</a></li>\n<li><a href=\"https://www.insight.co.kr/news/582434\">인사이트</a></li>\n</ul>\n<p><small>자료 수집·정리에 AI 도구를 활용했습니다.</small></p>",
+  "threads_ko": "FTA에 상한가 나왔는데 중국향 화장품 수출은 1~10월 +2.9%임\n\n• 한국화장품 11/19 +29.98% 상한가. 근데 보도상 화장품 별도 개방은 없고 발효도 빨라야 27년 하반기\n• 중기 화장품 수출 3분기 +28.6%, 온라인은 +97.5%. 영국·네덜란드가 끌었음\n• 올영은 AI가 장바구니 짜주는 에이전틱 커머스 추진 중. 일정은 없지만 상세페이지 태그는 미리 정리해둬야 할 듯\n\n체감상 성장은 중국보다 미국·유럽 온라인에서 나오는 중. 다들 블프 전에 유럽 CPNP·물류 어디까지 세팅하셨어요?",
+  "title_en": "A limit-up rally on the Korea-China FTA, but K-beauty exports to China grew just 2.9%",
+  "excerpt_en": "The Korea-China FTA phase two deal sent Hankook Cosmetics up 29.98% in a day. Yet Korean cosmetics exports to China grew only 2.9% in Jan-Oct 2026, while SME cosmetics exports rose 28.6% in Q3, with online sales to Europe up 97.5%. Olive Young laid out its AI agent commerce plan and opened a color store where 26% of the brands are new to the retailer.",
+  "body_en_html": "<h2>1. Korea-China FTA: the stock rallied, the trade data didn't (Regulation)</h2>\n<p>Korea and China declared a substantive conclusion of the FTA phase two talks on services and investment at their November 18 summit. Talks began in March 2018, so this took 8 years and 8 months. Signing is targeted for June 2027 at the earliest, with entry into force in the second half of 2027. (<a href=\"https://www.etoday.co.kr/news/view/2650060\">Etoday</a>)</p>\n<p>Hankook Cosmetics closed up 29.98% at KRW 6,460 on November 19. It was the only KOSPI stock to hit the daily limit that day, and it rose more than 11% again intraday on the 20th. (<a href=\"https://www.ajunews.com/view/20261120092551047\">Aju Business Daily</a>)</p>\n<p>The trade data says something else. Seoul Economic TV reports that the deal has no market-opening measures specific to cosmetics, and that Korean cosmetics exports to China grew only 2.9% year on year in January-October 2026. The same report says the deal lets Korean companies with 30 or more stores in China operate them on their own. (<a href=\"https://www.sentv.co.kr/article/view/sentv202611190121\">Seoul Economic TV</a>)</p>\n<p>Our read for buyers: the store clause helps Korean retailers more than brands. It does not signal a near-term shift in K-beauty supply into China. Nothing changes before the second half of 2027.</p>\n\n<h2>2. SME cosmetics exports up 28.6% in Q3, online up 97.5% (Export data)</h2>\n<p>Korea's Ministry of SMEs and Startups puts Q3 2026 cosmetics exports from small and medium-sized companies at USD 2.79B, up 28.6% year on year. January-September exports totaled USD 7.65B, up 26.4%. SME online cosmetics exports rose 97.5% in Q3, with Europe, led by the UK and the Netherlands, growing fastest. (<a href=\"https://news.mtn.co.kr/article/2026102610042532823\">MTN</a>)</p>\n<p>Total SME exports across all sectors hit a quarterly high of USD 33.4B in Q3 (+8.8%) and USD 96.5B for January-September (+9.5%). The US has overtaken China as the largest export market for Korean SMEs. (<a href=\"https://magazine.hankyung.com/business/article/202610265151b\">Hankyung Business</a>)</p>\n<p>Cosmetics grew more than three times faster than SME exports overall in Q3. For European retailers and distributors, that means many of these suppliers already sell direct online in your market. Before you negotiate exclusivity, ask for their online sell-through data and confirm their CPNP notifications are complete.</p>\n\n<h2>3. Olive Young plans AI agents that build the shopping cart (Channels)</h2>\n<p>CJ Olive Young held its first tech conference, define:OMNI, in Seongsu, Seoul on November 19, with about 500 attendees including IT industry professionals. It presented five technology strategies: data-driven omnichannel, an intelligent supply chain, in-store experience, a borderless global platform, and agentic commerce, where AI helps shoppers search, compare, get recommendations and build a cart. Agentic commerce has no launch date yet. (<a href=\"https://www.kmjournal.net/news/articleView.html?idxno=14299\">KMJ</a>)</p>\n<p>Figures as announced in November 2026:</p>\n<ul>\n<li>24M members: 18M in Korea plus more than 6M global members</li>\n<li>Global online mall revenue growing at a compound annual rate above 70% (measurement period not disclosed); the mall UI/UX will be localized by region and country</li>\n<li>Foreign shoppers have spent more than KRW 1 trillion in its stores; online is over 30% of sales since the 2018 launch of its same-day delivery service; the skin-scan service has passed 1M uses</li>\n</ul>\n<p>In the US, iNews24 reports a warehouse of about 3,600㎡ built in March 2026, plus a first store in Pasadena, California and a US-only online mall opened in May. A plan to reach 7 US stores by the first half of next year has so far appeared only in that report. (<a href=\"https://m.inews24.com/v/2028476\">iNews24</a>)</p>\n<p>For US retailers: Olive Young is building its own US store network and online mall. Expect more Korean brands to factor their Olive Young US listing into the terms they offer you.</p>\n\n<h2>4. Olive Young's color store: 26% of brands are first-time listings (Channels)</h2>\n<p>On November 20 Olive Young opened Color Ground Hongdae in Seogyo-dong, Seoul: 174 pyeong of selling space across four floors. Products are merchandised by category, texture and function, not by brand. 26% of the color-cosmetics brands in the store are new to Olive Young. (<a href=\"https://www.insight.co.kr/news/582434\">Insight</a>)</p>\n<p>For buyers, this store is a live test bed for indie Korean color brands. The ones that sell through here are a shortlist worth checking before Olive Young gives them wider listings.</p>\n\n<h2>Context</h2>\n<p>Annual Korean cosmetics exports grew from USD 7.5B in 2020 to USD 11.4B in 2025. (<a href=\"https://www.kmjournal.net/news/articleView.html?idxno=14299\">KMJ</a>)</p>\n\n<h2>Sources</h2>\n<ul>\n<li><a href=\"https://www.etoday.co.kr/news/view/2650060\">Etoday</a></li>\n<li><a href=\"https://www.ajunews.com/view/20261120092551047\">Aju Business Daily</a></li>\n<li><a href=\"https://www.sentv.co.kr/article/view/sentv202611190121\">Seoul Economic TV</a></li>\n<li><a href=\"https://news.mtn.co.kr/article/2026102610042532823\">MTN</a></li>\n<li><a href=\"https://magazine.hankyung.com/business/article/202610265151b\">Hankyung Business</a></li>\n<li><a href=\"https://www.kmjournal.net/news/articleView.html?idxno=14299\">KMJ (kmjournal)</a></li>\n<li><a href=\"https://m.inews24.com/v/2028476\">iNews24</a></li>\n<li><a href=\"https://www.insight.co.kr/news/582434\">Insight</a></li>\n</ul>\n<p><small>Research compiled with AI tools.</small></p>",
+  "linkedin_en": "K-beauty this week: the headlines and the trade data point in different directions.\n\nKorea and China concluded phase two of their FTA on November 18. Hankook Cosmetics closed up 29.98% the next day. But Seoul Economic TV reports the deal has no cosmetics-specific opening, and cosmetics exports to China grew only 2.9% in Jan-Oct 2026.\n\nThe growth is elsewhere. Korean SME cosmetics exports reached USD 2.79B in Q3 2026 (+28.6% YoY), and online exports nearly doubled (+97.5%), led by the UK and the Netherlands. The US is now the largest export market for Korean SMEs.\n\nRetail is shifting too. Olive Young (24M members) is working on agentic commerce, where AI helps search, compare and build the cart. No launch date yet. Its global online mall is growing at a CAGR above 70% (period not disclosed). Its new Hongdae color store shelves by texture and function, not brand, and 26% of the brands there are first-time listings.\n\nFor buyers: more Korean brands selling direct online in Europe, and more discovery happening on Olive Young's platforms instead of your shelves.\n\nBuyers and distributors: are Korean suppliers already asking for different terms because they sell direct online?",
+  "tags": [
+   "한중FTA",
+   "중국수출",
+   "화장품수출",
+   "올리브영",
+   "에이전틱커머스",
+   "중소기업수출",
+   "유럽수출",
+   "색조",
+   "K-beauty",
+   "Olive Young"
+  ],
+  "cards_ko": {
+   "cover": {
+    "badge": "데일리 브리프",
+    "hero_number": "+2.9%",
+    "hero_label": "1~10월 중국향 화장품 수출",
+    "headline": "FTA에 상한가,\n중국 수출은 왜 +2.9%?",
+    "sub": "중기 수출 +28.6%·올영 AI 커머스까지"
+   },
+   "slides": [
+    {
+     "category": "규제·인증",
+     "headline": "FTA 상한가 vs 중국 수출 +2.9%",
+     "stat": "+29.98%",
+     "stat_label": "한국화장품 11/19 등락률",
+     "what": "한·중 FTA 2단계 타결, 한국화장품 11/19 상한가 6,460원 마감",
+     "why": "보도상 화장품 개방 조항 없음, 1~10월 중국향 수출 +2.9%",
+     "action": "중국 예산 증액은 세부 조항 공개 후 결정, 발효는 2027년 하반기",
+     "source": "이투데이, 아주경제, 서울경제TV",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    },
+    {
+     "category": "수출·통계",
+     "headline": "중기 화장품 수출 3분기 +28.6%",
+     "stat": "+97.5%",
+     "stat_label": "3분기 온라인 수출 증가율",
+     "what": "2026년 3분기 중기 화장품 수출 27.9억 달러, 전년 대비 +28.6%",
+     "why": "온라인 수출 +97.5%, 영국·네덜란드 등 유럽이 견인",
+     "action": "블프 전 유럽 CPNP 등록·현지 물류 리드타임 재점검",
+     "source": "MTN, 한경비즈니스",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    },
+    {
+     "category": "채널·플랫폼",
+     "headline": "올영, AI가 장바구니 짜는 커머스",
+     "stat": "70%+",
+     "stat_label": "글로벌몰 매출 연평균 성장률",
+     "what": "11/19 첫 테크 콘퍼런스서 에이전틱 커머스 등 5대 전략 발표",
+     "why": "AI가 추천하면 노출은 상세페이지 데이터 품질이 좌우",
+     "action": "SKU별 성분·제형·기능 태그와 리뷰 데이터부터 정비",
+     "source": "KMJ",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    },
+    {
+     "category": "채널·플랫폼",
+     "headline": "올영 색조 매장, 신규 브랜드 26%",
+     "stat": "26%",
+     "stat_label": "올영 첫 입점 색조 브랜드",
+     "what": "11/20 홍대에 174평·4개 층 색조 특화 '컬러 그라운드' 오픈",
+     "why": "브랜드 대신 제형·기능별 진열, 인지도보다 제품 스펙 승부",
+     "action": "MD 제안서 첫 줄을 제형·기능 소구로 재작성",
+     "source": "인사이트",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    }
+   ]
+  },
+  "cards_en": {
+   "cover": {
+    "badge": "Daily brief",
+    "hero_number": "+2.9%",
+    "hero_label": "Jan-Oct China exports",
+    "headline": "FTA stock rally,\nbut China exports +2.9%?",
+    "sub": "SME exports +28.6%, Olive Young AI plan"
+   },
+   "slides": [
+    {
+     "category": "Regulation",
+     "headline": "FTA rally vs China exports at +2.9%",
+     "stat": "+29.98%",
+     "stat_label": "Hankook Cosmetics, Nov 19",
+     "what": "Korea-China FTA phase two concluded; Hankook Cosmetics hit the daily limit at KRW 6,460.",
+     "why": "Reports say there is no cosmetics opening; China exports grew only 2.9% in Jan-Oct 2026.",
+     "action": "Plan China sourcing on current terms; nothing takes effect before H2 2027.",
+     "source": "Etoday, Aju Business Daily, Seoul Economic TV",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    },
+    {
+     "category": "Export data",
+     "headline": "SME cosmetics exports +28.6% in Q3",
+     "stat": "+97.5%",
+     "stat_label": "Q3 online export growth",
+     "what": "Korean SME cosmetics exports reached USD 2.79B in Q3 2026, up 28.6% YoY.",
+     "why": "Online exports nearly doubled, with the UK and the Netherlands growing fastest.",
+     "action": "EU buyers: check suppliers' CPNP status and direct-online sales before exclusivity talks.",
+     "source": "MTN, Hankyung Business",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    },
+    {
+     "category": "Channels",
+     "headline": "Olive Young plans AI agents that build carts",
+     "stat": "70%+",
+     "stat_label": "Global mall revenue CAGR",
+     "what": "Nov 19 tech conference: Olive Young laid out 5 tech strategies, incl. agentic commerce.",
+     "why": "With 24M members and a reported US store push, it competes directly for K-beauty shoppers.",
+     "action": "US retailers: ask key Korean brands how their Olive Young US listing affects your terms.",
+     "source": "KMJ, iNews24",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    },
+    {
+     "category": "Channels",
+     "headline": "New Olive Young color store: 26% new brands",
+     "stat": "26%",
+     "stat_label": "First-time brands",
+     "what": "Color Ground Hongdae opened Nov 20: 174 pyeong, 4 floors, shelved by texture and function.",
+     "why": "A test bed where little-known indie color brands compete on product specs.",
+     "action": "Track which indie brands sell through here and shortlist them before wider listings.",
+     "source": "Insight",
+     "visual_type": "none",
+     "visual_url": "",
+     "visual_credit": ""
+    }
+   ]
+  },
+  "instagram_caption_ko": "FTA에 상한가가 나왔습니다. 그런데 1~10월 중국향 화장품 수출은 +2.9%였습니다.\n\n1️⃣ 한·중 FTA 타결, 화장품은?\n- 11/18 2단계 실질 타결, 한국화장품 11/19 +29.98% 상한가\n- 보도상 화장품 별도 개방 조항 없음, 발효는 빨라야 2027년 하반기\n- 중국 예산은 세부 조항 확인 후 조정\n\n2️⃣ 중기 화장품 수출 3분기 +28.6%\n- 2026년 3분기 27.9억 달러, 1~9월 누계 76.5억 달러(+26.4%)\n- 온라인 수출 +97.5%, 영국·네덜란드 주도\n- 블프 전 유럽 CPNP·물류 리드타임 재점검\n\n3️⃣ 올영, AI가 장바구니 짜는 커머스 추진\n- 11/19 첫 테크 콘퍼런스, 회원 2400만·글로벌몰 매출 연평균 성장률 70% 이상\n- 에이전틱 커머스는 출시 일정 없는 추진 단계\n- SKU별 성분·제형·기능 태그부터 정리\n\n4️⃣ 홍대 색조 매장, 신규 브랜드 26%\n- 11/20 오픈, 174평·4개 층, 브랜드 대신 제형·기능별 진열\n- 인디 색조 브랜드에 열린 입점 기회\n- MD 제안서 첫 줄은 제형·기능으로\n\n성장은 중국 뉴스보다 미국·유럽 온라인 숫자에서 나오고 있습니다. 다음 주 해외 영업 회의 전에 저장해두세요.\n\n🔗 원문·출처는 프로필 링크\n출처: 이투데이, 아주경제, 서울경제TV, MTN, 한경비즈니스, KMJ, 인사이트\n\n#K뷰티 #화장품수출 #뷰티마케팅 #뷰티업계 #한중FTA #올리브영 #유럽수출 #색조화장품"
+ },
+ "published": {
+  "cards_ko": [
+   "docs/cards/2026-11-20/ko-01.jpg",
+   "docs/cards/2026-11-20/ko-02.jpg",
+   "docs/cards/2026-11-20/ko-03.jpg",
+   "docs/cards/2026-11-20/ko-04.jpg",
+   "docs/cards/2026-11-20/ko-05.jpg",
+   "docs/cards/2026-11-20/ko-06.jpg"
+  ],
+  "cards_en": [
+   "docs/cards/2026-11-20/en-01.jpg",
+   "docs/cards/2026-11-20/en-02.jpg",
+   "docs/cards/2026-11-20/en-03.jpg",
+   "docs/cards/2026-11-20/en-04.jpg",
+   "docs/cards/2026-11-20/en-05.jpg",
+   "docs/cards/2026-11-20/en-06.jpg"
+  ],
+  "site_ko": "https://kbeautyradarofficial.github.io/kbeauty-radar/ko/2026/11/20/brief/",
+  "site_en": "https://kbeautyradarofficial.github.io/kbeauty-radar/en/2026/11/20/brief/"
+ }
+}
